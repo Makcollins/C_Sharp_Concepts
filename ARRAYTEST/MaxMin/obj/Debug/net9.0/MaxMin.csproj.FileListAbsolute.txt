@@ -1,0 +1,14 @@
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\ARRAYTEST\MaxMin\bin\Debug\net9.0\MaxMin.exe
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\ARRAYTEST\MaxMin\bin\Debug\net9.0\MaxMin.deps.json
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\ARRAYTEST\MaxMin\bin\Debug\net9.0\MaxMin.runtimeconfig.json
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\ARRAYTEST\MaxMin\bin\Debug\net9.0\MaxMin.dll
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\ARRAYTEST\MaxMin\bin\Debug\net9.0\MaxMin.pdb
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\ARRAYTEST\MaxMin\obj\Debug\net9.0\MaxMin.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\ARRAYTEST\MaxMin\obj\Debug\net9.0\MaxMin.AssemblyInfoInputs.cache
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\ARRAYTEST\MaxMin\obj\Debug\net9.0\MaxMin.AssemblyInfo.cs
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\ARRAYTEST\MaxMin\obj\Debug\net9.0\MaxMin.csproj.CoreCompileInputs.cache
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\ARRAYTEST\MaxMin\obj\Debug\net9.0\MaxMin.dll
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\ARRAYTEST\MaxMin\obj\Debug\net9.0\refint\MaxMin.dll
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\ARRAYTEST\MaxMin\obj\Debug\net9.0\MaxMin.pdb
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\ARRAYTEST\MaxMin\obj\Debug\net9.0\MaxMin.genruntimeconfig.cache
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\ARRAYTEST\MaxMin\obj\Debug\net9.0\ref\MaxMin.dll

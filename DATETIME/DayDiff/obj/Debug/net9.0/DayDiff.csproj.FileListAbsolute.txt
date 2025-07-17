@@ -1,0 +1,14 @@
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\DATETIME\DayDiff\obj\Debug\net9.0\DayDiff.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\DATETIME\DayDiff\bin\Debug\net9.0\DayDiff.exe
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\DATETIME\DayDiff\bin\Debug\net9.0\DayDiff.deps.json
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\DATETIME\DayDiff\bin\Debug\net9.0\DayDiff.runtimeconfig.json
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\DATETIME\DayDiff\bin\Debug\net9.0\DayDiff.dll
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\DATETIME\DayDiff\bin\Debug\net9.0\DayDiff.pdb
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\DATETIME\DayDiff\obj\Debug\net9.0\DayDiff.AssemblyInfoInputs.cache
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\DATETIME\DayDiff\obj\Debug\net9.0\DayDiff.AssemblyInfo.cs
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\DATETIME\DayDiff\obj\Debug\net9.0\DayDiff.csproj.CoreCompileInputs.cache
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\DATETIME\DayDiff\obj\Debug\net9.0\DayDiff.dll
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\DATETIME\DayDiff\obj\Debug\net9.0\refint\DayDiff.dll
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\DATETIME\DayDiff\obj\Debug\net9.0\DayDiff.pdb
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\DATETIME\DayDiff\obj\Debug\net9.0\DayDiff.genruntimeconfig.cache
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\DATETIME\DayDiff\obj\Debug\net9.0\ref\DayDiff.dll

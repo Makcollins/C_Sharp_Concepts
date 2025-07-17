@@ -1,0 +1,14 @@
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\PRACTICE\PassingArray\bin\Debug\net9.0\PassingArray.exe
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\PRACTICE\PassingArray\bin\Debug\net9.0\PassingArray.deps.json
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\PRACTICE\PassingArray\bin\Debug\net9.0\PassingArray.runtimeconfig.json
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\PRACTICE\PassingArray\bin\Debug\net9.0\PassingArray.dll
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\PRACTICE\PassingArray\bin\Debug\net9.0\PassingArray.pdb
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\PRACTICE\PassingArray\obj\Debug\net9.0\PassingArray.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\PRACTICE\PassingArray\obj\Debug\net9.0\PassingArray.AssemblyInfoInputs.cache
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\PRACTICE\PassingArray\obj\Debug\net9.0\PassingArray.AssemblyInfo.cs
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\PRACTICE\PassingArray\obj\Debug\net9.0\PassingArray.csproj.CoreCompileInputs.cache
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\PRACTICE\PassingArray\obj\Debug\net9.0\PassingArray.dll
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\PRACTICE\PassingArray\obj\Debug\net9.0\refint\PassingArray.dll
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\PRACTICE\PassingArray\obj\Debug\net9.0\PassingArray.pdb
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\PRACTICE\PassingArray\obj\Debug\net9.0\PassingArray.genruntimeconfig.cache
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\PRACTICE\PassingArray\obj\Debug\net9.0\ref\PassingArray.dll

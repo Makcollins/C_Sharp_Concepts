@@ -1,0 +1,14 @@
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\STRINGSMORE\VowelCOnsonants\bin\Debug\net9.0\VowelCOnsonants.exe
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\STRINGSMORE\VowelCOnsonants\bin\Debug\net9.0\VowelCOnsonants.deps.json
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\STRINGSMORE\VowelCOnsonants\bin\Debug\net9.0\VowelCOnsonants.runtimeconfig.json
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\STRINGSMORE\VowelCOnsonants\bin\Debug\net9.0\VowelCOnsonants.dll
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\STRINGSMORE\VowelCOnsonants\bin\Debug\net9.0\VowelCOnsonants.pdb
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\STRINGSMORE\VowelCOnsonants\obj\Debug\net9.0\VowelCOnsonants.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\STRINGSMORE\VowelCOnsonants\obj\Debug\net9.0\VowelCOnsonants.AssemblyInfoInputs.cache
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\STRINGSMORE\VowelCOnsonants\obj\Debug\net9.0\VowelCOnsonants.AssemblyInfo.cs
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\STRINGSMORE\VowelCOnsonants\obj\Debug\net9.0\VowelCOnsonants.csproj.CoreCompileInputs.cache
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\STRINGSMORE\VowelCOnsonants\obj\Debug\net9.0\VowelCOnsonants.dll
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\STRINGSMORE\VowelCOnsonants\obj\Debug\net9.0\refint\VowelCOnsonants.dll
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\STRINGSMORE\VowelCOnsonants\obj\Debug\net9.0\VowelCOnsonants.pdb
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\STRINGSMORE\VowelCOnsonants\obj\Debug\net9.0\VowelCOnsonants.genruntimeconfig.cache
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\STRINGSMORE\VowelCOnsonants\obj\Debug\net9.0\ref\VowelCOnsonants.dll

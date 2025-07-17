@@ -1,0 +1,14 @@
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\ARRAYTEST\TransposeMatrix\bin\Debug\net9.0\TransposeMatrix.exe
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\ARRAYTEST\TransposeMatrix\bin\Debug\net9.0\TransposeMatrix.deps.json
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\ARRAYTEST\TransposeMatrix\bin\Debug\net9.0\TransposeMatrix.runtimeconfig.json
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\ARRAYTEST\TransposeMatrix\bin\Debug\net9.0\TransposeMatrix.dll
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\ARRAYTEST\TransposeMatrix\bin\Debug\net9.0\TransposeMatrix.pdb
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\ARRAYTEST\TransposeMatrix\obj\Debug\net9.0\TransposeMatrix.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\ARRAYTEST\TransposeMatrix\obj\Debug\net9.0\TransposeMatrix.AssemblyInfoInputs.cache
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\ARRAYTEST\TransposeMatrix\obj\Debug\net9.0\TransposeMatrix.AssemblyInfo.cs
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\ARRAYTEST\TransposeMatrix\obj\Debug\net9.0\TransposeMatrix.csproj.CoreCompileInputs.cache
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\ARRAYTEST\TransposeMatrix\obj\Debug\net9.0\TransposeMatrix.dll
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\ARRAYTEST\TransposeMatrix\obj\Debug\net9.0\refint\TransposeMatrix.dll
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\ARRAYTEST\TransposeMatrix\obj\Debug\net9.0\TransposeMatrix.pdb
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\ARRAYTEST\TransposeMatrix\obj\Debug\net9.0\TransposeMatrix.genruntimeconfig.cache
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\ARRAYTEST\TransposeMatrix\obj\Debug\net9.0\ref\TransposeMatrix.dll

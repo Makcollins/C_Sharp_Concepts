@@ -1,0 +1,14 @@
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\DATETIME\FuturePast\bin\Debug\net9.0\FuturePast.exe
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\DATETIME\FuturePast\bin\Debug\net9.0\FuturePast.deps.json
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\DATETIME\FuturePast\bin\Debug\net9.0\FuturePast.runtimeconfig.json
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\DATETIME\FuturePast\bin\Debug\net9.0\FuturePast.dll
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\DATETIME\FuturePast\bin\Debug\net9.0\FuturePast.pdb
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\DATETIME\FuturePast\obj\Debug\net9.0\FuturePast.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\DATETIME\FuturePast\obj\Debug\net9.0\FuturePast.AssemblyInfoInputs.cache
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\DATETIME\FuturePast\obj\Debug\net9.0\FuturePast.AssemblyInfo.cs
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\DATETIME\FuturePast\obj\Debug\net9.0\FuturePast.csproj.CoreCompileInputs.cache
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\DATETIME\FuturePast\obj\Debug\net9.0\FuturePast.dll
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\DATETIME\FuturePast\obj\Debug\net9.0\refint\FuturePast.dll
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\DATETIME\FuturePast\obj\Debug\net9.0\FuturePast.pdb
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\DATETIME\FuturePast\obj\Debug\net9.0\FuturePast.genruntimeconfig.cache
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\DATETIME\FuturePast\obj\Debug\net9.0\ref\FuturePast.dll

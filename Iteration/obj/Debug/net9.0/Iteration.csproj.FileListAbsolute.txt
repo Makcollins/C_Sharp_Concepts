@@ -1,0 +1,14 @@
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\Iteration\obj\Debug\net9.0\Iteration.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\Iteration\obj\Debug\net9.0\Iteration.AssemblyInfoInputs.cache
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\Iteration\obj\Debug\net9.0\Iteration.AssemblyInfo.cs
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\Iteration\obj\Debug\net9.0\Iteration.csproj.CoreCompileInputs.cache
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\Iteration\bin\Debug\net9.0\Iteration.exe
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\Iteration\bin\Debug\net9.0\Iteration.deps.json
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\Iteration\bin\Debug\net9.0\Iteration.runtimeconfig.json
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\Iteration\bin\Debug\net9.0\Iteration.dll
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\Iteration\bin\Debug\net9.0\Iteration.pdb
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\Iteration\obj\Debug\net9.0\Iteration.dll
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\Iteration\obj\Debug\net9.0\refint\Iteration.dll
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\Iteration\obj\Debug\net9.0\Iteration.pdb
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\Iteration\obj\Debug\net9.0\Iteration.genruntimeconfig.cache
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\Iteration\obj\Debug\net9.0\ref\Iteration.dll

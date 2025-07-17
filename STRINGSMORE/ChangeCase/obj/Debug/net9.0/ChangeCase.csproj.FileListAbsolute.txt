@@ -1,0 +1,14 @@
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\STRINGSMORE\ChangeCase\bin\Debug\net9.0\ChangeCase.exe
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\STRINGSMORE\ChangeCase\bin\Debug\net9.0\ChangeCase.deps.json
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\STRINGSMORE\ChangeCase\bin\Debug\net9.0\ChangeCase.runtimeconfig.json
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\STRINGSMORE\ChangeCase\bin\Debug\net9.0\ChangeCase.dll
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\STRINGSMORE\ChangeCase\bin\Debug\net9.0\ChangeCase.pdb
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\STRINGSMORE\ChangeCase\obj\Debug\net9.0\ChangeCase.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\STRINGSMORE\ChangeCase\obj\Debug\net9.0\ChangeCase.AssemblyInfoInputs.cache
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\STRINGSMORE\ChangeCase\obj\Debug\net9.0\ChangeCase.AssemblyInfo.cs
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\STRINGSMORE\ChangeCase\obj\Debug\net9.0\ChangeCase.csproj.CoreCompileInputs.cache
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\STRINGSMORE\ChangeCase\obj\Debug\net9.0\ChangeCase.dll
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\STRINGSMORE\ChangeCase\obj\Debug\net9.0\refint\ChangeCase.dll
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\STRINGSMORE\ChangeCase\obj\Debug\net9.0\ChangeCase.pdb
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\STRINGSMORE\ChangeCase\obj\Debug\net9.0\ChangeCase.genruntimeconfig.cache
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\STRINGSMORE\ChangeCase\obj\Debug\net9.0\ref\ChangeCase.dll

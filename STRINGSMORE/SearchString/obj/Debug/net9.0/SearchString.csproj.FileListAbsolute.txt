@@ -1,0 +1,14 @@
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\STRINGSMORE\SearchString\bin\Debug\net9.0\SearchString.exe
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\STRINGSMORE\SearchString\bin\Debug\net9.0\SearchString.deps.json
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\STRINGSMORE\SearchString\bin\Debug\net9.0\SearchString.runtimeconfig.json
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\STRINGSMORE\SearchString\bin\Debug\net9.0\SearchString.dll
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\STRINGSMORE\SearchString\bin\Debug\net9.0\SearchString.pdb
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\STRINGSMORE\SearchString\obj\Debug\net9.0\SearchString.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\STRINGSMORE\SearchString\obj\Debug\net9.0\SearchString.AssemblyInfoInputs.cache
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\STRINGSMORE\SearchString\obj\Debug\net9.0\SearchString.AssemblyInfo.cs
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\STRINGSMORE\SearchString\obj\Debug\net9.0\SearchString.csproj.CoreCompileInputs.cache
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\STRINGSMORE\SearchString\obj\Debug\net9.0\SearchString.dll
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\STRINGSMORE\SearchString\obj\Debug\net9.0\refint\SearchString.dll
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\STRINGSMORE\SearchString\obj\Debug\net9.0\SearchString.pdb
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\STRINGSMORE\SearchString\obj\Debug\net9.0\SearchString.genruntimeconfig.cache
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\STRINGSMORE\SearchString\obj\Debug\net9.0\ref\SearchString.dll

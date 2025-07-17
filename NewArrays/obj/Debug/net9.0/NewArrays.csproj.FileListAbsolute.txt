@@ -1,0 +1,14 @@
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\NewArrays\obj\Debug\net9.0\NewArrays.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\NewArrays\obj\Debug\net9.0\NewArrays.AssemblyInfoInputs.cache
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\NewArrays\obj\Debug\net9.0\NewArrays.AssemblyInfo.cs
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\NewArrays\obj\Debug\net9.0\NewArrays.csproj.CoreCompileInputs.cache
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\NewArrays\bin\Debug\net9.0\NewArrays.exe
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\NewArrays\bin\Debug\net9.0\NewArrays.deps.json
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\NewArrays\bin\Debug\net9.0\NewArrays.runtimeconfig.json
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\NewArrays\bin\Debug\net9.0\NewArrays.dll
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\NewArrays\bin\Debug\net9.0\NewArrays.pdb
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\NewArrays\obj\Debug\net9.0\NewArrays.dll
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\NewArrays\obj\Debug\net9.0\refint\NewArrays.dll
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\NewArrays\obj\Debug\net9.0\NewArrays.pdb
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\NewArrays\obj\Debug\net9.0\NewArrays.genruntimeconfig.cache
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\NewArrays\obj\Debug\net9.0\ref\NewArrays.dll

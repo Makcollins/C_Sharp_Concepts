@@ -1,0 +1,14 @@
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\WEEKTWO\ArrayPlus\bin\Debug\net9.0\ArrayPlus.exe
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\WEEKTWO\ArrayPlus\bin\Debug\net9.0\ArrayPlus.deps.json
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\WEEKTWO\ArrayPlus\bin\Debug\net9.0\ArrayPlus.runtimeconfig.json
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\WEEKTWO\ArrayPlus\bin\Debug\net9.0\ArrayPlus.dll
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\WEEKTWO\ArrayPlus\bin\Debug\net9.0\ArrayPlus.pdb
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\WEEKTWO\ArrayPlus\obj\Debug\net9.0\ArrayPlus.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\WEEKTWO\ArrayPlus\obj\Debug\net9.0\ArrayPlus.AssemblyInfoInputs.cache
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\WEEKTWO\ArrayPlus\obj\Debug\net9.0\ArrayPlus.AssemblyInfo.cs
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\WEEKTWO\ArrayPlus\obj\Debug\net9.0\ArrayPlus.csproj.CoreCompileInputs.cache
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\WEEKTWO\ArrayPlus\obj\Debug\net9.0\ArrayPlus.dll
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\WEEKTWO\ArrayPlus\obj\Debug\net9.0\refint\ArrayPlus.dll
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\WEEKTWO\ArrayPlus\obj\Debug\net9.0\ArrayPlus.pdb
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\WEEKTWO\ArrayPlus\obj\Debug\net9.0\ArrayPlus.genruntimeconfig.cache
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\WEEKTWO\ArrayPlus\obj\Debug\net9.0\ref\ArrayPlus.dll

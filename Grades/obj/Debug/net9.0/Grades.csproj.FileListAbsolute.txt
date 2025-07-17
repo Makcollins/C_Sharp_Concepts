@@ -1,0 +1,14 @@
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\Grades\bin\Debug\net9.0\Grades.exe
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\Grades\bin\Debug\net9.0\Grades.deps.json
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\Grades\bin\Debug\net9.0\Grades.runtimeconfig.json
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\Grades\bin\Debug\net9.0\Grades.dll
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\Grades\bin\Debug\net9.0\Grades.pdb
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\Grades\obj\Debug\net9.0\Grades.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\Grades\obj\Debug\net9.0\Grades.AssemblyInfoInputs.cache
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\Grades\obj\Debug\net9.0\Grades.AssemblyInfo.cs
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\Grades\obj\Debug\net9.0\Grades.csproj.CoreCompileInputs.cache
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\Grades\obj\Debug\net9.0\Grades.dll
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\Grades\obj\Debug\net9.0\refint\Grades.dll
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\Grades\obj\Debug\net9.0\Grades.pdb
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\Grades\obj\Debug\net9.0\Grades.genruntimeconfig.cache
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\Grades\obj\Debug\net9.0\ref\Grades.dll

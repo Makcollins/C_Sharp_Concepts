@@ -1,0 +1,14 @@
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\STRINGSMORE\SwapIndex\bin\Debug\net9.0\SwapIndex.exe
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\STRINGSMORE\SwapIndex\bin\Debug\net9.0\SwapIndex.deps.json
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\STRINGSMORE\SwapIndex\bin\Debug\net9.0\SwapIndex.runtimeconfig.json
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\STRINGSMORE\SwapIndex\bin\Debug\net9.0\SwapIndex.dll
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\STRINGSMORE\SwapIndex\bin\Debug\net9.0\SwapIndex.pdb
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\STRINGSMORE\SwapIndex\obj\Debug\net9.0\SwapIndex.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\STRINGSMORE\SwapIndex\obj\Debug\net9.0\SwapIndex.AssemblyInfoInputs.cache
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\STRINGSMORE\SwapIndex\obj\Debug\net9.0\SwapIndex.AssemblyInfo.cs
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\STRINGSMORE\SwapIndex\obj\Debug\net9.0\SwapIndex.csproj.CoreCompileInputs.cache
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\STRINGSMORE\SwapIndex\obj\Debug\net9.0\SwapIndex.dll
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\STRINGSMORE\SwapIndex\obj\Debug\net9.0\refint\SwapIndex.dll
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\STRINGSMORE\SwapIndex\obj\Debug\net9.0\SwapIndex.pdb
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\STRINGSMORE\SwapIndex\obj\Debug\net9.0\SwapIndex.genruntimeconfig.cache
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\STRINGSMORE\SwapIndex\obj\Debug\net9.0\ref\SwapIndex.dll

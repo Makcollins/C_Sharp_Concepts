@@ -1,0 +1,14 @@
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\Operators\bin\Debug\net9.0\Operators.exe
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\Operators\bin\Debug\net9.0\Operators.deps.json
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\Operators\bin\Debug\net9.0\Operators.runtimeconfig.json
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\Operators\bin\Debug\net9.0\Operators.dll
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\Operators\bin\Debug\net9.0\Operators.pdb
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\Operators\obj\Debug\net9.0\Operators.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\Operators\obj\Debug\net9.0\Operators.AssemblyInfoInputs.cache
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\Operators\obj\Debug\net9.0\Operators.AssemblyInfo.cs
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\Operators\obj\Debug\net9.0\Operators.csproj.CoreCompileInputs.cache
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\Operators\obj\Debug\net9.0\Operators.dll
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\Operators\obj\Debug\net9.0\refint\Operators.dll
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\Operators\obj\Debug\net9.0\Operators.pdb
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\Operators\obj\Debug\net9.0\Operators.genruntimeconfig.cache
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\Operators\obj\Debug\net9.0\ref\Operators.dll

@@ -1,0 +1,14 @@
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\PRACTICE\Jagged\bin\Debug\net9.0\Jagged.exe
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\PRACTICE\Jagged\bin\Debug\net9.0\Jagged.deps.json
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\PRACTICE\Jagged\bin\Debug\net9.0\Jagged.runtimeconfig.json
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\PRACTICE\Jagged\bin\Debug\net9.0\Jagged.dll
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\PRACTICE\Jagged\bin\Debug\net9.0\Jagged.pdb
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\PRACTICE\Jagged\obj\Debug\net9.0\Jagged.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\PRACTICE\Jagged\obj\Debug\net9.0\Jagged.AssemblyInfoInputs.cache
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\PRACTICE\Jagged\obj\Debug\net9.0\Jagged.AssemblyInfo.cs
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\PRACTICE\Jagged\obj\Debug\net9.0\Jagged.csproj.CoreCompileInputs.cache
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\PRACTICE\Jagged\obj\Debug\net9.0\Jagged.dll
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\PRACTICE\Jagged\obj\Debug\net9.0\refint\Jagged.dll
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\PRACTICE\Jagged\obj\Debug\net9.0\Jagged.pdb
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\PRACTICE\Jagged\obj\Debug\net9.0\Jagged.genruntimeconfig.cache
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\PRACTICE\Jagged\obj\Debug\net9.0\ref\Jagged.dll

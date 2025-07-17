@@ -1,0 +1,14 @@
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\WEEKTWO\JaggedArray\obj\Debug\net9.0\JaggedArray.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\WEEKTWO\JaggedArray\obj\Debug\net9.0\JaggedArray.AssemblyInfoInputs.cache
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\WEEKTWO\JaggedArray\obj\Debug\net9.0\JaggedArray.AssemblyInfo.cs
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\WEEKTWO\JaggedArray\obj\Debug\net9.0\JaggedArray.csproj.CoreCompileInputs.cache
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\WEEKTWO\JaggedArray\bin\Debug\net9.0\JaggedArray.exe
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\WEEKTWO\JaggedArray\bin\Debug\net9.0\JaggedArray.deps.json
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\WEEKTWO\JaggedArray\bin\Debug\net9.0\JaggedArray.runtimeconfig.json
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\WEEKTWO\JaggedArray\bin\Debug\net9.0\JaggedArray.dll
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\WEEKTWO\JaggedArray\bin\Debug\net9.0\JaggedArray.pdb
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\WEEKTWO\JaggedArray\obj\Debug\net9.0\JaggedArray.dll
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\WEEKTWO\JaggedArray\obj\Debug\net9.0\refint\JaggedArray.dll
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\WEEKTWO\JaggedArray\obj\Debug\net9.0\JaggedArray.pdb
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\WEEKTWO\JaggedArray\obj\Debug\net9.0\JaggedArray.genruntimeconfig.cache
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\WEEKTWO\JaggedArray\obj\Debug\net9.0\ref\JaggedArray.dll

@@ -1,0 +1,14 @@
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\DATETIME\DayInMonth\obj\Debug\net9.0\DayInMonth.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\DATETIME\DayInMonth\obj\Debug\net9.0\DayInMonth.AssemblyInfoInputs.cache
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\DATETIME\DayInMonth\obj\Debug\net9.0\DayInMonth.AssemblyInfo.cs
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\DATETIME\DayInMonth\obj\Debug\net9.0\DayInMonth.csproj.CoreCompileInputs.cache
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\DATETIME\DayInMonth\bin\Debug\net9.0\DayInMonth.exe
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\DATETIME\DayInMonth\bin\Debug\net9.0\DayInMonth.deps.json
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\DATETIME\DayInMonth\bin\Debug\net9.0\DayInMonth.runtimeconfig.json
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\DATETIME\DayInMonth\bin\Debug\net9.0\DayInMonth.dll
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\DATETIME\DayInMonth\bin\Debug\net9.0\DayInMonth.pdb
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\DATETIME\DayInMonth\obj\Debug\net9.0\DayInMonth.dll
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\DATETIME\DayInMonth\obj\Debug\net9.0\refint\DayInMonth.dll
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\DATETIME\DayInMonth\obj\Debug\net9.0\DayInMonth.pdb
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\DATETIME\DayInMonth\obj\Debug\net9.0\DayInMonth.genruntimeconfig.cache
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\DATETIME\DayInMonth\obj\Debug\net9.0\ref\DayInMonth.dll

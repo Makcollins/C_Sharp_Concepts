@@ -1,0 +1,14 @@
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\DATETIME\Fifteen\bin\Debug\net9.0\Fifteen.exe
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\DATETIME\Fifteen\bin\Debug\net9.0\Fifteen.deps.json
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\DATETIME\Fifteen\bin\Debug\net9.0\Fifteen.runtimeconfig.json
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\DATETIME\Fifteen\bin\Debug\net9.0\Fifteen.dll
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\DATETIME\Fifteen\bin\Debug\net9.0\Fifteen.pdb
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\DATETIME\Fifteen\obj\Debug\net9.0\Fifteen.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\DATETIME\Fifteen\obj\Debug\net9.0\Fifteen.AssemblyInfoInputs.cache
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\DATETIME\Fifteen\obj\Debug\net9.0\Fifteen.AssemblyInfo.cs
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\DATETIME\Fifteen\obj\Debug\net9.0\Fifteen.csproj.CoreCompileInputs.cache
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\DATETIME\Fifteen\obj\Debug\net9.0\Fifteen.dll
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\DATETIME\Fifteen\obj\Debug\net9.0\refint\Fifteen.dll
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\DATETIME\Fifteen\obj\Debug\net9.0\Fifteen.pdb
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\DATETIME\Fifteen\obj\Debug\net9.0\Fifteen.genruntimeconfig.cache
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\DATETIME\Fifteen\obj\Debug\net9.0\ref\Fifteen.dll

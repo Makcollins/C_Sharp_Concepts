@@ -1,0 +1,14 @@
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\STRINGSMORE\StringLength\bin\Debug\net9.0\StringLength.exe
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\STRINGSMORE\StringLength\bin\Debug\net9.0\StringLength.deps.json
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\STRINGSMORE\StringLength\bin\Debug\net9.0\StringLength.runtimeconfig.json
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\STRINGSMORE\StringLength\bin\Debug\net9.0\StringLength.dll
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\STRINGSMORE\StringLength\bin\Debug\net9.0\StringLength.pdb
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\STRINGSMORE\StringLength\obj\Debug\net9.0\StringLength.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\STRINGSMORE\StringLength\obj\Debug\net9.0\StringLength.AssemblyInfoInputs.cache
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\STRINGSMORE\StringLength\obj\Debug\net9.0\StringLength.AssemblyInfo.cs
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\STRINGSMORE\StringLength\obj\Debug\net9.0\StringLength.csproj.CoreCompileInputs.cache
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\STRINGSMORE\StringLength\obj\Debug\net9.0\StringLength.dll
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\STRINGSMORE\StringLength\obj\Debug\net9.0\refint\StringLength.dll
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\STRINGSMORE\StringLength\obj\Debug\net9.0\StringLength.pdb
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\STRINGSMORE\StringLength\obj\Debug\net9.0\StringLength.genruntimeconfig.cache
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\STRINGSMORE\StringLength\obj\Debug\net9.0\ref\StringLength.dll

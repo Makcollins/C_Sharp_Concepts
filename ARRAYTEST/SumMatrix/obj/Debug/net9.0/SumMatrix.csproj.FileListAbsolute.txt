@@ -1,0 +1,14 @@
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\ARRAYTEST\SumMatrix\bin\Debug\net9.0\SumMatrix.exe
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\ARRAYTEST\SumMatrix\bin\Debug\net9.0\SumMatrix.deps.json
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\ARRAYTEST\SumMatrix\bin\Debug\net9.0\SumMatrix.runtimeconfig.json
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\ARRAYTEST\SumMatrix\bin\Debug\net9.0\SumMatrix.dll
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\ARRAYTEST\SumMatrix\bin\Debug\net9.0\SumMatrix.pdb
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\ARRAYTEST\SumMatrix\obj\Debug\net9.0\SumMatrix.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\ARRAYTEST\SumMatrix\obj\Debug\net9.0\SumMatrix.AssemblyInfoInputs.cache
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\ARRAYTEST\SumMatrix\obj\Debug\net9.0\SumMatrix.AssemblyInfo.cs
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\ARRAYTEST\SumMatrix\obj\Debug\net9.0\SumMatrix.csproj.CoreCompileInputs.cache
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\ARRAYTEST\SumMatrix\obj\Debug\net9.0\SumMatrix.dll
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\ARRAYTEST\SumMatrix\obj\Debug\net9.0\refint\SumMatrix.dll
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\ARRAYTEST\SumMatrix\obj\Debug\net9.0\SumMatrix.pdb
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\ARRAYTEST\SumMatrix\obj\Debug\net9.0\SumMatrix.genruntimeconfig.cache
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\ARRAYTEST\SumMatrix\obj\Debug\net9.0\ref\SumMatrix.dll

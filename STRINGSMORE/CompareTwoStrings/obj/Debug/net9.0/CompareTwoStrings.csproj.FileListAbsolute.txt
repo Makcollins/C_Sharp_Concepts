@@ -1,0 +1,14 @@
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\STRINGSMORE\CompareTwoStrings\bin\Debug\net9.0\CompareTwoStrings.exe
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\STRINGSMORE\CompareTwoStrings\bin\Debug\net9.0\CompareTwoStrings.deps.json
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\STRINGSMORE\CompareTwoStrings\bin\Debug\net9.0\CompareTwoStrings.runtimeconfig.json
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\STRINGSMORE\CompareTwoStrings\bin\Debug\net9.0\CompareTwoStrings.dll
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\STRINGSMORE\CompareTwoStrings\bin\Debug\net9.0\CompareTwoStrings.pdb
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\STRINGSMORE\CompareTwoStrings\obj\Debug\net9.0\CompareTwoStrings.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\STRINGSMORE\CompareTwoStrings\obj\Debug\net9.0\CompareTwoStrings.AssemblyInfoInputs.cache
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\STRINGSMORE\CompareTwoStrings\obj\Debug\net9.0\CompareTwoStrings.AssemblyInfo.cs
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\STRINGSMORE\CompareTwoStrings\obj\Debug\net9.0\CompareTwoStrings.csproj.CoreCompileInputs.cache
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\STRINGSMORE\CompareTwoStrings\obj\Debug\net9.0\CompareTwoStrings.dll
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\STRINGSMORE\CompareTwoStrings\obj\Debug\net9.0\refint\CompareTwoStrings.dll
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\STRINGSMORE\CompareTwoStrings\obj\Debug\net9.0\CompareTwoStrings.pdb
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\STRINGSMORE\CompareTwoStrings\obj\Debug\net9.0\CompareTwoStrings.genruntimeconfig.cache
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\STRINGSMORE\CompareTwoStrings\obj\Debug\net9.0\ref\CompareTwoStrings.dll

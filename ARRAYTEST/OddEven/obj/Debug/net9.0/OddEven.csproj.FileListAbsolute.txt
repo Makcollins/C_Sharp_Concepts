@@ -1,0 +1,14 @@
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\ARRAYTEST\OddEven\bin\Debug\net9.0\OddEven.exe
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\ARRAYTEST\OddEven\bin\Debug\net9.0\OddEven.deps.json
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\ARRAYTEST\OddEven\bin\Debug\net9.0\OddEven.runtimeconfig.json
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\ARRAYTEST\OddEven\bin\Debug\net9.0\OddEven.dll
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\ARRAYTEST\OddEven\bin\Debug\net9.0\OddEven.pdb
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\ARRAYTEST\OddEven\obj\Debug\net9.0\OddEven.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\ARRAYTEST\OddEven\obj\Debug\net9.0\OddEven.AssemblyInfoInputs.cache
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\ARRAYTEST\OddEven\obj\Debug\net9.0\OddEven.AssemblyInfo.cs
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\ARRAYTEST\OddEven\obj\Debug\net9.0\OddEven.csproj.CoreCompileInputs.cache
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\ARRAYTEST\OddEven\obj\Debug\net9.0\OddEven.dll
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\ARRAYTEST\OddEven\obj\Debug\net9.0\refint\OddEven.dll
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\ARRAYTEST\OddEven\obj\Debug\net9.0\OddEven.pdb
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\ARRAYTEST\OddEven\obj\Debug\net9.0\OddEven.genruntimeconfig.cache
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\ARRAYTEST\OddEven\obj\Debug\net9.0\ref\OddEven.dll

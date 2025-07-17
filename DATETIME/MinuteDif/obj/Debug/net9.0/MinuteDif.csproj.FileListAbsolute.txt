@@ -1,0 +1,14 @@
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\DATETIME\MinuteDif\bin\Debug\net9.0\MinuteDif.exe
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\DATETIME\MinuteDif\bin\Debug\net9.0\MinuteDif.deps.json
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\DATETIME\MinuteDif\bin\Debug\net9.0\MinuteDif.runtimeconfig.json
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\DATETIME\MinuteDif\bin\Debug\net9.0\MinuteDif.dll
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\DATETIME\MinuteDif\bin\Debug\net9.0\MinuteDif.pdb
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\DATETIME\MinuteDif\obj\Debug\net9.0\MinuteDif.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\DATETIME\MinuteDif\obj\Debug\net9.0\MinuteDif.AssemblyInfoInputs.cache
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\DATETIME\MinuteDif\obj\Debug\net9.0\MinuteDif.AssemblyInfo.cs
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\DATETIME\MinuteDif\obj\Debug\net9.0\MinuteDif.csproj.CoreCompileInputs.cache
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\DATETIME\MinuteDif\obj\Debug\net9.0\MinuteDif.dll
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\DATETIME\MinuteDif\obj\Debug\net9.0\refint\MinuteDif.dll
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\DATETIME\MinuteDif\obj\Debug\net9.0\MinuteDif.pdb
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\DATETIME\MinuteDif\obj\Debug\net9.0\MinuteDif.genruntimeconfig.cache
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\DATETIME\MinuteDif\obj\Debug\net9.0\ref\MinuteDif.dll

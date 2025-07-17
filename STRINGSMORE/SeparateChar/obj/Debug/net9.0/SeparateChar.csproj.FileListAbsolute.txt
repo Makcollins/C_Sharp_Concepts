@@ -1,0 +1,14 @@
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\STRINGSMORE\SeparateChar\bin\Debug\net9.0\SeparateChar.exe
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\STRINGSMORE\SeparateChar\bin\Debug\net9.0\SeparateChar.deps.json
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\STRINGSMORE\SeparateChar\bin\Debug\net9.0\SeparateChar.runtimeconfig.json
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\STRINGSMORE\SeparateChar\bin\Debug\net9.0\SeparateChar.dll
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\STRINGSMORE\SeparateChar\bin\Debug\net9.0\SeparateChar.pdb
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\STRINGSMORE\SeparateChar\obj\Debug\net9.0\SeparateChar.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\STRINGSMORE\SeparateChar\obj\Debug\net9.0\SeparateChar.AssemblyInfoInputs.cache
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\STRINGSMORE\SeparateChar\obj\Debug\net9.0\SeparateChar.AssemblyInfo.cs
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\STRINGSMORE\SeparateChar\obj\Debug\net9.0\SeparateChar.csproj.CoreCompileInputs.cache
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\STRINGSMORE\SeparateChar\obj\Debug\net9.0\SeparateChar.dll
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\STRINGSMORE\SeparateChar\obj\Debug\net9.0\refint\SeparateChar.dll
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\STRINGSMORE\SeparateChar\obj\Debug\net9.0\SeparateChar.pdb
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\STRINGSMORE\SeparateChar\obj\Debug\net9.0\SeparateChar.genruntimeconfig.cache
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\STRINGSMORE\SeparateChar\obj\Debug\net9.0\ref\SeparateChar.dll

@@ -1,0 +1,14 @@
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\DATETIME\LeapYear\obj\Debug\net9.0\LeapYear.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\DATETIME\LeapYear\obj\Debug\net9.0\LeapYear.AssemblyInfoInputs.cache
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\DATETIME\LeapYear\obj\Debug\net9.0\LeapYear.AssemblyInfo.cs
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\DATETIME\LeapYear\obj\Debug\net9.0\LeapYear.csproj.CoreCompileInputs.cache
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\DATETIME\LeapYear\bin\Debug\net9.0\LeapYear.exe
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\DATETIME\LeapYear\bin\Debug\net9.0\LeapYear.deps.json
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\DATETIME\LeapYear\bin\Debug\net9.0\LeapYear.runtimeconfig.json
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\DATETIME\LeapYear\bin\Debug\net9.0\LeapYear.dll
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\DATETIME\LeapYear\bin\Debug\net9.0\LeapYear.pdb
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\DATETIME\LeapYear\obj\Debug\net9.0\LeapYear.dll
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\DATETIME\LeapYear\obj\Debug\net9.0\refint\LeapYear.dll
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\DATETIME\LeapYear\obj\Debug\net9.0\LeapYear.pdb
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\DATETIME\LeapYear\obj\Debug\net9.0\LeapYear.genruntimeconfig.cache
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\DATETIME\LeapYear\obj\Debug\net9.0\ref\LeapYear.dll

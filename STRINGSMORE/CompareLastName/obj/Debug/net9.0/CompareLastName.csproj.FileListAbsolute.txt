@@ -1,0 +1,14 @@
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\STRINGSMORE\CompareLastName\obj\Debug\net9.0\CompareLastName.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\STRINGSMORE\CompareLastName\obj\Debug\net9.0\CompareLastName.AssemblyInfoInputs.cache
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\STRINGSMORE\CompareLastName\obj\Debug\net9.0\CompareLastName.AssemblyInfo.cs
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\STRINGSMORE\CompareLastName\obj\Debug\net9.0\CompareLastName.csproj.CoreCompileInputs.cache
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\STRINGSMORE\CompareLastName\bin\Debug\net9.0\CompareLastName.exe
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\STRINGSMORE\CompareLastName\bin\Debug\net9.0\CompareLastName.deps.json
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\STRINGSMORE\CompareLastName\bin\Debug\net9.0\CompareLastName.runtimeconfig.json
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\STRINGSMORE\CompareLastName\bin\Debug\net9.0\CompareLastName.dll
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\STRINGSMORE\CompareLastName\bin\Debug\net9.0\CompareLastName.pdb
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\STRINGSMORE\CompareLastName\obj\Debug\net9.0\CompareLastName.dll
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\STRINGSMORE\CompareLastName\obj\Debug\net9.0\refint\CompareLastName.dll
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\STRINGSMORE\CompareLastName\obj\Debug\net9.0\CompareLastName.pdb
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\STRINGSMORE\CompareLastName\obj\Debug\net9.0\CompareLastName.genruntimeconfig.cache
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\STRINGSMORE\CompareLastName\obj\Debug\net9.0\ref\CompareLastName.dll
