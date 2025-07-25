@@ -1,0 +1,15 @@
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\OnlineCourse\OnlineCourses\bin\Debug\net9.0\OnlineCourses.exe
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\OnlineCourse\OnlineCourses\bin\Debug\net9.0\OnlineCourses.deps.json
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\OnlineCourse\OnlineCourses\bin\Debug\net9.0\OnlineCourses.runtimeconfig.json
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\OnlineCourse\OnlineCourses\bin\Debug\net9.0\OnlineCourses.dll
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\OnlineCourse\OnlineCourses\bin\Debug\net9.0\OnlineCourses.pdb
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\OnlineCourse\OnlineCourses\obj\Debug\net9.0\OnlineCourses.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\OnlineCourse\OnlineCourses\obj\Debug\net9.0\OnlineCourses.AssemblyInfoInputs.cache
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\OnlineCourse\OnlineCourses\obj\Debug\net9.0\OnlineCourses.AssemblyInfo.cs
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\OnlineCourse\OnlineCourses\obj\Debug\net9.0\OnlineCourses.csproj.CoreCompileInputs.cache
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\OnlineCourse\OnlineCourses\obj\Debug\net9.0\OnlineCourses.sourcelink.json
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\OnlineCourse\OnlineCourses\obj\Debug\net9.0\OnlineCourses.dll
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\OnlineCourse\OnlineCourses\obj\Debug\net9.0\refint\OnlineCourses.dll
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\OnlineCourse\OnlineCourses\obj\Debug\net9.0\OnlineCourses.pdb
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\OnlineCourse\OnlineCourses\obj\Debug\net9.0\OnlineCourses.genruntimeconfig.cache
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\OnlineCourse\OnlineCourses\obj\Debug\net9.0\ref\OnlineCourses.dll

@@ -1,0 +1,15 @@
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\BasicLists\EmployeeSystem\bin\Debug\net9.0\EmployeeSystem.exe
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\BasicLists\EmployeeSystem\bin\Debug\net9.0\EmployeeSystem.deps.json
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\BasicLists\EmployeeSystem\bin\Debug\net9.0\EmployeeSystem.runtimeconfig.json
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\BasicLists\EmployeeSystem\bin\Debug\net9.0\EmployeeSystem.dll
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\BasicLists\EmployeeSystem\bin\Debug\net9.0\EmployeeSystem.pdb
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\BasicLists\EmployeeSystem\obj\Debug\net9.0\EmployeeSystem.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\BasicLists\EmployeeSystem\obj\Debug\net9.0\EmployeeSystem.AssemblyInfoInputs.cache
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\BasicLists\EmployeeSystem\obj\Debug\net9.0\EmployeeSystem.AssemblyInfo.cs
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\BasicLists\EmployeeSystem\obj\Debug\net9.0\EmployeeSystem.csproj.CoreCompileInputs.cache
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\BasicLists\EmployeeSystem\obj\Debug\net9.0\EmployeeSystem.sourcelink.json
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\BasicLists\EmployeeSystem\obj\Debug\net9.0\EmployeeSystem.dll
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\BasicLists\EmployeeSystem\obj\Debug\net9.0\refint\EmployeeSystem.dll
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\BasicLists\EmployeeSystem\obj\Debug\net9.0\EmployeeSystem.pdb
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\BasicLists\EmployeeSystem\obj\Debug\net9.0\EmployeeSystem.genruntimeconfig.cache
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\BasicLists\EmployeeSystem\obj\Debug\net9.0\ref\EmployeeSystem.dll

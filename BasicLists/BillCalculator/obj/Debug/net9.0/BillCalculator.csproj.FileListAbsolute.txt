@@ -1,0 +1,15 @@
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\BasicLists\BillCalculator\bin\Debug\net9.0\BillCalculator.exe
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\BasicLists\BillCalculator\bin\Debug\net9.0\BillCalculator.deps.json
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\BasicLists\BillCalculator\bin\Debug\net9.0\BillCalculator.runtimeconfig.json
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\BasicLists\BillCalculator\bin\Debug\net9.0\BillCalculator.dll
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\BasicLists\BillCalculator\bin\Debug\net9.0\BillCalculator.pdb
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\BasicLists\BillCalculator\obj\Debug\net9.0\BillCalculator.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\BasicLists\BillCalculator\obj\Debug\net9.0\BillCalculator.AssemblyInfoInputs.cache
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\BasicLists\BillCalculator\obj\Debug\net9.0\BillCalculator.AssemblyInfo.cs
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\BasicLists\BillCalculator\obj\Debug\net9.0\BillCalculator.csproj.CoreCompileInputs.cache
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\BasicLists\BillCalculator\obj\Debug\net9.0\BillCalculator.sourcelink.json
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\BasicLists\BillCalculator\obj\Debug\net9.0\BillCalculator.dll
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\BasicLists\BillCalculator\obj\Debug\net9.0\refint\BillCalculator.dll
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\BasicLists\BillCalculator\obj\Debug\net9.0\BillCalculator.pdb
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\BasicLists\BillCalculator\obj\Debug\net9.0\BillCalculator.genruntimeconfig.cache
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\BasicLists\BillCalculator\obj\Debug\net9.0\ref\BillCalculator.dll
