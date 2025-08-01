@@ -13,3 +13,18 @@ C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\OnlineCourse\OnlineC
 C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\OnlineCourse\OnlineCourses\obj\Debug\net9.0\OnlineCourses.pdb
 C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\OnlineCourse\OnlineCourses\obj\Debug\net9.0\OnlineCourses.genruntimeconfig.cache
 C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\OnlineCourse\OnlineCourses\obj\Debug\net9.0\ref\OnlineCourses.dll
+C:\Users\User\Documents\dev\SFC_Sharp\C_Sharp_Concepts\OnlineCourse\OnlineCourses\bin\Debug\net9.0\OnlineCourses.exe
+C:\Users\User\Documents\dev\SFC_Sharp\C_Sharp_Concepts\OnlineCourse\OnlineCourses\bin\Debug\net9.0\OnlineCourses.deps.json
+C:\Users\User\Documents\dev\SFC_Sharp\C_Sharp_Concepts\OnlineCourse\OnlineCourses\bin\Debug\net9.0\OnlineCourses.runtimeconfig.json
+C:\Users\User\Documents\dev\SFC_Sharp\C_Sharp_Concepts\OnlineCourse\OnlineCourses\bin\Debug\net9.0\OnlineCourses.dll
+C:\Users\User\Documents\dev\SFC_Sharp\C_Sharp_Concepts\OnlineCourse\OnlineCourses\bin\Debug\net9.0\OnlineCourses.pdb
+C:\Users\User\Documents\dev\SFC_Sharp\C_Sharp_Concepts\OnlineCourse\OnlineCourses\obj\Debug\net9.0\OnlineCourses.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Documents\dev\SFC_Sharp\C_Sharp_Concepts\OnlineCourse\OnlineCourses\obj\Debug\net9.0\OnlineCourses.AssemblyInfoInputs.cache
+C:\Users\User\Documents\dev\SFC_Sharp\C_Sharp_Concepts\OnlineCourse\OnlineCourses\obj\Debug\net9.0\OnlineCourses.AssemblyInfo.cs
+C:\Users\User\Documents\dev\SFC_Sharp\C_Sharp_Concepts\OnlineCourse\OnlineCourses\obj\Debug\net9.0\OnlineCourses.csproj.CoreCompileInputs.cache
+C:\Users\User\Documents\dev\SFC_Sharp\C_Sharp_Concepts\OnlineCourse\OnlineCourses\obj\Debug\net9.0\OnlineCourses.sourcelink.json
+C:\Users\User\Documents\dev\SFC_Sharp\C_Sharp_Concepts\OnlineCourse\OnlineCourses\obj\Debug\net9.0\OnlineCourses.dll
+C:\Users\User\Documents\dev\SFC_Sharp\C_Sharp_Concepts\OnlineCourse\OnlineCourses\obj\Debug\net9.0\refint\OnlineCourses.dll
+C:\Users\User\Documents\dev\SFC_Sharp\C_Sharp_Concepts\OnlineCourse\OnlineCourses\obj\Debug\net9.0\OnlineCourses.pdb
+C:\Users\User\Documents\dev\SFC_Sharp\C_Sharp_Concepts\OnlineCourse\OnlineCourses\obj\Debug\net9.0\OnlineCourses.genruntimeconfig.cache
+C:\Users\User\Documents\dev\SFC_Sharp\C_Sharp_Concepts\OnlineCourse\OnlineCourses\obj\Debug\net9.0\ref\OnlineCourses.dll

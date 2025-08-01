@@ -28,7 +28,7 @@ public partial class UserOperations
                 {
                     case 'a':
                         DisplayCourses();
-                        Enroll();
+                        Enroll(inputID);
                         break;
                     case 'b':
                         Console.WriteLine("History");
@@ -50,7 +50,7 @@ public partial class UserOperations
 
     }
 
-    public void Enroll()
+    public void Enroll(string userId)
     {
         Console.WriteLine("Enter course ID to Enroll");
         string inputID = Console.ReadLine()!;
@@ -69,7 +69,12 @@ public partial class UserOperations
             }
             else
             {
-                
+                int count = 0;
+
+                count = enrollmentDetails.Count(enrolled => enrolled.RegistrationID == userId);
+
+                Console.WriteLine("Enrolled = {0}", count);
+
             }
         }
     }

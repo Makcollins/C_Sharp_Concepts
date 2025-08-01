@@ -107,7 +107,7 @@ public partial class UserOperations
         EnrollmentID = "EMT3001",
         CourseID = "CS2001",
         RegistrationID = "SYNC1001",
-        EnrollmentDate = Convert.ToDateTime(28 / 01 / 2024)
+        EnrollmentDate = Convert.ToDateTime("28/01/2024")
     };
 
     EnrollmentDetails enrollment2 = new EnrollmentDetails()
@@ -115,14 +115,14 @@ public partial class UserOperations
         EnrollmentID = "EMT3002",
         CourseID = "CS2003",
         RegistrationID = "SYNC1001",
-        EnrollmentDate = Convert.ToDateTime(15 / 02 / 2024)
+        EnrollmentDate = Convert.ToDateTime("15/02/2024")
     };
     EnrollmentDetails enrollment3 = new EnrollmentDetails()
     {
         EnrollmentID = "EMT3003",
         CourseID = "CS2004",
         RegistrationID = "SYNC1002",
-        EnrollmentDate = Convert.ToDateTime(18 / 02 / 2024)
+        EnrollmentDate = Convert.ToDateTime("18/02/2024")
     };
 
     EnrollmentDetails enrollment4 = new EnrollmentDetails()
@@ -130,8 +130,16 @@ public partial class UserOperations
         EnrollmentID = "EMT3004",
         CourseID = "CS2002",
         RegistrationID = "SYNC1002",
-        EnrollmentDate = Convert.ToDateTime(20 / 02 / 2024)
+        EnrollmentDate = Convert.ToDateTime("20/02/2024")
     };
+
+    public void AddEnrollment()
+    {
+        enrollmentDetails.Add(enrollment1);
+        enrollmentDetails.Add(enrollment2);
+        enrollmentDetails.Add(enrollment3);
+        enrollmentDetails.Add(enrollment4);
+    }
 
 
 }
