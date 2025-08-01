@@ -133,5 +133,13 @@ public partial class UserOperations
         EnrollmentDate = Convert.ToDateTime(20 / 02 / 2024)
     };
 
+    public void AddEnrollment()
+    {
+        enrollmentDetails.Add(enrollment1);
+        enrollmentDetails.Add(enrollment2);
+        enrollmentDetails.Add(enrollment3);
+        enrollmentDetails.Add(enrollment4);
+    }
+
 
 }

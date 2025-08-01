@@ -9,6 +9,7 @@ public class OnlineMain
         UserOperations operation= new UserOperations();
         operation.AddInitialUsers();
         operation.AddInitialCourses();
+        operation.AddEnrollment();
         
 
         bool test = true;
