@@ -28,7 +28,7 @@ public partial class UserOperations
                 {
                     case 'a':
                         DisplayCourses();
-                        Enroll();
+                        Enroll(inputID);
                         break;
                     case 'b':
                         Console.WriteLine("History");
