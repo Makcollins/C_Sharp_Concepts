@@ -55,8 +55,30 @@ public partial class UserOperations
         Console.Write("Qualification: ");
         qualification = Console.ReadLine()!;
 
-        Console.Write("Mobile Number: ");
-        mobileNumber = Console.ReadLine()!;
+        do
+        {
+            Console.Write("Mobile Number: ");
+            mobileNumber = Console.ReadLine()!;
+            
+            if (mobileNumber.Length == 10)
+            {
+                correct = true;
+                foreach (char ch in mobileNumber)
+                {
+                    if (!Char.IsDigit(ch))
+                    {  
+                        Console.WriteLine("Incorrect format!");
+                        correct = false;
+                    }
+                }
+            }
+            else
+            {
+                Console.WriteLine("Incorrect format!");
+                correct = false;
+            }
+        } while (!correct);
+        
 
         Console.Write("Mail ID: ");
         mailID = Console.ReadLine()!;

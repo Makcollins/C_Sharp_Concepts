@@ -4,12 +4,14 @@ namespace OnlineCourses;
 
 public partial class UserOperations
 {
+    int idEnroll = 3005;
     //LOGIN
     public void Login()
     {
         correct = true;
         Console.WriteLine("ENTER USER ID:");
         string inputID = Console.ReadLine()!;
+        Console.WriteLine("\n----------------------------------");
 
         UserDetails? result = users.Find(user => user.RegistrationID == inputID);
 
@@ -21,6 +23,9 @@ public partial class UserOperations
         {
             do
             {
+                Console.WriteLine("Welcome {0}",result.UserName);
+                Console.WriteLine("----------------------------------\n");
+                System.Console.WriteLine("Please choose an operation below to continue\n");
                 Console.WriteLine("a. Enroll Course \nb. View Enrollment History \nc. Next Enrollment \nd. Exit");
                 char choice = Convert.ToChar(Console.ReadLine()!);
 
@@ -28,16 +33,16 @@ public partial class UserOperations
                 {
                     case 'a':
                         DisplayCourses();
-                        Enroll(inputID);
+                        Enroll(inputID, idEnroll);
+                        idEnroll++;
                         break;
                     case 'b':
-                        Console.WriteLine("History");
+                        EnrollmentHistory(inputID);
                         break;
                     case 'c':
-                        Console.WriteLine("Next");
+                        NextEnrollment(inputID);
                         break;
                     case 'd':
-                        Console.WriteLine("exit");
                         correct = false;
                         break;
 
@@ -50,32 +55,4 @@ public partial class UserOperations
 
     }
 
-     public void Enroll(string userId)
-    {
-        Console.WriteLine("Enter course ID to Enroll");
-        string inputID = Console.ReadLine()!;
-
-        CourseDetails? res = coursesList.Find(courses => courses.CourseID == inputID);
-
-        if (res == null)
-        {
-            Console.WriteLine("Invalid Course ID. Please enter a valid one");
-        }
-        else
-        {
-            if (res.SeatsAvailable == 0)
-            {
-                Console.WriteLine("Seats are not available for the current course");
-            }
-            else
-            {
-                int count = 0;
-
-                count = enrollmentDetails.Count(enrolled => enrolled.RegistrationID == userId);
-
-                Console.WriteLine("Enrolled = {0}", count);
-
-            }
-        }
-    }
 }

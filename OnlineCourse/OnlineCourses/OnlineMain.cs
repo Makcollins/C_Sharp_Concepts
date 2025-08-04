@@ -15,23 +15,21 @@ public class OnlineMain
         bool test = true;
 
         int idCounter = 1003;
-        // int courseCourse = 2003;
-
-        // Console.Clear();
+     
 
         do
         {
+            Console.WriteLine("\n-----------------------------");
             Console.WriteLine("ONLINE COURSE ENROLLMENT");
-            Console.WriteLine("-----------------------------");
-            Console.WriteLine("Choose an operation.");
+            Console.WriteLine("-----------------------------\n");
+            Console.WriteLine("Please choose an operation below.");
             int choice;
             Console.WriteLine("1. User Registration \n2. User Login \n3. Exit");
             bool userInput = int.TryParse(Console.ReadLine(), out choice);
-
+            Console.WriteLine("-----------------------------");
 
             if (userInput)
             {
-
                 switch (choice)
                 {
                     case 1:
