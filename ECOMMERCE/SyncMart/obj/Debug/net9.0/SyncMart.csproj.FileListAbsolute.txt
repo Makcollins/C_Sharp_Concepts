@@ -1,0 +1,15 @@
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\ECOMMERCE\SyncMart\bin\Debug\net9.0\SyncMart.exe
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\ECOMMERCE\SyncMart\bin\Debug\net9.0\SyncMart.deps.json
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\ECOMMERCE\SyncMart\bin\Debug\net9.0\SyncMart.runtimeconfig.json
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\ECOMMERCE\SyncMart\bin\Debug\net9.0\SyncMart.dll
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\ECOMMERCE\SyncMart\bin\Debug\net9.0\SyncMart.pdb
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\ECOMMERCE\SyncMart\obj\Debug\net9.0\SyncMart.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\ECOMMERCE\SyncMart\obj\Debug\net9.0\SyncMart.AssemblyInfoInputs.cache
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\ECOMMERCE\SyncMart\obj\Debug\net9.0\SyncMart.AssemblyInfo.cs
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\ECOMMERCE\SyncMart\obj\Debug\net9.0\SyncMart.csproj.CoreCompileInputs.cache
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\ECOMMERCE\SyncMart\obj\Debug\net9.0\SyncMart.sourcelink.json
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\ECOMMERCE\SyncMart\obj\Debug\net9.0\SyncMart.dll
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\ECOMMERCE\SyncMart\obj\Debug\net9.0\refint\SyncMart.dll
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\ECOMMERCE\SyncMart\obj\Debug\net9.0\SyncMart.pdb
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\ECOMMERCE\SyncMart\obj\Debug\net9.0\SyncMart.genruntimeconfig.cache
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\ECOMMERCE\SyncMart\obj\Debug\net9.0\ref\SyncMart.dll

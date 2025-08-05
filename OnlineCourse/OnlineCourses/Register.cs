@@ -6,7 +6,6 @@ namespace OnlineCourses;
 public partial class UserOperations
 {
     UserDetails currentUser = null!;
-
     static string username = string.Empty;
     static int age;
     static Gender gender;

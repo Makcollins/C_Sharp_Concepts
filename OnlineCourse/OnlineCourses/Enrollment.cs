@@ -35,7 +35,7 @@ public partial class UserOperations
                 {
                     EnrollmentDetails newEnrollment = new EnrollmentDetails()
                     {
-                        EnrollmentID = "EMT3005",
+                        EnrollmentID = "EMT"+idCounter.ToString(),
                         CourseID = res.CourseID,
                         RegistrationID = userId,
                         EnrollmentDate = DateTime.Now
