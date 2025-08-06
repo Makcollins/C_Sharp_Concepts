@@ -13,3 +13,18 @@ C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\ECOMMERCE\SyncMart\o
 C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\ECOMMERCE\SyncMart\obj\Debug\net9.0\SyncMart.pdb
 C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\ECOMMERCE\SyncMart\obj\Debug\net9.0\SyncMart.genruntimeconfig.cache
 C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\ECOMMERCE\SyncMart\obj\Debug\net9.0\ref\SyncMart.dll
+C:\Users\User\Documents\dev\SFC_Sharp\C_Sharp_Concepts\ECOMMERCE\SyncMart\bin\Debug\net9.0\SyncMart.exe
+C:\Users\User\Documents\dev\SFC_Sharp\C_Sharp_Concepts\ECOMMERCE\SyncMart\bin\Debug\net9.0\SyncMart.deps.json
+C:\Users\User\Documents\dev\SFC_Sharp\C_Sharp_Concepts\ECOMMERCE\SyncMart\bin\Debug\net9.0\SyncMart.runtimeconfig.json
+C:\Users\User\Documents\dev\SFC_Sharp\C_Sharp_Concepts\ECOMMERCE\SyncMart\bin\Debug\net9.0\SyncMart.dll
+C:\Users\User\Documents\dev\SFC_Sharp\C_Sharp_Concepts\ECOMMERCE\SyncMart\bin\Debug\net9.0\SyncMart.pdb
+C:\Users\User\Documents\dev\SFC_Sharp\C_Sharp_Concepts\ECOMMERCE\SyncMart\obj\Debug\net9.0\SyncMart.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Documents\dev\SFC_Sharp\C_Sharp_Concepts\ECOMMERCE\SyncMart\obj\Debug\net9.0\SyncMart.AssemblyInfoInputs.cache
+C:\Users\User\Documents\dev\SFC_Sharp\C_Sharp_Concepts\ECOMMERCE\SyncMart\obj\Debug\net9.0\SyncMart.AssemblyInfo.cs
+C:\Users\User\Documents\dev\SFC_Sharp\C_Sharp_Concepts\ECOMMERCE\SyncMart\obj\Debug\net9.0\SyncMart.csproj.CoreCompileInputs.cache
+C:\Users\User\Documents\dev\SFC_Sharp\C_Sharp_Concepts\ECOMMERCE\SyncMart\obj\Debug\net9.0\SyncMart.sourcelink.json
+C:\Users\User\Documents\dev\SFC_Sharp\C_Sharp_Concepts\ECOMMERCE\SyncMart\obj\Debug\net9.0\SyncMart.dll
+C:\Users\User\Documents\dev\SFC_Sharp\C_Sharp_Concepts\ECOMMERCE\SyncMart\obj\Debug\net9.0\refint\SyncMart.dll
+C:\Users\User\Documents\dev\SFC_Sharp\C_Sharp_Concepts\ECOMMERCE\SyncMart\obj\Debug\net9.0\SyncMart.pdb
+C:\Users\User\Documents\dev\SFC_Sharp\C_Sharp_Concepts\ECOMMERCE\SyncMart\obj\Debug\net9.0\SyncMart.genruntimeconfig.cache
+C:\Users\User\Documents\dev\SFC_Sharp\C_Sharp_Concepts\ECOMMERCE\SyncMart\obj\Debug\net9.0\ref\SyncMart.dll

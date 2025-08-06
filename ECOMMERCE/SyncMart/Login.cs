@@ -37,10 +37,10 @@ public partial class Operations
                         idOrderCounter++;
                         break;
                     case 'b':
-                        Console.WriteLine("OrderHistory");
+                        OrderHistory(loggedCustomer);
                         break;
                     case 'c':
-                        Console.WriteLine("CancelOrder");
+                        CancelOrder(loggedCustomer);
                         break;
                     case 'd':
                         Console.WriteLine("WalletBalance");
@@ -127,14 +127,50 @@ public partial class Operations
 
     }
 
-    public void OrderHistory(CustomerDetails loggedCustomer)
+    public List<OrderDetails> UserOrders(CustomerDetails loggedCustomer)
     {
         List<OrderDetails> userOrders = orders.FindAll(userId => userId.CustomerID == loggedCustomer.CustomerID);
+        return userOrders;
+    }
+
+    public void OrderHistory(CustomerDetails loggedCustomer)
+    {
+        var userOrders = UserOrders(loggedCustomer);
+        Console.WriteLine($"{"OrderID",-10} {"ProductID",-10} {"TotalPrice",-10} {"PurchaseDate",-15} {"Quantity",-10} {"Order Status",-10}");
+        Console.WriteLine(new string('-', 75));
 
         foreach (var item in userOrders)
         {
-            Console.WriteLine($"{item.OrderID,-10} {item.ProductID,-10} {item.TotalPrice,-10} {item.PurchaseDate.ToString("dd MMM yyyy"),-15} {item.Quantity,-10} {item.Status,-10}");  
+            Console.WriteLine($"{item.OrderID,-10} {item.ProductID,-10} {item.TotalPrice,-10} {item.PurchaseDate.ToString("dd MMM yyyy"),-15} {item.Quantity,-10} {item.Status,-10}");
         }
-        
+
+    }
+
+    public void CancelOrder(CustomerDetails loggedCustomer)
+    {
+        OrderHistory(loggedCustomer);
+        var userOrders = UserOrders(loggedCustomer);
+
+        Console.WriteLine("Select order to be cancelled by Order ID:");
+        string? userInput = Console.ReadLine();
+
+        var orderToCancel = userOrders.Find(order => order.OrderID == userInput);
+
+        if (orderToCancel == null)
+        {
+            Console.WriteLine("Invalid OrderID");
+        }
+        else
+        {
+
+            var cancelledProduct = products.Find(product => product.ProductID == orderToCancel.ProductID)!;
+            cancelledProduct.Stock += orderToCancel.Quantity;
+            var customerAffected = customers.Find(customer => customer.CustomerID == orderToCancel.CustomerID)!;
+            customerAffected.WalletRecharge(orderToCancel.TotalPrice);
+            orderToCancel.Status = OrderStatus.Cancelled;
+            Console.WriteLine("------------------------------------------");
+            Console.WriteLine("Order: {0} Cancelled successfully.");
+            Console.WriteLine("------------------------------------------");
+        }
     }
 }

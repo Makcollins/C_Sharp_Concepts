@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SyncMart")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+804d3878f0566c458cdd35a8b6ee2e3ff3a26050")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3cb24b86ea45f6e4f3ccc19d45643e78bc810450")]
 [assembly: System.Reflection.AssemblyProductAttribute("SyncMart")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SyncMart")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
