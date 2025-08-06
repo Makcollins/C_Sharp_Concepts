@@ -1,4 +1,5 @@
 using System;
+using System.Security.Cryptography.X509Certificates;
 
 namespace SyncMart;
 
@@ -43,10 +44,11 @@ public partial class Operations
                         CancelOrder(loggedCustomer);
                         break;
                     case 'd':
-                        Console.WriteLine("WalletBalance");
+                        Console.WriteLine("\n---------------------------------------");
+                        Console.WriteLine("Hey {0}, Your Wallet Balance is {1}", loggedCustomer.CustomerName, loggedCustomer.WalletBalance);
                         break;
                     case 'e':
-                        Console.WriteLine("WalletRecharge");
+                        WalletRecharge(loggedCustomer);
                         break;
                     case 'f':
                         correct = false;
@@ -82,6 +84,10 @@ public partial class Operations
         {
             Console.WriteLine("Invalid ProductID");
         }
+        else if (productToPurchase.Stock == 0)
+        {
+            Console.WriteLine("Product out of stock, please try another product");
+        }
         else
         {
             Console.Write("\nPlease enter number of counts: ");
@@ -93,8 +99,8 @@ public partial class Operations
             }
             else
             {
-                int delivery_Charge = 50;
-                int totalAmount = (counts * productToPurchase.Price) + delivery_Charge;
+                decimal delivery_Charge = 50;
+                decimal totalAmount = (counts * productToPurchase.Price) + delivery_Charge;
                 Console.WriteLine("TotalAmount = Rs {0}", totalAmount);
 
                 if (loggedCustomer.WalletBalance < totalAmount)
@@ -117,6 +123,7 @@ public partial class Operations
                         Quantity = counts,
                         Status = OrderStatus.Ordered
                     };
+                    orders.Add(currentOrder);
                     Console.WriteLine($"Order Placed Successfully. Order ID: {currentOrder.OrderID}");
 
                     DateTime deliveryDate = DateTime.Now.AddDays(productToPurchase.ShippingDuration);
@@ -136,41 +143,75 @@ public partial class Operations
     public void OrderHistory(CustomerDetails loggedCustomer)
     {
         var userOrders = UserOrders(loggedCustomer);
-        Console.WriteLine($"{"OrderID",-10} {"ProductID",-10} {"TotalPrice",-10} {"PurchaseDate",-15} {"Quantity",-10} {"Order Status",-10}");
-        Console.WriteLine(new string('-', 75));
-
-        foreach (var item in userOrders)
+        if (userOrders.Count() == 0)
         {
-            Console.WriteLine($"{item.OrderID,-10} {item.ProductID,-10} {item.TotalPrice,-10} {item.PurchaseDate.ToString("dd MMM yyyy"),-15} {item.Quantity,-10} {item.Status,-10}");
+            Console.WriteLine("Hey {0}, You have not placed any order", loggedCustomer.CustomerName);
+        }
+        else
+        {
+            Console.WriteLine($"{"OrderID",-10} {"ProductID",-10} {"TotalPrice",-10} {"PurchaseDate",-15} {"Quantity",-10} {"Order Status",-10}");
+            Console.WriteLine(new string('-', 75));
+
+            foreach (var item in userOrders)
+            {
+                Console.WriteLine($"{item.OrderID,-10} {item.ProductID,-10} {item.TotalPrice,-10} {item.PurchaseDate.ToString("dd MMM yyyy"),-15} {item.Quantity,-10} {item.Status,-10}");
+            }
         }
 
     }
 
     public void CancelOrder(CustomerDetails loggedCustomer)
     {
-        OrderHistory(loggedCustomer);
+        
         var userOrders = UserOrders(loggedCustomer);
-
-        Console.WriteLine("Select order to be cancelled by Order ID:");
-        string? userInput = Console.ReadLine();
-
-        var orderToCancel = userOrders.Find(order => order.OrderID == userInput);
-
-        if (orderToCancel == null)
+        if (userOrders.Count()==0)
         {
-            Console.WriteLine("Invalid OrderID");
+            Console.WriteLine("Hey {0}, You have not placed any order", loggedCustomer.CustomerName);
         }
         else
         {
+            OrderHistory(loggedCustomer);
+            Console.WriteLine("Select order to cancel by Order ID:");
+            string? userInput = Console.ReadLine();
 
-            var cancelledProduct = products.Find(product => product.ProductID == orderToCancel.ProductID)!;
-            cancelledProduct.Stock += orderToCancel.Quantity;
-            var customerAffected = customers.Find(customer => customer.CustomerID == orderToCancel.CustomerID)!;
-            customerAffected.WalletRecharge(orderToCancel.TotalPrice);
-            orderToCancel.Status = OrderStatus.Cancelled;
-            Console.WriteLine("------------------------------------------");
-            Console.WriteLine("Order: {0} Cancelled successfully.");
-            Console.WriteLine("------------------------------------------");
+            var orderToCancel = userOrders.Find(order => order.OrderID == userInput);
+
+            if (orderToCancel == null)
+            {
+                Console.WriteLine("Invalid OrderID");
+            }
+            else if (orderToCancel.Status == OrderStatus.Cancelled)
+            {
+                Console.WriteLine("Oops, Order Cancelled already");
+            }
+            else
+            {
+
+                var cancelledProduct = products.Find(product => product.ProductID == orderToCancel.ProductID)!;
+                cancelledProduct.Stock += orderToCancel.Quantity;
+                var customerAffected = customers.Find(customer => customer.CustomerID == orderToCancel.CustomerID)!;
+                customerAffected.WalletRecharge(orderToCancel.TotalPrice);
+                orderToCancel.Status = OrderStatus.Cancelled;
+                Console.WriteLine("------------------------------------------");
+                Console.WriteLine("Order: {0} Cancelled successfully.");
+                Console.WriteLine("------------------------------------------");
+            }
         }
     }
+
+    public void WalletRecharge(CustomerDetails loggedCustomer)
+    {
+        Console.WriteLine("Dou you want to recharge your wallet? \"Yes\"");
+        string customerResponse = Console.ReadLine()!.ToLower();
+
+        if (customerResponse == "yes")
+        {
+            Console.Write("Please enter the Amount: ");
+            decimal amount = decimal.Parse(Console.ReadLine()!);
+            loggedCustomer.WalletRecharge(amount);
+            Console.WriteLine(new string('-', 70));
+            Console.WriteLine($"Hey {loggedCustomer.CustomerName}, You have successfully deposited {amount} to your account.\nYour Account balance is {loggedCustomer.WalletBalance}");
+        }
+    }
+
 }

@@ -8,6 +8,6 @@ public class ProductDetails
     public string ProductName { get; set; } = String.Empty;
 
     public int Stock { get; set; }
-    public int Price { get; set; }
+    public decimal Price { get; set; }
     public int ShippingDuration { get; set; }
 }

@@ -8,15 +8,15 @@ public class CustomerDetails
     public string CustomerName { get; set; } = String.Empty;
     public string City { get; set; } = String.Empty;
     public string MobileNumber { get; set; } = String.Empty;
-    public int WalletBalance { get; set; }
+    public decimal WalletBalance { get; set; }
     public string EmailID { get; set; } = String.Empty;
 
-    public void WalletRecharge(int rechargeAmount)
+    public void WalletRecharge(decimal rechargeAmount)
     {
         WalletBalance += rechargeAmount;
     }
 
-    public void DeductBalance(int deductAmount)
+    public void DeductBalance(decimal deductAmount)
     {
         WalletBalance -= deductAmount;
     }

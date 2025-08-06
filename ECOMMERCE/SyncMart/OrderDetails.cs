@@ -8,7 +8,7 @@ public class OrderDetails
     public string CustomerID { get; set; } = String.Empty;
     public string ProductID { get; set; } = String.Empty;
 
-    public int TotalPrice { get; set; }
+    public decimal TotalPrice { get; set; }
     public DateTime PurchaseDate { get; set; }
     public int Quantity { get; set; }
     public OrderStatus Status { get; set; }
