@@ -1,0 +1,15 @@
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\PRACTICE\TowerOfHanoi\bin\Debug\net9.0\TowerOfHanoi.exe
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\PRACTICE\TowerOfHanoi\bin\Debug\net9.0\TowerOfHanoi.deps.json
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\PRACTICE\TowerOfHanoi\bin\Debug\net9.0\TowerOfHanoi.runtimeconfig.json
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\PRACTICE\TowerOfHanoi\bin\Debug\net9.0\TowerOfHanoi.dll
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\PRACTICE\TowerOfHanoi\bin\Debug\net9.0\TowerOfHanoi.pdb
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\PRACTICE\TowerOfHanoi\obj\Debug\net9.0\TowerOfHanoi.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\PRACTICE\TowerOfHanoi\obj\Debug\net9.0\TowerOfHanoi.AssemblyInfoInputs.cache
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\PRACTICE\TowerOfHanoi\obj\Debug\net9.0\TowerOfHanoi.AssemblyInfo.cs
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\PRACTICE\TowerOfHanoi\obj\Debug\net9.0\TowerOfHanoi.csproj.CoreCompileInputs.cache
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\PRACTICE\TowerOfHanoi\obj\Debug\net9.0\TowerOfHanoi.sourcelink.json
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\PRACTICE\TowerOfHanoi\obj\Debug\net9.0\TowerOfHanoi.dll
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\PRACTICE\TowerOfHanoi\obj\Debug\net9.0\refint\TowerOfHanoi.dll
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\PRACTICE\TowerOfHanoi\obj\Debug\net9.0\TowerOfHanoi.pdb
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\PRACTICE\TowerOfHanoi\obj\Debug\net9.0\TowerOfHanoi.genruntimeconfig.cache
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\PRACTICE\TowerOfHanoi\obj\Debug\net9.0\ref\TowerOfHanoi.dll

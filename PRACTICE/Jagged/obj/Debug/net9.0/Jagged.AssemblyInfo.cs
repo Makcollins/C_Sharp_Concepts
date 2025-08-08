@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Jagged")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+62b5031c2aa977ebcf1778e2fcf19f66219c5d93")]
 [assembly: System.Reflection.AssemblyProductAttribute("Jagged")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Jagged")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

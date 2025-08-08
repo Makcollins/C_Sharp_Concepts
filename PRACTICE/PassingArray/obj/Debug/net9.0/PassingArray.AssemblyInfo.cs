@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PassingArray")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+62b5031c2aa977ebcf1778e2fcf19f66219c5d93")]
 [assembly: System.Reflection.AssemblyProductAttribute("PassingArray")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PassingArray")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
