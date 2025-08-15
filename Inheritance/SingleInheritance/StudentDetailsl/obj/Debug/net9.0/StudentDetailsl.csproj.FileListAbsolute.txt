@@ -1,0 +1,15 @@
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\SingleInheritance\StudentDetailsl\bin\Debug\net9.0\StudentDetailsl.exe
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\SingleInheritance\StudentDetailsl\bin\Debug\net9.0\StudentDetailsl.deps.json
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\SingleInheritance\StudentDetailsl\bin\Debug\net9.0\StudentDetailsl.runtimeconfig.json
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\SingleInheritance\StudentDetailsl\bin\Debug\net9.0\StudentDetailsl.dll
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\SingleInheritance\StudentDetailsl\bin\Debug\net9.0\StudentDetailsl.pdb
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\SingleInheritance\StudentDetailsl\obj\Debug\net9.0\StudentDetailsl.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\SingleInheritance\StudentDetailsl\obj\Debug\net9.0\StudentDetailsl.AssemblyInfoInputs.cache
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\SingleInheritance\StudentDetailsl\obj\Debug\net9.0\StudentDetailsl.AssemblyInfo.cs
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\SingleInheritance\StudentDetailsl\obj\Debug\net9.0\StudentDetailsl.csproj.CoreCompileInputs.cache
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\SingleInheritance\StudentDetailsl\obj\Debug\net9.0\StudentDetailsl.sourcelink.json
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\SingleInheritance\StudentDetailsl\obj\Debug\net9.0\StudentDetailsl.dll
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\SingleInheritance\StudentDetailsl\obj\Debug\net9.0\refint\StudentDetailsl.dll
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\SingleInheritance\StudentDetailsl\obj\Debug\net9.0\StudentDetailsl.pdb
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\SingleInheritance\StudentDetailsl\obj\Debug\net9.0\StudentDetailsl.genruntimeconfig.cache
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\SingleInheritance\StudentDetailsl\obj\Debug\net9.0\ref\StudentDetailsl.dll

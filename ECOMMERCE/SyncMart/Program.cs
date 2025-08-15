@@ -33,7 +33,7 @@ namespace SyncMart
                     switch (choice)
                     {
                         case 1:
-                            ops.Register(idCounter);
+                            ops.Reg.ister(idCounter);
                             idCounter++;
                             break;
                         case 2:

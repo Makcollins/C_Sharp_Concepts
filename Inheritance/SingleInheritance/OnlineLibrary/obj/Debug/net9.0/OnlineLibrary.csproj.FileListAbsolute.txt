@@ -1,0 +1,15 @@
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\Inheritance\SingleInheritance\OnlineLibrary\bin\Debug\net9.0\OnlineLibrary.exe
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\Inheritance\SingleInheritance\OnlineLibrary\bin\Debug\net9.0\OnlineLibrary.deps.json
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\Inheritance\SingleInheritance\OnlineLibrary\bin\Debug\net9.0\OnlineLibrary.runtimeconfig.json
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\Inheritance\SingleInheritance\OnlineLibrary\bin\Debug\net9.0\OnlineLibrary.dll
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\Inheritance\SingleInheritance\OnlineLibrary\bin\Debug\net9.0\OnlineLibrary.pdb
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\Inheritance\SingleInheritance\OnlineLibrary\obj\Debug\net9.0\OnlineLibrary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\Inheritance\SingleInheritance\OnlineLibrary\obj\Debug\net9.0\OnlineLibrary.AssemblyInfoInputs.cache
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\Inheritance\SingleInheritance\OnlineLibrary\obj\Debug\net9.0\OnlineLibrary.AssemblyInfo.cs
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\Inheritance\SingleInheritance\OnlineLibrary\obj\Debug\net9.0\OnlineLibrary.csproj.CoreCompileInputs.cache
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\Inheritance\SingleInheritance\OnlineLibrary\obj\Debug\net9.0\OnlineLibrary.sourcelink.json
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\Inheritance\SingleInheritance\OnlineLibrary\obj\Debug\net9.0\OnlineLibrary.dll
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\Inheritance\SingleInheritance\OnlineLibrary\obj\Debug\net9.0\refint\OnlineLibrary.dll
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\Inheritance\SingleInheritance\OnlineLibrary\obj\Debug\net9.0\OnlineLibrary.pdb
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\Inheritance\SingleInheritance\OnlineLibrary\obj\Debug\net9.0\OnlineLibrary.genruntimeconfig.cache
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\Inheritance\SingleInheritance\OnlineLibrary\obj\Debug\net9.0\ref\OnlineLibrary.dll

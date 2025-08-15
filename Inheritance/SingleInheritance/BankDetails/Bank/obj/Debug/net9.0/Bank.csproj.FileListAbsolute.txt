@@ -1,0 +1,15 @@
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\Inheritance\BankDetails\Bank\bin\Debug\net9.0\Bank.exe
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\Inheritance\BankDetails\Bank\bin\Debug\net9.0\Bank.deps.json
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\Inheritance\BankDetails\Bank\bin\Debug\net9.0\Bank.runtimeconfig.json
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\Inheritance\BankDetails\Bank\bin\Debug\net9.0\Bank.dll
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\Inheritance\BankDetails\Bank\bin\Debug\net9.0\Bank.pdb
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\Inheritance\BankDetails\Bank\obj\Debug\net9.0\Bank.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\Inheritance\BankDetails\Bank\obj\Debug\net9.0\Bank.AssemblyInfoInputs.cache
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\Inheritance\BankDetails\Bank\obj\Debug\net9.0\Bank.AssemblyInfo.cs
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\Inheritance\BankDetails\Bank\obj\Debug\net9.0\Bank.csproj.CoreCompileInputs.cache
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\Inheritance\BankDetails\Bank\obj\Debug\net9.0\Bank.sourcelink.json
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\Inheritance\BankDetails\Bank\obj\Debug\net9.0\Bank.dll
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\Inheritance\BankDetails\Bank\obj\Debug\net9.0\refint\Bank.dll
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\Inheritance\BankDetails\Bank\obj\Debug\net9.0\Bank.pdb
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\Inheritance\BankDetails\Bank\obj\Debug\net9.0\Bank.genruntimeconfig.cache
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\Inheritance\BankDetails\Bank\obj\Debug\net9.0\ref\Bank.dll

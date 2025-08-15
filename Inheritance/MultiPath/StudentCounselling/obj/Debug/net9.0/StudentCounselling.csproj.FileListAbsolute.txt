@@ -1,0 +1,15 @@
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\MultiPath\StudentCounselling\bin\Debug\net9.0\StudentCounselling.exe
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\MultiPath\StudentCounselling\bin\Debug\net9.0\StudentCounselling.deps.json
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\MultiPath\StudentCounselling\bin\Debug\net9.0\StudentCounselling.runtimeconfig.json
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\MultiPath\StudentCounselling\bin\Debug\net9.0\StudentCounselling.dll
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\MultiPath\StudentCounselling\bin\Debug\net9.0\StudentCounselling.pdb
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\MultiPath\StudentCounselling\obj\Debug\net9.0\StudentCounselling.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\MultiPath\StudentCounselling\obj\Debug\net9.0\StudentCounselling.AssemblyInfoInputs.cache
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\MultiPath\StudentCounselling\obj\Debug\net9.0\StudentCounselling.AssemblyInfo.cs
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\MultiPath\StudentCounselling\obj\Debug\net9.0\StudentCounselling.csproj.CoreCompileInputs.cache
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\MultiPath\StudentCounselling\obj\Debug\net9.0\StudentCounselling.sourcelink.json
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\MultiPath\StudentCounselling\obj\Debug\net9.0\StudentCounselling.dll
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\MultiPath\StudentCounselling\obj\Debug\net9.0\refint\StudentCounselling.dll
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\MultiPath\StudentCounselling\obj\Debug\net9.0\StudentCounselling.pdb
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\MultiPath\StudentCounselling\obj\Debug\net9.0\StudentCounselling.genruntimeconfig.cache
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\MultiPath\StudentCounselling\obj\Debug\net9.0\ref\StudentCounselling.dll

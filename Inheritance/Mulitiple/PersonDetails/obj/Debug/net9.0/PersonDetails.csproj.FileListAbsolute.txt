@@ -1,0 +1,15 @@
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\Mulitiple\PersonDetails\bin\Debug\net9.0\PersonDetails.exe
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\Mulitiple\PersonDetails\bin\Debug\net9.0\PersonDetails.deps.json
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\Mulitiple\PersonDetails\bin\Debug\net9.0\PersonDetails.runtimeconfig.json
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\Mulitiple\PersonDetails\bin\Debug\net9.0\PersonDetails.dll
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\Mulitiple\PersonDetails\bin\Debug\net9.0\PersonDetails.pdb
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\Mulitiple\PersonDetails\obj\Debug\net9.0\PersonDetails.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\Mulitiple\PersonDetails\obj\Debug\net9.0\PersonDetails.AssemblyInfoInputs.cache
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\Mulitiple\PersonDetails\obj\Debug\net9.0\PersonDetails.AssemblyInfo.cs
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\Mulitiple\PersonDetails\obj\Debug\net9.0\PersonDetails.csproj.CoreCompileInputs.cache
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\Mulitiple\PersonDetails\obj\Debug\net9.0\PersonDetails.sourcelink.json
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\Mulitiple\PersonDetails\obj\Debug\net9.0\PersonDetails.dll
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\Mulitiple\PersonDetails\obj\Debug\net9.0\refint\PersonDetails.dll
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\Mulitiple\PersonDetails\obj\Debug\net9.0\PersonDetails.pdb
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\Mulitiple\PersonDetails\obj\Debug\net9.0\PersonDetails.genruntimeconfig.cache
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\Mulitiple\PersonDetails\obj\Debug\net9.0\ref\PersonDetails.dll

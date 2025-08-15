@@ -12,3 +12,4 @@ C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\Lists\obj\Debug\net9
 C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\Lists\obj\Debug\net9.0\Lists.pdb
 C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\Lists\obj\Debug\net9.0\Lists.genruntimeconfig.cache
 C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\Lists\obj\Debug\net9.0\ref\Lists.dll
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\Lists\obj\Debug\net9.0\Lists.sourcelink.json
