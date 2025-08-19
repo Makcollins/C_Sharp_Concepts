@@ -4,6 +4,8 @@ namespace EmployeeWorklog;
 
 public class SalaryInfo
 {
-    public string SalaryID { get; set; }
+    static int counter = 101;
+    public string SalaryID { get { return $"DAY{counter++}"; } }
     public decimal SalaryOfTheMonth { get; set; }
+
 }

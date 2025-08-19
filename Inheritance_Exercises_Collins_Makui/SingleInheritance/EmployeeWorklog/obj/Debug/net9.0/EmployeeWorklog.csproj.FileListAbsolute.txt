@@ -1,0 +1,15 @@
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\Inheritance\SingleInheritance\EmployeeWorklog\bin\Debug\net9.0\EmployeeWorklog.exe
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\Inheritance\SingleInheritance\EmployeeWorklog\bin\Debug\net9.0\EmployeeWorklog.deps.json
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\Inheritance\SingleInheritance\EmployeeWorklog\bin\Debug\net9.0\EmployeeWorklog.runtimeconfig.json
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\Inheritance\SingleInheritance\EmployeeWorklog\bin\Debug\net9.0\EmployeeWorklog.dll
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\Inheritance\SingleInheritance\EmployeeWorklog\bin\Debug\net9.0\EmployeeWorklog.pdb
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\Inheritance\SingleInheritance\EmployeeWorklog\obj\Debug\net9.0\EmployeeWorklog.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\Inheritance\SingleInheritance\EmployeeWorklog\obj\Debug\net9.0\EmployeeWorklog.AssemblyInfoInputs.cache
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\Inheritance\SingleInheritance\EmployeeWorklog\obj\Debug\net9.0\EmployeeWorklog.AssemblyInfo.cs
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\Inheritance\SingleInheritance\EmployeeWorklog\obj\Debug\net9.0\EmployeeWorklog.csproj.CoreCompileInputs.cache
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\Inheritance\SingleInheritance\EmployeeWorklog\obj\Debug\net9.0\EmployeeWorklog.sourcelink.json
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\Inheritance\SingleInheritance\EmployeeWorklog\obj\Debug\net9.0\EmployeeWorklog.dll
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\Inheritance\SingleInheritance\EmployeeWorklog\obj\Debug\net9.0\refint\EmployeeWorklog.dll
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\Inheritance\SingleInheritance\EmployeeWorklog\obj\Debug\net9.0\EmployeeWorklog.pdb
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\Inheritance\SingleInheritance\EmployeeWorklog\obj\Debug\net9.0\EmployeeWorklog.genruntimeconfig.cache
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\Inheritance\SingleInheritance\EmployeeWorklog\obj\Debug\net9.0\ref\EmployeeWorklog.dll

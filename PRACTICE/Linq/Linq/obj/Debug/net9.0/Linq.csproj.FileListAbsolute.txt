@@ -1,0 +1,15 @@
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\PRACTICE\Linq\Linq\bin\Debug\net9.0\Linq.exe
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\PRACTICE\Linq\Linq\bin\Debug\net9.0\Linq.deps.json
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\PRACTICE\Linq\Linq\bin\Debug\net9.0\Linq.runtimeconfig.json
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\PRACTICE\Linq\Linq\bin\Debug\net9.0\Linq.dll
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\PRACTICE\Linq\Linq\bin\Debug\net9.0\Linq.pdb
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\PRACTICE\Linq\Linq\obj\Debug\net9.0\Linq.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\PRACTICE\Linq\Linq\obj\Debug\net9.0\Linq.AssemblyInfoInputs.cache
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\PRACTICE\Linq\Linq\obj\Debug\net9.0\Linq.AssemblyInfo.cs
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\PRACTICE\Linq\Linq\obj\Debug\net9.0\Linq.csproj.CoreCompileInputs.cache
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\PRACTICE\Linq\Linq\obj\Debug\net9.0\Linq.sourcelink.json
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\PRACTICE\Linq\Linq\obj\Debug\net9.0\Linq.dll
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\PRACTICE\Linq\Linq\obj\Debug\net9.0\refint\Linq.dll
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\PRACTICE\Linq\Linq\obj\Debug\net9.0\Linq.pdb
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\PRACTICE\Linq\Linq\obj\Debug\net9.0\Linq.genruntimeconfig.cache
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\PRACTICE\Linq\Linq\obj\Debug\net9.0\ref\Linq.dll
