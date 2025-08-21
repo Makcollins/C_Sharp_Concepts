@@ -1,0 +1,15 @@
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\Learning\ExercisesLinq\City\bin\Debug\net9.0\City.exe
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\Learning\ExercisesLinq\City\bin\Debug\net9.0\City.deps.json
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\Learning\ExercisesLinq\City\bin\Debug\net9.0\City.runtimeconfig.json
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\Learning\ExercisesLinq\City\bin\Debug\net9.0\City.dll
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\Learning\ExercisesLinq\City\bin\Debug\net9.0\City.pdb
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\Learning\ExercisesLinq\City\obj\Debug\net9.0\City.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\Learning\ExercisesLinq\City\obj\Debug\net9.0\City.AssemblyInfoInputs.cache
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\Learning\ExercisesLinq\City\obj\Debug\net9.0\City.AssemblyInfo.cs
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\Learning\ExercisesLinq\City\obj\Debug\net9.0\City.csproj.CoreCompileInputs.cache
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\Learning\ExercisesLinq\City\obj\Debug\net9.0\City.sourcelink.json
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\Learning\ExercisesLinq\City\obj\Debug\net9.0\City.dll
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\Learning\ExercisesLinq\City\obj\Debug\net9.0\refint\City.dll
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\Learning\ExercisesLinq\City\obj\Debug\net9.0\City.pdb
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\Learning\ExercisesLinq\City\obj\Debug\net9.0\City.genruntimeconfig.cache
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\Learning\ExercisesLinq\City\obj\Debug\net9.0\ref\City.dll

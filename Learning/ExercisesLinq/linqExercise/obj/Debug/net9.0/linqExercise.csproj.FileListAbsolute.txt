@@ -1,0 +1,15 @@
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\Learning\ExercisesLinq\linqExercise\bin\Debug\net9.0\linqExercise.exe
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\Learning\ExercisesLinq\linqExercise\bin\Debug\net9.0\linqExercise.deps.json
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\Learning\ExercisesLinq\linqExercise\bin\Debug\net9.0\linqExercise.runtimeconfig.json
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\Learning\ExercisesLinq\linqExercise\bin\Debug\net9.0\linqExercise.dll
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\Learning\ExercisesLinq\linqExercise\bin\Debug\net9.0\linqExercise.pdb
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\Learning\ExercisesLinq\linqExercise\obj\Debug\net9.0\linqExercise.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\Learning\ExercisesLinq\linqExercise\obj\Debug\net9.0\linqExercise.AssemblyInfoInputs.cache
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\Learning\ExercisesLinq\linqExercise\obj\Debug\net9.0\linqExercise.AssemblyInfo.cs
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\Learning\ExercisesLinq\linqExercise\obj\Debug\net9.0\linqExercise.csproj.CoreCompileInputs.cache
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\Learning\ExercisesLinq\linqExercise\obj\Debug\net9.0\linqExercise.sourcelink.json
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\Learning\ExercisesLinq\linqExercise\obj\Debug\net9.0\linqExercise.dll
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\Learning\ExercisesLinq\linqExercise\obj\Debug\net9.0\refint\linqExercise.dll
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\Learning\ExercisesLinq\linqExercise\obj\Debug\net9.0\linqExercise.pdb
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\Learning\ExercisesLinq\linqExercise\obj\Debug\net9.0\linqExercise.genruntimeconfig.cache
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\Learning\ExercisesLinq\linqExercise\obj\Debug\net9.0\ref\linqExercise.dll

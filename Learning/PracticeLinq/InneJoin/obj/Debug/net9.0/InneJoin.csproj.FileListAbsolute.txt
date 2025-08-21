@@ -1,0 +1,15 @@
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\Learning\PracticeLinq\InneJoin\bin\Debug\net9.0\InneJoin.exe
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\Learning\PracticeLinq\InneJoin\bin\Debug\net9.0\InneJoin.deps.json
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\Learning\PracticeLinq\InneJoin\bin\Debug\net9.0\InneJoin.runtimeconfig.json
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\Learning\PracticeLinq\InneJoin\bin\Debug\net9.0\InneJoin.dll
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\Learning\PracticeLinq\InneJoin\bin\Debug\net9.0\InneJoin.pdb
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\Learning\PracticeLinq\InneJoin\obj\Debug\net9.0\InneJoin.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\Learning\PracticeLinq\InneJoin\obj\Debug\net9.0\InneJoin.AssemblyInfoInputs.cache
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\Learning\PracticeLinq\InneJoin\obj\Debug\net9.0\InneJoin.AssemblyInfo.cs
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\Learning\PracticeLinq\InneJoin\obj\Debug\net9.0\InneJoin.csproj.CoreCompileInputs.cache
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\Learning\PracticeLinq\InneJoin\obj\Debug\net9.0\InneJoin.sourcelink.json
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\Learning\PracticeLinq\InneJoin\obj\Debug\net9.0\InneJoin.dll
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\Learning\PracticeLinq\InneJoin\obj\Debug\net9.0\refint\InneJoin.dll
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\Learning\PracticeLinq\InneJoin\obj\Debug\net9.0\InneJoin.pdb
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\Learning\PracticeLinq\InneJoin\obj\Debug\net9.0\InneJoin.genruntimeconfig.cache
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\Learning\PracticeLinq\InneJoin\obj\Debug\net9.0\ref\InneJoin.dll

@@ -1,0 +1,15 @@
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\Learning\ExercisesLinq\SortCity\bin\Debug\net9.0\SortCity.exe
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\Learning\ExercisesLinq\SortCity\bin\Debug\net9.0\SortCity.deps.json
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\Learning\ExercisesLinq\SortCity\bin\Debug\net9.0\SortCity.runtimeconfig.json
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\Learning\ExercisesLinq\SortCity\bin\Debug\net9.0\SortCity.dll
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\Learning\ExercisesLinq\SortCity\bin\Debug\net9.0\SortCity.pdb
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\Learning\ExercisesLinq\SortCity\obj\Debug\net9.0\SortCity.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\Learning\ExercisesLinq\SortCity\obj\Debug\net9.0\SortCity.AssemblyInfoInputs.cache
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\Learning\ExercisesLinq\SortCity\obj\Debug\net9.0\SortCity.AssemblyInfo.cs
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\Learning\ExercisesLinq\SortCity\obj\Debug\net9.0\SortCity.csproj.CoreCompileInputs.cache
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\Learning\ExercisesLinq\SortCity\obj\Debug\net9.0\SortCity.sourcelink.json
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\Learning\ExercisesLinq\SortCity\obj\Debug\net9.0\SortCity.dll
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\Learning\ExercisesLinq\SortCity\obj\Debug\net9.0\refint\SortCity.dll
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\Learning\ExercisesLinq\SortCity\obj\Debug\net9.0\SortCity.pdb
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\Learning\ExercisesLinq\SortCity\obj\Debug\net9.0\SortCity.genruntimeconfig.cache
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\Learning\ExercisesLinq\SortCity\obj\Debug\net9.0\ref\SortCity.dll

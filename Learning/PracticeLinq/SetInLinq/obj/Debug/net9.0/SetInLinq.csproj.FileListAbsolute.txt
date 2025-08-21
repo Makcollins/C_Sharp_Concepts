@@ -1,0 +1,15 @@
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\Learning\PracticeLinq\SetInLinq\bin\Debug\net9.0\SetInLinq.exe
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\Learning\PracticeLinq\SetInLinq\bin\Debug\net9.0\SetInLinq.deps.json
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\Learning\PracticeLinq\SetInLinq\bin\Debug\net9.0\SetInLinq.runtimeconfig.json
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\Learning\PracticeLinq\SetInLinq\bin\Debug\net9.0\SetInLinq.dll
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\Learning\PracticeLinq\SetInLinq\bin\Debug\net9.0\SetInLinq.pdb
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\Learning\PracticeLinq\SetInLinq\obj\Debug\net9.0\SetInLinq.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\Learning\PracticeLinq\SetInLinq\obj\Debug\net9.0\SetInLinq.AssemblyInfoInputs.cache
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\Learning\PracticeLinq\SetInLinq\obj\Debug\net9.0\SetInLinq.AssemblyInfo.cs
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\Learning\PracticeLinq\SetInLinq\obj\Debug\net9.0\SetInLinq.csproj.CoreCompileInputs.cache
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\Learning\PracticeLinq\SetInLinq\obj\Debug\net9.0\SetInLinq.sourcelink.json
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\Learning\PracticeLinq\SetInLinq\obj\Debug\net9.0\SetInLinq.dll
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\Learning\PracticeLinq\SetInLinq\obj\Debug\net9.0\refint\SetInLinq.dll
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\Learning\PracticeLinq\SetInLinq\obj\Debug\net9.0\SetInLinq.pdb
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\Learning\PracticeLinq\SetInLinq\obj\Debug\net9.0\SetInLinq.genruntimeconfig.cache
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\Learning\PracticeLinq\SetInLinq\obj\Debug\net9.0\ref\SetInLinq.dll

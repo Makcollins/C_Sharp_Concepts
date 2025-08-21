@@ -1,0 +1,15 @@
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\Learning\PracticeLinq\GroupJoin\bin\Debug\net9.0\GroupJoin.exe
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\Learning\PracticeLinq\GroupJoin\bin\Debug\net9.0\GroupJoin.deps.json
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\Learning\PracticeLinq\GroupJoin\bin\Debug\net9.0\GroupJoin.runtimeconfig.json
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\Learning\PracticeLinq\GroupJoin\bin\Debug\net9.0\GroupJoin.dll
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\Learning\PracticeLinq\GroupJoin\bin\Debug\net9.0\GroupJoin.pdb
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\Learning\PracticeLinq\GroupJoin\obj\Debug\net9.0\GroupJoin.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\Learning\PracticeLinq\GroupJoin\obj\Debug\net9.0\GroupJoin.AssemblyInfoInputs.cache
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\Learning\PracticeLinq\GroupJoin\obj\Debug\net9.0\GroupJoin.AssemblyInfo.cs
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\Learning\PracticeLinq\GroupJoin\obj\Debug\net9.0\GroupJoin.csproj.CoreCompileInputs.cache
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\Learning\PracticeLinq\GroupJoin\obj\Debug\net9.0\GroupJoin.sourcelink.json
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\Learning\PracticeLinq\GroupJoin\obj\Debug\net9.0\GroupJoin.dll
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\Learning\PracticeLinq\GroupJoin\obj\Debug\net9.0\refint\GroupJoin.dll
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\Learning\PracticeLinq\GroupJoin\obj\Debug\net9.0\GroupJoin.pdb
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\Learning\PracticeLinq\GroupJoin\obj\Debug\net9.0\GroupJoin.genruntimeconfig.cache
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\Learning\PracticeLinq\GroupJoin\obj\Debug\net9.0\ref\GroupJoin.dll
