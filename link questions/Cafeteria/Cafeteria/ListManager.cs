@@ -9,9 +9,11 @@ public class ListManager
 
     public List<UserDetails> InitialUsers()
     {
-        List<UserDetails> users = new List<UserDetails>();
-        users.Add(new UserDetails { UserID = "SF1001", Name = "Ravichandran", FatherName = "Ettapparajan", Mobile = "8857777575", MailID = "ravi@gmail.com", Gender = Gender.Male, WorkStationNumber = "WS101", balance = 400 });
-        users.Add(new UserDetails { UserID = "SF1002", Name = "Baskaran", FatherName = "Sethurajan", Mobile = "9577747744", MailID = "baskaran@gmail.com", Gender = Gender.Male, WorkStationNumber = "WS105", balance = 500 });
+        List<UserDetails> users = new List<UserDetails>(){
+        new UserDetails { UserID = "SF1001", Name = "Ravichandran", FatherName = "Ettapparajan", Mobile = "8857777575", MailID = "ravi@gmail.com", Gender = Gender.Male, WorkStationNumber = "WS101", balance = 400 },
+        new UserDetails { UserID = "SF1002", Name = "Baskaran", FatherName = "Sethurajan", Mobile = "9577747744", MailID = "baskaran@gmail.com", Gender = Gender.Male, WorkStationNumber = "WS105", balance = 50},
+        };
+
         return users;
     }
 
