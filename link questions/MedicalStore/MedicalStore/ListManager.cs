@@ -4,6 +4,7 @@ namespace MedicalStore;
 
 public class ListManager
 {
+
     public List<UserDetails> UsersList()
     {
         List<UserDetails> users = new()
@@ -43,7 +44,7 @@ public class ListManager
 
     public void DisplayList(List<UserDetails> users)
     {
-        
+
         Console.WriteLine($"{new String('-', 60)}\n{"UserID",-10}{"Name",-10}{"City",-10}{"PhoneNumber",-12}{"Balance"}\n{new String('-', 60)}");
         users.ForEach(x => Console.WriteLine($"{x.UserID,-10}{x.Name,-10}{x.City,-10}{x.PhoneNumber,-12}{x.WalletBalance,-10}"));
         Console.WriteLine(new String('-', 60) + "\n");
@@ -55,7 +56,7 @@ public class ListManager
         medicineDetails.ForEach(x => Console.WriteLine($"{x.MedicineID,-12}{x.MedicineName,-15}{x.AvailableCount,-15}{x.Price,-10}{x.DateOfExpiry.ToShortDateString(),-12}"));
         Console.WriteLine(new String('-', 60) + "\n");
     }
-    
+
     public void DisplayList(List<OrderDetails> orders)
     {
         Console.WriteLine($"{new String('-', 80)}\n{"OrderID",-10}{"UserID",-10}{"MedicineID",-12}{"MedicineCount",-15}{"TotalPrice",-12}{"OrderDate",-12}{"OrderStatus",-12}\n{new String('-', 80)}");

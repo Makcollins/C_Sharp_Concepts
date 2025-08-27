@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MedicalStore")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b793c22ecd28cabdab6d65c0be8a4527e791ddf7")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+debe06f71c265733eb1b085cbf167ef384ed7f85")]
 [assembly: System.Reflection.AssemblyProductAttribute("MedicalStore")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MedicalStore")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

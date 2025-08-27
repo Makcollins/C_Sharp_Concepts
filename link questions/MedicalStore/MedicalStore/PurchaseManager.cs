@@ -4,7 +4,7 @@ namespace MedicalStore;
 
 public class PurchaseManager
 {
-    public void PurchaseMedicine(List<MedicineDetails> medicineDetails)
+    public void PurchaseMedicine(UserDetails user, List<MedicineDetails> medicineDetails)
     {
         bool correct;
         int medicineCount;
@@ -33,13 +33,17 @@ public class PurchaseManager
         }
     }
 
-    public void CountAvailable(int count, MedicineDetails selectedMedicine)
+    public void CountAvailable(int count, MedicineDetails selectedMedicine,UserDetails user)
     {
-        if (count < selectedMedicine.AvailableCount && selectedMedicine.DateOfExpiry < DateTime.Now)
+        if (count < selectedMedicine.AvailableCount && selectedMedicine.DateOfExpiry > DateTime.Now)
         {
-
+            if (user.WalletBalance > (count * selectedMedicine.Price))
+            {
+                selectedMedicine.AvailableCount -= count;
+                user.DeductBalance(selectedMedicine.Price);
+            }
         }
-        else
+        else if (count < selectedMedicine.AvailableCount || selectedMedicine.DateOfExpiry < DateTime.Now)
         {
             Console.WriteLine("Medicine is not available");
         }

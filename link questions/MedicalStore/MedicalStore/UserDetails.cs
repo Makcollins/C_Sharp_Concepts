@@ -4,7 +4,7 @@ namespace MedicalStore;
 
 public class UserDetails : PersonalDetails, IWallet
 {
-    public string UserID { get; set; }
+    public string UserID { get; }
     public decimal WalletBalance { get; set; }
     private static int counter = 1001;
 

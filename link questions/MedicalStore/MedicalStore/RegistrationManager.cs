@@ -58,6 +58,8 @@ public class RegistrationManager
         users.Add(newUser);
         // new ListManager().DisplayList(users);
         Console.WriteLine("\nUser registered successfullly, UserID is {0}", users.Last().UserID);
+
+        listManager.DisplayList(users);
     }
 
     public void Login(List<UserDetails> users, List<MedicineDetails> medicines)
