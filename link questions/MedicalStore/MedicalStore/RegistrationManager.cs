@@ -15,7 +15,7 @@ public class RegistrationManager
     public void Registration()
     {
         //Input Username
-        Console.WriteLine("Enter UserName: ");
+        Console.Write("Enter UserName : ");
         string userName = Console.ReadLine()!;
 
         //Input Age
@@ -23,10 +23,10 @@ public class RegistrationManager
         bool correct;
         do
         {
-            Console.Write("Enter age:");
+            Console.Write("Enter age : ");
             correct = int.TryParse(Console.ReadLine(), out age);
             if (!correct)
-                Console.WriteLine("Invalid Entry!");
+                Console.WriteLine("Invalid Entry!\n");
         } while (!correct);
 
         //Input City
@@ -39,13 +39,13 @@ public class RegistrationManager
 
         do
         {
-            Console.Write("Enter mobile number: ");
+            Console.Write("Enter mobile number : ");
             phoneNumber = Console.ReadLine()!;
 
             correct = phoneNumberFormat.IsMatch(phoneNumber);
             if (!correct)
             {
-                Console.WriteLine("Invalid mobile number!");
+                Console.WriteLine("Invalid mobile number!\n");
             }
         } while (!correct);
 
@@ -53,16 +53,17 @@ public class RegistrationManager
         decimal balance;
         do
         {
-            Console.Write("Enter Balance:");
+            Console.Write("Enter Balance: ");
             correct = decimal.TryParse(Console.ReadLine(), out balance);
             if (!correct)
-                Console.WriteLine("Invalid Entry!");
+                Console.WriteLine("Invalid Entry!\n");
         } while (!correct);
 
-        UserDetails newUser = new() { Name = userName, Age = age, City = city, PhoneNumber = phoneNumber, WalletBalance = balance };
+        UserDetails newUser = new() { Name = userName, Age = age, City = city, PhoneNumber = phoneNumber};
+        newUser.WalletRecharge(balance);
         usersList.Add(newUser);
         // new ListManager().DisplayList(usersList);
-        Console.WriteLine("\nUser registered successfullly, UserID is {0}", usersList.Last().UserID);
+        Console.WriteLine("\nUser registered successfullly, UserID is {0}\n", usersList.Last().UserID);
 
         listManager.DisplayList(usersList);
     }
@@ -79,7 +80,7 @@ public class RegistrationManager
 
         if (loggedUser == null)
         {
-            Console.WriteLine("Invalid UserID");
+            Console.WriteLine("Invalid UserID\n");
             // correct = false;
         }
         else
@@ -95,14 +96,15 @@ public class RegistrationManager
         {
             Console.WriteLine(
             @"Please choose an option to continue.
-                a.  Show medicine list.
-                b.	Purchase medicine.
-                c.	Modify purchase.
-                d.	Cancel purchase.
-                e.	Show purchase history.
-                f.	Recharge Wallet.
-                g.	Show Wallet Balance
-                h.	Exit");
+                a. Show medicine list.
+                b. Purchase medicine.
+                c. Modify purchase.
+                d. Cancel purchase.
+                e. Show purchase history.
+                f. Recharge Wallet.
+                g. Show Wallet Balance
+                h. Exit");
+                
             switch (Console.ReadLine())
             {
                 case "a":
@@ -110,26 +112,26 @@ public class RegistrationManager
                     break;
                 case "b":
                     listManager.DisplayList(medicinesList);
-                    purchaseManager.PurchaseMedicine(user,medicinesList);
+                    purchaseManager.PurchaseMedicine(user, medicinesList);
                     break;
                 case "c":
-                    // Modify purchase.
+                    purchaseManager.ModifyPurchase(user, medicinesList);
                     break;
                 case "d":
-                    // Cancel purchase.
+                    purchaseManager.CancelPurchase(user, medicinesList);
                     break;
                 case "e":
-                    // Show purchase history.
+                    purchaseManager.PurchaseHistory(user);
                     break;
                 case "f":
-                    // Recharge Wallet.
+                    purchaseManager.RechargeWallet(user);
                     break;
                 case "g":
-                    // Show Wallet Balance
+                    Console.WriteLine($"User Balance : {user.WalletBalance}");
                     break;
                 case "h":
                     return;
-    
+
                 default:
                     Console.WriteLine("invalid option");
                     break;

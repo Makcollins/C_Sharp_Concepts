@@ -1,0 +1,170 @@
+using System;
+using System.Text.RegularExpressions;
+
+namespace Cafeteria;
+
+public class AuthenticationManager
+{
+    OrderManager orderManager = new();
+    static ListManager listManager = new ListManager();
+    List<UserDetails> users = listManager.InitialUsers();
+
+    public void Registration()
+    {
+        bool correct = true;
+        //input name
+        Console.WriteLine("Enter user name: ");
+        string userName = Console.ReadLine()!;
+
+        //input father name
+        Console.WriteLine("Enter Father name: ");
+        string fatherName = Console.ReadLine()!;
+
+        string mobile;
+        string mail;
+        Gender gender = Gender.Transgender;
+        string WorkStationNumber;
+
+        //vaalidate phone number
+        Regex mobileFormat = new Regex("^\\+?\\d{1,4}?[-.\\s]?\\(?\\d{1,3}?\\)?[-.\\s]?\\d{1,4}[-.\\s]?\\d{1,4}$");
+        do
+        {
+            correct = true;
+            Console.WriteLine("Enter mobile number: ");
+            mobile = Console.ReadLine()!;
+            if (!mobileFormat.IsMatch(mobile))
+            {
+                Console.WriteLine("Invalid mobile number!");
+                correct = false;
+            }
+        } while (!correct);
+
+        //validate mail
+        Regex mailFormat = new Regex("^[a-zA-Z0-9._%+-]+@[a\\a-zA-Z._]+\\.[a-z]{2,}\\.?[a-z]*$");
+        do
+        {
+            correct = true;
+            Console.WriteLine("Enter Mail ID: ");
+            mail = Console.ReadLine()!;
+            if (!mailFormat.IsMatch(mail))
+            {
+                Console.WriteLine("Invalid Mail ID!");
+                correct = false;
+            }
+        } while (!correct);
+
+        //input gmail
+        do
+        {
+            correct = true;
+            Console.WriteLine("Enter Gender: ");
+            try
+            {
+                gender = Enum.Parse<Gender>(Console.ReadLine()!);
+            }
+            catch (Exception)
+            {
+                Console.WriteLine("Invalid Syntax");
+                correct = false;
+            }
+        } while (!correct);
+
+        //workstation number
+        Regex workStationNumberFormat = new Regex("^WS\\d{3}$");
+        do
+        {
+            correct = true;
+            Console.WriteLine("Enter WorkStationNumber. (Format: \"WS101\")");
+            WorkStationNumber = Console.ReadLine()!.Trim().ToUpper();
+            if (!workStationNumberFormat.IsMatch(WorkStationNumber))
+            {
+                Console.WriteLine("Invalid format!");
+                correct = false;
+            }
+            ;
+        } while (!correct);
+
+        decimal IBalance;
+        //input initial balance
+        do
+        {
+            correct = true;
+            Console.WriteLine("Enter Balance: ");
+            if (decimal.TryParse(Console.ReadLine(), out IBalance) == false)
+            {
+                Console.WriteLine("Invalid Entry");
+                correct = false;
+            }
+        } while (!correct);
+
+        //add new user object to list
+        users.Add(new UserDetails { Name = userName, FatherName = fatherName, Mobile = mobile, MailID = mail, Gender = gender, WorkStationNumber = WorkStationNumber, balance = IBalance });
+        Console.WriteLine("User registered successfullly, UserID is {0}", users.Last().UserID);
+
+    }
+
+    //Login Method
+    public void UserLogin()
+    {
+        Console.WriteLine("Welcome to Login page!\n\nEnter user ID to proceed.");
+
+        Console.Write("User ID: ");
+
+        string userInput = Console.ReadLine()!.ToUpper();
+
+        var loggedUser = users.Find(loggedIn => loggedIn.UserID == userInput);
+
+        if (loggedUser == null)
+        {
+            Console.WriteLine("Invalid UserID");
+        }
+        else
+        {
+            Console.WriteLine($"Welcome {loggedUser.Name}! Please choose an option to continue.");
+            LoginMenu(loggedUser);
+        }
+    }
+
+    //Login Menu
+    public void LoginMenu(UserDetails user)
+    {
+
+        Console.WriteLine("a. Show My Profile\nb. Food Order\nc. Modify Order\nd. Cancel Order\ne. Order History\nf. Wallet Balance\ng.Show WalletBalance\nh. Exit");
+        switch (Console.ReadLine())
+        {
+            case "a":
+                ShowProfile(user);
+                break;
+            case "b":
+                orderManager.FoodOrder(user);
+                break;
+            case "c":
+                orderManager.ModifyOrder(user);
+                break;
+            case "d":
+                orderManager.CancelOrder(user);
+                break;
+            case "e":
+                orderManager.OrderHistory(user);
+                break;
+            case "f":
+                orderManager.UpdateWallet(user);
+                break;
+            case "g":
+                Console.WriteLine($"Wallet Balance: {user.WalletBalance}");
+                break;
+            case "h":
+                return;
+
+            default:
+                Console.WriteLine("invalid option");
+                break;
+        }
+    }
+
+    //display user profile
+    public void ShowProfile(UserDetails users)
+    {
+        Console.WriteLine($"Name: {users.Name} {users.FatherName}\nMobile number: {users.Mobile}\nMailID: {users.MailID}\nGender: {users.Gender}\nWorkStationNumber: {users.WorkStationNumber}\nBalance: {users.WalletBalance}");
+    }
+}
