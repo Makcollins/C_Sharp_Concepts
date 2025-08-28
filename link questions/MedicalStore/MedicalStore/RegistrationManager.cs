@@ -6,8 +6,13 @@ namespace MedicalStore;
 
 public class RegistrationManager
 {
-    ListManager listManager = new ListManager();
-    public void Registration(List<UserDetails> users)
+    static ListManager listManager = new ListManager();
+    PurchaseManager purchaseManager = new PurchaseManager();
+
+    List<UserDetails> usersList = listManager.UsersList();
+    List<MedicineDetails> medicinesList = listManager.MedicinesList();
+    
+    public void Registration()
     {
         //Input Username
         Console.WriteLine("Enter UserName: ");
@@ -55,14 +60,14 @@ public class RegistrationManager
         } while (!correct);
 
         UserDetails newUser = new() { Name = userName, Age = age, City = city, PhoneNumber = phoneNumber, WalletBalance = balance };
-        users.Add(newUser);
-        // new ListManager().DisplayList(users);
-        Console.WriteLine("\nUser registered successfullly, UserID is {0}", users.Last().UserID);
+        usersList.Add(newUser);
+        // new ListManager().DisplayList(usersList);
+        Console.WriteLine("\nUser registered successfullly, UserID is {0}", usersList.Last().UserID);
 
-        listManager.DisplayList(users);
+        listManager.DisplayList(usersList);
     }
 
-    public void Login(List<UserDetails> users, List<MedicineDetails> medicines)
+    public void Login()
     {
         Console.WriteLine("Welcome to Login page!\n\nEnter user ID to proceed.");
 
@@ -70,7 +75,7 @@ public class RegistrationManager
 
         string userInput = Console.ReadLine()!.ToUpper();
 
-        var loggedUser = users.Find(loggedIn => loggedIn.UserID == userInput);
+        var loggedUser = usersList.Find(loggedIn => loggedIn.UserID == userInput);
 
         if (loggedUser == null)
         {
@@ -80,52 +85,55 @@ public class RegistrationManager
         else
         {
             Console.WriteLine($"\nWelcome {loggedUser.Name}!");
-            LoginMenu(medicines);
+            LoginMenu(loggedUser);
         }
     }
 
-    public void LoginMenu(List<MedicineDetails> medicines)
+    public void LoginMenu(UserDetails user)
     {
-        Console.WriteLine(
-        @"Please choose an option to continue.
-            a.  Show medicine list.
-            b.	Purchase medicine.
-            c.	Modify purchase.
-            d.	Cancel purchase.
-            e.	Show purchase history.
-            f.	Recharge Wallet.
-            g.	Show Wallet Balance
-            h.	Exit");
-        switch (Console.ReadLine())
+        do
         {
-            case "a":
-                listManager.DisplayList(medicines);
-                break;
-            case "b":
-                listManager.DisplayList(medicines);
-                // Purchase medicine.
-                break;
-            case "c":
-                // Modify purchase.
-                break;
-            case "d":
-                // Cancel purchase.
-                break;
-            case "e":
-                // Show purchase history.
-                break;
-            case "f":
-                // Recharge Wallet.
-                break;
-            case "g":
-                // Show Wallet Balance
-                break;
-            case "h":
-                return;
-
-            default:
-                Console.WriteLine("invalid option");
-                break;
-        }
+            Console.WriteLine(
+            @"Please choose an option to continue.
+                a.  Show medicine list.
+                b.	Purchase medicine.
+                c.	Modify purchase.
+                d.	Cancel purchase.
+                e.	Show purchase history.
+                f.	Recharge Wallet.
+                g.	Show Wallet Balance
+                h.	Exit");
+            switch (Console.ReadLine())
+            {
+                case "a":
+                    listManager.DisplayList(medicinesList);
+                    break;
+                case "b":
+                    listManager.DisplayList(medicinesList);
+                    purchaseManager.PurchaseMedicine(user,medicinesList);
+                    break;
+                case "c":
+                    // Modify purchase.
+                    break;
+                case "d":
+                    // Cancel purchase.
+                    break;
+                case "e":
+                    // Show purchase history.
+                    break;
+                case "f":
+                    // Recharge Wallet.
+                    break;
+                case "g":
+                    // Show Wallet Balance
+                    break;
+                case "h":
+                    return;
+    
+                default:
+                    Console.WriteLine("invalid option");
+                    break;
+            }
+        } while (true);
     }
 }

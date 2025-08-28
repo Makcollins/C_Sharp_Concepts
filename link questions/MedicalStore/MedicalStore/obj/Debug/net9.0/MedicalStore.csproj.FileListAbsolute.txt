@@ -13,3 +13,18 @@ C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\link questions\Medic
 C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\link questions\MedicalStore\MedicalStore\obj\Debug\net9.0\MedicalStore.pdb
 C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\link questions\MedicalStore\MedicalStore\obj\Debug\net9.0\MedicalStore.genruntimeconfig.cache
 C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\link questions\MedicalStore\MedicalStore\obj\Debug\net9.0\ref\MedicalStore.dll
+C:\Users\User\Documents\dev\SFC_Sharp\C_Sharp_Concepts\link questions\MedicalStore\MedicalStore\obj\Debug\net9.0\MedicalStore.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Documents\dev\SFC_Sharp\C_Sharp_Concepts\link questions\MedicalStore\MedicalStore\obj\Debug\net9.0\MedicalStore.AssemblyInfoInputs.cache
+C:\Users\User\Documents\dev\SFC_Sharp\C_Sharp_Concepts\link questions\MedicalStore\MedicalStore\obj\Debug\net9.0\MedicalStore.AssemblyInfo.cs
+C:\Users\User\Documents\dev\SFC_Sharp\C_Sharp_Concepts\link questions\MedicalStore\MedicalStore\obj\Debug\net9.0\MedicalStore.csproj.CoreCompileInputs.cache
+C:\Users\User\Documents\dev\SFC_Sharp\C_Sharp_Concepts\link questions\MedicalStore\MedicalStore\obj\Debug\net9.0\MedicalStore.sourcelink.json
+C:\Users\User\Documents\dev\SFC_Sharp\C_Sharp_Concepts\link questions\MedicalStore\MedicalStore\obj\Debug\net9.0\MedicalStore.dll
+C:\Users\User\Documents\dev\SFC_Sharp\C_Sharp_Concepts\link questions\MedicalStore\MedicalStore\obj\Debug\net9.0\refint\MedicalStore.dll
+C:\Users\User\Documents\dev\SFC_Sharp\C_Sharp_Concepts\link questions\MedicalStore\MedicalStore\obj\Debug\net9.0\MedicalStore.pdb
+C:\Users\User\Documents\dev\SFC_Sharp\C_Sharp_Concepts\link questions\MedicalStore\MedicalStore\bin\Debug\net9.0\MedicalStore.exe
+C:\Users\User\Documents\dev\SFC_Sharp\C_Sharp_Concepts\link questions\MedicalStore\MedicalStore\bin\Debug\net9.0\MedicalStore.deps.json
+C:\Users\User\Documents\dev\SFC_Sharp\C_Sharp_Concepts\link questions\MedicalStore\MedicalStore\bin\Debug\net9.0\MedicalStore.runtimeconfig.json
+C:\Users\User\Documents\dev\SFC_Sharp\C_Sharp_Concepts\link questions\MedicalStore\MedicalStore\bin\Debug\net9.0\MedicalStore.dll
+C:\Users\User\Documents\dev\SFC_Sharp\C_Sharp_Concepts\link questions\MedicalStore\MedicalStore\bin\Debug\net9.0\MedicalStore.pdb
+C:\Users\User\Documents\dev\SFC_Sharp\C_Sharp_Concepts\link questions\MedicalStore\MedicalStore\obj\Debug\net9.0\MedicalStore.genruntimeconfig.cache
+C:\Users\User\Documents\dev\SFC_Sharp\C_Sharp_Concepts\link questions\MedicalStore\MedicalStore\obj\Debug\net9.0\ref\MedicalStore.dll

@@ -9,11 +9,11 @@ namespace MedicalStore
             RegistrationManager activeRegistration = new();
             ListManager listManager = new ListManager();
 
-            List<UserDetails> usersList = listManager.UsersList();
+            // List<UserDetails> usersList = listManager.UsersList();
 
-            List<MedicineDetails> medicinesList = listManager.MedicinesList();
+            // List<MedicineDetails> medicinesList = listManager.MedicinesList();
 
-            List<OrderDetails> ordersList = listManager.OrdersList();
+            // List<OrderDetails> ordersList = listManager.OrdersList();
 
             // listManager.DisplayUsers();
             // listManager.DisplayMedicines();
@@ -31,10 +31,10 @@ namespace MedicalStore
                 switch (choice)
                 {
                     case 1:
-                        activeRegistration.Registration(usersList);
+                        activeRegistration.Registration();
                         break;
                     case 2:
-                        activeRegistration.Login(usersList,medicinesList);
+                        activeRegistration.Login();
                         break;
                     case 3:
                         return;

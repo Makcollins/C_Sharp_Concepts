@@ -21,9 +21,9 @@ public class ListManager
     {
         new MedicineDetails() { MedicineName = "Paracitamol", AvailableCount = 40, Price = 5, DateOfExpiry = Convert.ToDateTime("30/06/2024") },
         new MedicineDetails() { MedicineName = "Calpol", AvailableCount = 10, Price = 5, DateOfExpiry = Convert.ToDateTime("30/05/2024") },
-        new MedicineDetails() { MedicineName = "Gelucil", AvailableCount = 3, Price = 5, DateOfExpiry = Convert.ToDateTime("30/06/2024") },
-        new MedicineDetails() { MedicineName = "Metrogel", AvailableCount = 5, Price = 5, DateOfExpiry = Convert.ToDateTime("30/06/2024") },
-        new MedicineDetails() { MedicineName = "Povidin lodin", AvailableCount = 10, Price = 5, DateOfExpiry = Convert.ToDateTime("30/06/2024") }
+        new MedicineDetails() { MedicineName = "Gelucil", AvailableCount = 3, Price = 5, DateOfExpiry = Convert.ToDateTime("30/04/2026") },
+        new MedicineDetails() { MedicineName = "Metrogel", AvailableCount = 5, Price = 5, DateOfExpiry = Convert.ToDateTime("30/12/2025") },
+        new MedicineDetails() { MedicineName = "Povidin lodin", AvailableCount = 10, Price = 5, DateOfExpiry = Convert.ToDateTime("30/10/2025") }
     };
         return medicineDetails;
     }
@@ -32,12 +32,12 @@ public class ListManager
     {
         List<OrderDetails> orders = new()
     {
-        new OrderDetails() { UserID = "UID1001", MedicineID = "MD101", MedicineCount = 3, TotalPrice = 15, OrderDate = Convert.ToDateTime("13/11/2022"), OrderStatus = OrderStatus.Purchased },
-        new OrderDetails() { UserID = "UID1001", MedicineID = "MD102", MedicineCount = 3, TotalPrice = 10, OrderDate = Convert.ToDateTime("13/11/2022"), OrderStatus = OrderStatus.Cancelled },
-        new OrderDetails() { UserID = "UID1001", MedicineID = "MD104", MedicineCount = 3, TotalPrice = 100, OrderDate = Convert.ToDateTime("13/11/2022"), OrderStatus = OrderStatus.Purchased },
-        new OrderDetails() { UserID = "UID1002", MedicineID = "MD103", MedicineCount = 3, TotalPrice = 120, OrderDate = Convert.ToDateTime("15/11/2022"), OrderStatus = OrderStatus.Cancelled },
-        new OrderDetails() { UserID = "UID1003", MedicineID = "MD105", MedicineCount = 3, TotalPrice = 150, OrderDate = Convert.ToDateTime("15/11/2022"), OrderStatus = OrderStatus.Purchased },
-        new OrderDetails() { UserID = "UID1004", MedicineID = "MD102", MedicineCount = 3, TotalPrice = 15, OrderDate = Convert.ToDateTime("15/11/2022"), OrderStatus = OrderStatus.Purchased }
+        new OrderDetails("UID1001", "MD101", 3, 15, Convert.ToDateTime("13/11/2022"), OrderStatus.Purchased ),
+        new OrderDetails("UID1001", "MD102", 3, 10, Convert.ToDateTime("13/11/2022"), OrderStatus.Cancelled ),
+        new OrderDetails("UID1001", "MD104", 3, 100, Convert.ToDateTime("13/11/2022"), OrderStatus.Purchased ),
+        new OrderDetails("UID1002", "MD103", 3, 120, Convert.ToDateTime("15/11/2022"), OrderStatus.Cancelled ),
+        new OrderDetails("UID1004", "MD102", 3, 15, Convert.ToDateTime("15/11/2022"), OrderStatus.Purchased),
+        new OrderDetails("UID1003", "MD105", 3, 150, Convert.ToDateTime("15/11/2022"), OrderStatus.Purchased )
     };
         return orders;
     }

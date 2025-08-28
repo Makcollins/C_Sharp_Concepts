@@ -4,43 +4,57 @@ namespace MedicalStore;
 
 public class PurchaseManager
 {
+    static ListManager listManager = new ListManager();
+    List<OrderDetails> ordersList = listManager.OrdersList();
+    // List<OrderDetails> ordersList = new ListManager().OrdersList();
     public void PurchaseMedicine(UserDetails user, List<MedicineDetails> medicineDetails)
     {
+        listManager.DisplayList(ordersList);
         bool correct;
         int medicineCount;
 
-        Console.Write("Select Medicine ID: ");
-        string userInput = Console.ReadLine()!;
-
         do
         {
-            Console.Write("Medicine Count: ");
-            correct = int.TryParse(Console.ReadLine(), out medicineCount);
-            if (!correct)
-                Console.WriteLine("Invalid Format");
+            correct = true;
+            Console.Write("Select Medicine ID: ");
+            string userInput = Console.ReadLine()!.ToUpper();
 
+            do
+            {
+                Console.Write("Medicine Count: ");
+                correct = int.TryParse(Console.ReadLine(), out medicineCount);
+                if (!correct)
+                    Console.WriteLine("Invalid Format\n");
+            } while (!correct);
+
+            var selectedMedicine = medicineDetails.Find(medicine => medicine.MedicineID == userInput);
+
+            if (selectedMedicine != null)
+            {
+                correct = true;
+                CountAvailable(medicineCount, selectedMedicine, user);
+            }
+            else
+            {
+                Console.WriteLine("Incorrect MedicineID\n");
+                correct = false;
+            }
         } while (!correct);
-
-        var selectedMedicine = medicineDetails.Find(medicine => medicine.MedicineID == userInput);
-
-        if (selectedMedicine != null)
-        {
-
-        }
-        else
-        {
-            Console.WriteLine("Incorrect MedicineID");
-        }
     }
 
-    public void CountAvailable(int count, MedicineDetails selectedMedicine,UserDetails user)
+    public void CountAvailable(int count, MedicineDetails selectedMedicine, UserDetails user)
     {
         if (count < selectedMedicine.AvailableCount && selectedMedicine.DateOfExpiry > DateTime.Now)
         {
-            if (user.WalletBalance > (count * selectedMedicine.Price))
+            decimal totalPrice = count * selectedMedicine.Price;
+            if (user.WalletBalance > (totalPrice))
             {
                 selectedMedicine.AvailableCount -= count;
-                user.DeductBalance(selectedMedicine.Price);
+                user.DeductBalance(totalPrice);
+                ordersList.Add(new OrderDetails(user.UserID, selectedMedicine.MedicineID, count, totalPrice, DateTime.Now, OrderStatus.Purchased));
+
+                Console.WriteLine("Medicine was purchased successfully");
+                listManager.OrdersList();
             }
         }
         else if (count < selectedMedicine.AvailableCount || selectedMedicine.DateOfExpiry < DateTime.Now)
@@ -48,4 +62,5 @@ public class PurchaseManager
             Console.WriteLine("Medicine is not available");
         }
     }
+
 }
