@@ -6,27 +6,11 @@ using System.Text.RegularExpressions;
 namespace Cafeteria
 {
     class Program
-    {
-        static int symbolLength = 60;
-        static bool correct = true;
-        // User registration
-       
-
-        //update cart items.
-       
+    {    
         static void Main(string[] args)
         {
             AuthenticationManager authentication = new();
-            ListManager listManager = new ListManager();
-
-            // List<UserDetails> users = listManager.InitialUsers();
-
-            // List<OrderDetails> orders = listManager.orderDetails;
-
-            // List<CartItem> cartItems = listManager.cartItemsList();
-
-            // List<FoodDetails> foods = listManager.foodsList();
-
+  
             Console.WriteLine("\n{0}\nCAFETERIA CARD MANAGEMENT\n{0}\n", new String('*', 60));
             do
             {

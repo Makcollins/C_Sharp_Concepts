@@ -4,9 +4,6 @@ namespace Cafeteria;
 
 public class ListManager
 {
-    // UserDetails object1 = new UserDetails { UserID = "SF1001", Name = "Ravichandran", FatherName = "Ettapparajan", Mobile = "8857777575", MailID = "ravi@gmail.com", Gender = Gender.Male, WorkStationNumber = "WS101", balance = 400 };
-    // UserDetails object2 = new UserDetails{UserID = "SF1002", Name = "Baskaran", FatherName="Sethurajan", Mobile ="9577747744", MailID = "baskaran@gmail.com",Gender =Gender.Male, WorkStationNumber ="WS105",balance =500};
-
     public List<UserDetails> InitialUsers()
     {
         List<UserDetails> users = new List<UserDetails>(){
@@ -35,9 +32,9 @@ public class ListManager
         new CartItem{OrderID = "OID1002", FoodID = "FID104", OrderPrice = 50, OrderQuantity=1},
         new CartItem{OrderID = "OID1002", FoodID = "FID105", OrderPrice = 40, OrderQuantity=1}
     };
-        return cartItems; 
+        return cartItems;
     }
-    
+
 
     public List<FoodDetails> foodsList()
     {
@@ -52,7 +49,28 @@ public class ListManager
         new FoodDetails(){FoodName = "Popcorn", Price = 20, AvailableQuantity = 20},
     };
         return foodDetails;
-}
+    }
+
+    public void DisplayList(List<OrderDetails> orders)
+    {
+        Console.WriteLine($"\n{new String('-', 60)}\n{"OrderID",-10}{"OrderDate",-10}{"TotalPrice",-10}{"OrderStatus",-10}\n{new String('-', 60)}");
+        orders.ForEach(item => Console.WriteLine($"{item.OrderID,-10}{item.OrderDate.ToShortDateString(),-15}{item.TotalPrice,-10}{item.OrderStatus,-10}"));
+        Console.WriteLine(new String('-', 60) + "\n");
+    }
+
+    public void DisplayList(List<CartItem> cartItems)
+    {
+        Console.WriteLine($"\n{new String('-', 60)}\n{"ItemID",-10}{"OrderID",-10}{"FoodID",-10}{"OrderPrice",-12}{"OrderQuantity",-10}\n{new String('-', 60)}");
+        cartItems.ForEach(x => Console.WriteLine($"{x.ItemID,-10}{x.OrderID,-10}{x.FoodID,-10}{x.OrderPrice,-12}{x.OrderQuantity,-10}\n"));
+        Console.WriteLine(new String('-', 60) + "\n");
+    }
+
+    public void DisplayList(List<FoodDetails> foods)
+    {
+        Console.WriteLine($"\n{new String('-', 60)}\n{"FoodID",-10}{"FoodName",-10}{"Price",-10}{"AvailabityQuantity",-10}\n{new String('-', 60)}");
+        foods.ForEach(item => Console.WriteLine($"{item.FoodID,-10}{item.FoodName,-10}{item.Price,-10}{item.AvailableQuantity,-10}"));
+        Console.WriteLine(new String('-', 60) + "\n");
+    }
 
 
 }

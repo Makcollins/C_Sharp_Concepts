@@ -88,14 +88,13 @@ public class AuthenticationManager
         //input initial balance
         do
         {
-            correct = true;
             Console.WriteLine("Enter Balance: ");
-            if (decimal.TryParse(Console.ReadLine(), out IBalance) == false)
+            correct = decimal.TryParse(Console.ReadLine(), out IBalance);
+            if (!correct || IBalance<1)
             {
                 Console.WriteLine("Invalid Entry");
-                correct = false;
             }
-        } while (!correct);
+        } while (!correct || IBalance < 1);
 
         //add new user object to list
         users.Add(new UserDetails { Name = userName, FatherName = fatherName, Mobile = mobile, MailID = mail, Gender = gender, WorkStationNumber = WorkStationNumber, balance = IBalance });
@@ -129,37 +128,40 @@ public class AuthenticationManager
     public void LoginMenu(UserDetails user)
     {
 
-        Console.WriteLine("a. Show My Profile\nb. Food Order\nc. Modify Order\nd. Cancel Order\ne. Order History\nf. Wallet Balance\ng.Show WalletBalance\nh. Exit");
-        switch (Console.ReadLine())
+        do
         {
-            case "a":
-                ShowProfile(user);
-                break;
-            case "b":
-                orderManager.FoodOrder(user);
-                break;
-            case "c":
-                orderManager.ModifyOrder(user);
-                break;
-            case "d":
-                orderManager.CancelOrder(user);
-                break;
-            case "e":
-                orderManager.OrderHistory(user);
-                break;
-            case "f":
-                orderManager.UpdateWallet(user);
-                break;
-            case "g":
-                Console.WriteLine($"Wallet Balance: {user.WalletBalance}");
-                break;
-            case "h":
-                return;
+            Console.WriteLine("a. Show My Profile\nb. Food Order\nc. Modify Order\nd. Cancel Order\ne. Order History\nf. Wallet Recharge \ng.Show WalletBalance\nh. Exit\n");
+            switch (Console.ReadLine())
+            {
+                case "a":
+                    ShowProfile(user);
+                    break;
+                case "b":
+                    orderManager.FoodOrder(user);
+                    break;
+                case "c":
+                    orderManager.ModifyOrder(user);
+                    break;
+                case "d":
+                    orderManager.CancelOrder(user);
+                    break;
+                case "e":
+                    orderManager.OrderHistory(user);
+                    break;
+                case "f":
+                    orderManager.RechargeWallet(user);
+                    break;
+                case "g":
+                    Console.WriteLine($"Wallet Balance: {user.WalletBalance}");
+                    break;
+                case "h":
+                    return;
 
-            default:
-                Console.WriteLine("invalid option");
-                break;
-        }
+                default:
+                    Console.WriteLine("invalid option");
+                    break;
+            }
+        } while (true);
     }
 
     //display user profile
