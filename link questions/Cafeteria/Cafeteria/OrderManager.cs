@@ -14,8 +14,7 @@ public class OrderManager
     {
         //create a temporary local carItemtList.
         List<CartItem> wishlist = new();
-
-        OrderDetails order;
+        OrderDetails foodOrder = new();
 
         string userChoice = "NO";
 
@@ -26,11 +25,11 @@ public class OrderManager
             //show food items when user wants to order
             listManager.DisplayList(foods);
 
-            // Console.WriteLine($"{"FoodID",-10}{"FoodName",-10}{"Price",-10}{"AvailabityQuantity",-10}");
-            // foods.ForEach(item => Console.WriteLine($"{item.FoodID,-10}{item.FoodName,-10}{item.Price,-10}{item.AvailableQuantity,-10}"));
-
             //Create an Order object with current UserID, Order date as current DateTime, total price as 0, Order status as “Initiated”.
-            order = new() { UserID = user.UserID, OrderDate = DateTime.Now, TotalPrice = 0, OrderStatus = OrderStatus.Initiated };
+            foodOrder.UserID = user.UserID;
+            foodOrder.OrderDate = DateTime.Now;
+            foodOrder.TotalPrice = 0;
+            foodOrder.OrderStatus = OrderStatus.Initiated;
 
             //Ask the user to pick a product using FoodID, quantity required and calculate price of food.
             Console.WriteLine("Please pick a product by entering FoddID and Quantity: ");
@@ -64,7 +63,7 @@ public class OrderManager
                     productPicked.AvailableQuantity -= quantity;
 
                     //create CartItems object using the available data
-                    CartItem newItem = new CartItem { OrderID = order.OrderID, FoodID = productPicked.FoodID, OrderPrice = productPicked.Price, OrderQuantity = quantity };
+                    CartItem newItem = new CartItem { OrderID = foodOrder.OrderID, FoodID = productPicked.FoodID, OrderPrice = productPicked.Price, OrderQuantity = quantity };
 
                     //add the object to local cart items list
                     wishlist.Add(newItem);
@@ -78,7 +77,7 @@ public class OrderManager
                             Console.Write("\nInvalid choice! Type 'Yes' or 'No': ");
 
                     } while (userChoice != "YES" && userChoice != "NO");
-                    ProceedWithPurchase(user, wishlist, order);
+                    ProceedWithPurchase(user, wishlist, foodOrder);
                 }
             }
             else
@@ -86,9 +85,6 @@ public class OrderManager
                 Console.WriteLine("Invalid FoodID!");
             }
         } while (userChoice == "YES");
-
-        //confirm purchase of wish list
-        // 
 
     }
 
@@ -105,13 +101,14 @@ public class OrderManager
         if (pickedOrder != null)
         {
             //Show list of Cart Item details 
-            listManager.DisplayList(cartItems);
+            var userCartItems = cartItems.FindAll(x => x.OrderID == pickedOrder.OrderID).ToList();
+            listManager.DisplayList(userCartItems);
 
             //ask user to pick an Item id
             Console.Write("Emter item ID:");
             string userInput = Console.ReadLine()!.ToUpper();
 
-            var selectedItem = cartItems.Find(selected => selected.ItemID == userInput);
+            var selectedItem = userCartItems.Find(selected => selected.ItemID == userInput);
 
             if (selectedItem == null)
             {
@@ -202,10 +199,7 @@ public class OrderManager
 
     public void OrderHistory(UserDetails user)
     {
-        // Console.WriteLine($"{"\nOrderID",-10}{"OrderDate",-10}{"TotalPrice",-10}{"OrderStatus",-10}\n{new String('-', 60)}");
-        // // orders.Where(order => order.UserID == user.UserID).ToList()
-        // .ForEach(item => Console.WriteLine($"{item.OrderID,-10}{item.OrderDate.ToShortDateString(),-15}{item.TotalPrice,-10}{item.OrderStatus,-10}\n"));
-
+        listManager.DisplayList(orders);
         listManager.DisplayList(orders.Where(order => order.UserID == user.UserID).ToList());
     }
 
