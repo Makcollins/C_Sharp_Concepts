@@ -1,11 +1,12 @@
 using System;
+using System.Transactions;
 
 namespace Cafeteria;
 
 public class OrderManager
 {
     static ListManager listManager = new ListManager();
-    List<OrderDetails> orders = listManager.orderDetails;
+    List<OrderDetails> orders = listManager.ordersList();
     List<CartItem> cartItems = listManager.cartItemsList();
     List<FoodDetails> foods = listManager.foodsList();
 
@@ -14,7 +15,9 @@ public class OrderManager
     {
         //create a temporary local carItemtList.
         List<CartItem> wishlist = new();
-        OrderDetails foodOrder = new();
+
+        //Create an Order object with current UserID, Order date as current DateTime, total price as 0, Order status as “Initiated”.
+        OrderDetails foodOrder = new() { UserID = user.UserID, OrderDate = DateTime.Now, TotalPrice = 0, OrderStatus = OrderStatus.Initiated };
 
         string userChoice = "NO";
 
@@ -24,12 +27,6 @@ public class OrderManager
         {
             //show food items when user wants to order
             listManager.DisplayList(foods);
-
-            //Create an Order object with current UserID, Order date as current DateTime, total price as 0, Order status as “Initiated”.
-            foodOrder.UserID = user.UserID;
-            foodOrder.OrderDate = DateTime.Now;
-            foodOrder.TotalPrice = 0;
-            foodOrder.OrderStatus = OrderStatus.Initiated;
 
             //Ask the user to pick a product using FoodID, quantity required and calculate price of food.
             Console.WriteLine("Please pick a product by entering FoddID and Quantity: ");
@@ -51,11 +48,11 @@ public class OrderManager
                 //check food quantity available
                 if (quantity > productPicked.AvailableQuantity)
                 {
-                    Console.WriteLine($"Sorry, only {productPicked.AvailableQuantity} available");
+                    Console.WriteLine($"\nSorry, only {productPicked.AvailableQuantity} available");
                 }
                 else if (quantity < 1)
                 {
-                    Console.WriteLine($"You can buy at least 1 product");
+                    Console.WriteLine($"\nYou can buy at least 1 product\n");
                     correct = false;
                 }
                 else
@@ -63,13 +60,13 @@ public class OrderManager
                     productPicked.AvailableQuantity -= quantity;
 
                     //create CartItems object using the available data
-                    CartItem newItem = new CartItem { OrderID = foodOrder.OrderID, FoodID = productPicked.FoodID, OrderPrice = productPicked.Price, OrderQuantity = quantity };
+                    CartItem newItem = new CartItem { OrderID = foodOrder.OrderID, FoodID = productPicked.FoodID, OrderPrice = productPicked.Price * quantity, OrderQuantity = quantity };
 
                     //add the object to local cart items list
                     wishlist.Add(newItem);
 
                     //ask user whether he want to pick another product
-                    Console.Write("Do you want to pick another product? \"Yes/No\" : ");
+                    Console.Write("\nDo you want to pick another product? \"Yes/No\" : ");
                     do
                     {
                         userChoice = Console.ReadLine()!.ToUpper();
@@ -77,27 +74,31 @@ public class OrderManager
                             Console.Write("\nInvalid choice! Type 'Yes' or 'No': ");
 
                     } while (userChoice != "YES" && userChoice != "NO");
-                    ProceedWithPurchase(user, wishlist, foodOrder);
                 }
             }
             else
             {
-                Console.WriteLine("Invalid FoodID!");
+                Console.WriteLine("\nInvalid FoodID!");
             }
+
         } while (userChoice == "YES");
 
+        //proceed with purchase if food ID is valid and other conditions are met.
+        if (wishlist.Any(list => list.FoodID != null)) ProceedWithPurchase(user, wishlist, foodOrder);
+
+        // listManager.DisplayList(cartItems);
     }
 
     public void ModifyOrder(UserDetails user)
     {
         //get and show rder details of current logged in user to pick an Order detail by using OrderID and whose status is “Ordered”. 
-        var userOrders = orders.Where(x => x.UserID == user.UserID).ToList();
+        var userOrders = orders.Where(x => x.UserID == user.UserID && x.OrderStatus== OrderStatus.Ordered).ToList();
         listManager.DisplayList(userOrders);
 
-        Console.Write("Pick an order by ID:");
+        Console.Write("\nPick an order by ID:");
         string orderInput = Console.ReadLine()!.ToUpper();
 
-        var pickedOrder = userOrders.Find(picked => picked.OrderID == orderInput && picked.OrderStatus == OrderStatus.Ordered);
+        var pickedOrder = userOrders.Find(picked => picked.OrderID == orderInput);
         if (pickedOrder != null)
         {
             //Show list of Cart Item details 
@@ -105,19 +106,21 @@ public class OrderManager
             listManager.DisplayList(userCartItems);
 
             //ask user to pick an Item id
-            Console.Write("Emter item ID:");
+            Console.Write("Enter item ID:");
             string userInput = Console.ReadLine()!.ToUpper();
 
             var selectedItem = userCartItems.Find(selected => selected.ItemID == userInput);
 
             if (selectedItem == null)
             {
-                Console.WriteLine("Item does not exist");
+                Console.WriteLine("\nItem does not exist\n");
             }
             else
             {
+                var selectedFood = foods.Find(food => food.FoodID == selectedItem.FoodID)!;
                 bool correct;
                 int quantity;
+
                 do
                 {
                     correct = true;
@@ -127,25 +130,28 @@ public class OrderManager
 
                 } while (!correct);
 
-                var selectedFood = foods.Find(food => food.FoodID == selectedItem.FoodID)!;
-                if (quantity > (selectedFood.AvailableQuantity + selectedItem.OrderQuantity))
+                int totalQuantity = selectedFood.AvailableQuantity + selectedItem.OrderQuantity;
+                if (quantity > totalQuantity)
                 {
-                    Console.WriteLine($"Sorry, you can only get quantity of upto {selectedFood.AvailableQuantity + selectedItem.OrderQuantity} for now.");
+                    Console.WriteLine($"Sorry, you can only get quantity of upto {selectedFood.AvailableQuantity + selectedItem.OrderQuantity} for now.\n");
                 }
                 else if (quantity < 1)
                 {
-                    Console.WriteLine("Please make it one or more, or proceed to 'Cancel Order' if you want to cancel.");
+                    Console.WriteLine("\nPlease make it one or more to modify, or proceed to 'Cancel Order' to cancel the order.\n");
                 }
                 else
                 {
-                    user.WalletRecharge(pickedOrder.TotalPrice);
-                    selectedItem.OrderPrice = quantity * selectedFood!.Price;
+                    decimal oldPrice = pickedOrder.TotalPrice;
+                    selectedFood.AvailableQuantity = totalQuantity - quantity;
+                    selectedItem.OrderPrice = quantity * selectedFood.Price;
                     selectedItem.OrderQuantity = quantity;
-                    pickedOrder!.TotalPrice = cartItems.Where(x => x.OrderID == pickedOrder.OrderID).Sum(x => x.OrderPrice);
-                    user.DeductAmount(pickedOrder.TotalPrice);
+                    pickedOrder!.TotalPrice = userCartItems.Sum(x => x.OrderPrice);
+
+                    if (pickedOrder.TotalPrice > oldPrice) user.DeductAmount(pickedOrder.TotalPrice - oldPrice);
+                    else user.WalletRecharge(oldPrice - pickedOrder.TotalPrice);
                 }
 
-                Console.WriteLine("Order Modified successfully");
+                Console.WriteLine("\nOrder Modified successfully\n");
 
             }
         }
@@ -168,39 +174,42 @@ public class OrderManager
     public void CancelOrder(UserDetails user)
     {
         var userOrders = orders.Where(x => x.UserID == user.UserID && x.OrderStatus == OrderStatus.Ordered).ToList();
-
-        listManager.DisplayList(userOrders);
-
-        // Console.WriteLine($"{"\nOrderID",-10}{"OrderDate",-10}{"TotalPrice",-10}\n{new String('-', 35)}");
-        // userOrders.ForEach(item => Console.WriteLine($"{item.OrderID,-10}{item.OrderDate.ToShortDateString(),-15}{item.TotalPrice,-10}\n"));
-
-        Console.Write("Emter Order ID:");
-        string userInput = Console.ReadLine()!.ToUpper();
-
-        var selectedOrder = orders.Find(selected => selected.OrderID == userInput);
-
-        if (selectedOrder == null)
-        {
-            Console.WriteLine("Invalid OrderID");
-        }
+        if (!userOrders.Any())
+            Console.WriteLine("\nNo order found!\n");
         else
         {
-            user.WalletRecharge(selectedOrder.TotalPrice);
-            var filteredCart = cartItems.Where(x => x.OrderID == selectedOrder.OrderID).ToList();
+            listManager.DisplayList(userOrders);
 
-            ReturnItemsToFoodList(filteredCart);
+            Console.Write("\nEnter Order ID:");
+            string userInput = Console.ReadLine()!.ToUpper();
 
-            selectedOrder.OrderStatus = OrderStatus.Cancelled;
+            var selectedOrder = userOrders.Find(selected => selected.OrderID == userInput);
 
-            Console.WriteLine("Order cancelled successfully");
+            if (selectedOrder == null)
+            {
+                Console.WriteLine("\nInvalid OrderID\n");
+            }
+            else
+            {
+                user.WalletRecharge(selectedOrder.TotalPrice);
+                var filteredCart = cartItems.Where(x => x.OrderID == selectedOrder.OrderID).ToList();
 
+                ReturnItemsToFoodList(filteredCart);
+
+                selectedOrder.OrderStatus = OrderStatus.Cancelled;
+
+                Console.WriteLine("\nOrder cancelled successfully\n");
+
+            }
         }
     }
 
     public void OrderHistory(UserDetails user)
     {
-        listManager.DisplayList(orders);
-        listManager.DisplayList(orders.Where(order => order.UserID == user.UserID).ToList());
+        if (orders.Any(order => order.UserID == user.UserID))
+            listManager.DisplayList(orders.Where(order => order.UserID == user.UserID).ToList());
+        else
+            Console.WriteLine("\nNo order history found!\n");
     }
 
     public void RechargeWallet(UserDetails user)
@@ -209,17 +218,46 @@ public class OrderManager
         bool correct;
         do
         {
-            Console.WriteLine("Enter amount: ");
+            Console.WriteLine("\nEnter Recharge Amount: ");
             correct = decimal.TryParse(Console.ReadLine(), out amount);
-        } while (!correct);
+            if (!correct || amount < 1)
+            {
+                Console.WriteLine("\nEnter a valid amount to recharge wallet (amount should be more than 0)!");
+            }
+        } while (!correct || amount < 1);
 
         user.WalletRecharge(amount);
+        Console.WriteLine($"\nSuccessfully recharged {amount}/= New balance is {user.WalletBalance}/= \n");
 
+    }
+
+    public void ProceedWithPurchase(UserDetails user, List<CartItem> wishlist, OrderDetails order)
+    {
+        string userChoice;
+        do
+        {
+            listManager.DisplayList(wishlist);
+            Console.Write("\nProceed with purchase of the wish list? 'Yes/No' : ");
+            userChoice = Console.ReadLine()!.ToUpper();
+            if (userChoice == "NO")
+            {
+                ReturnItemsToFoodList(wishlist);
+            }
+            else if (userChoice == "YES")
+            {
+                //update the main Cart | update user balance 
+                AddToCart(user, wishlist, order);
+            }
+            else
+            {
+                Console.Write("\nInvalid choice! Type 'Yes' or 'No' : ");
+            }
+        } while (userChoice != "YES" && userChoice != "NO");
     }
 
     public void AddToCart(UserDetails user, List<CartItem> wishlist, OrderDetails order)
     {
-        decimal totalPrice = wishlist.Sum(x => x.OrderPrice * x.OrderQuantity);
+        decimal totalPrice = wishlist.Sum(x => x.OrderPrice);
 
         if (user.WalletBalance >= totalPrice)
         {
@@ -228,7 +266,7 @@ public class OrderManager
             order.OrderStatus = OrderStatus.Ordered;
             order.TotalPrice = totalPrice;
             orders.Add(order);
-            Console.WriteLine($"Order placed successfully, and OrderID is {orders.Select(x => x.OrderID).Last()}");
+            Console.WriteLine($"\nOrder placed successfully, and OrderID is {orders.Select(x => x.OrderID).Last()}\n");
         }
         else
         {
@@ -239,47 +277,25 @@ public class OrderManager
     public void RechargeWalletToPurchase(UserDetails user, List<CartItem> localCartItems, OrderDetails order)
     {
         string userInput;
+        Console.WriteLine("\nInsufficient balance to purchase! Are you willing to recharge? 'Yes/No' : ");
+
         do
         {
-            Console.WriteLine("Insufficient balance to purchase! Are you willing to recharge? 'Yes/No' : ");
             userInput = Console.ReadLine()!.ToUpper();
             if (userInput == "NO")
             {
-                Console.WriteLine("exiting without order due to insufficient balance");
+                Console.WriteLine("\nexiting without order due to insufficient balance!");
                 ReturnItemsToFoodList(localCartItems);
             }
             else if (userInput == "YES")
             {
-                Console.Write("Enter recharge amount:");
-                int.TryParse(Console.ReadLine()!, out int rechargeAmount);
-                user.WalletRecharge(rechargeAmount);
+                Console.WriteLine($"Deficit : {order.TotalPrice - user.WalletBalance}");
+                RechargeWallet(user);
                 AddToCart(user, localCartItems, order);
             }
-        } while (userInput != "YES" && userInput != "NO");
-    }
-
-    public void ProceedWithPurchase(UserDetails user, List<CartItem> wishlist, OrderDetails order)
-    {
-        string userChoice;
-        do
-        {
-            Console.Write("Proceed with purchase of the wish list? 'Yes/No' : ");
-            userChoice = Console.ReadLine()!.ToUpper();
-            if (userChoice == "NO")
-            {
-                ReturnItemsToFoodList(wishlist);
-            }
-            else if (userChoice == "YES")
-            {
-                //update the main Cart | update user balance 
-                AddToCart(user, wishlist, order);
-
-            }
             else
-            {
-                Console.Write("\nInvalid choice! Type 'Yes' or 'No' : ");
-            }
-        } while (userChoice != "YES" && userChoice != "NO");
+                Console.WriteLine("Invalid choice, Please Input 'Yes/No' : ");
+        } while (userInput != "YES" && userInput != "NO");
     }
 
 }

@@ -15,11 +15,15 @@ public class ListManager
     }
 
 
-    public List<OrderDetails> orderDetails = new List<OrderDetails>()
+    public List<OrderDetails> ordersList()
     {
+        List<OrderDetails> orderDetails = new(){
         new OrderDetails{UserID = "SF1001", OrderDate = Convert.ToDateTime("15/06/2022"), TotalPrice = 70, OrderStatus = OrderStatus.Ordered},
-        new OrderDetails{UserID = "SF1002", OrderDate = Convert.ToDateTime("15/06/2022"), TotalPrice = 100, OrderStatus = OrderStatus.Ordered},
-    };
+        new OrderDetails{UserID = "SF1002", OrderDate = Convert.ToDateTime("15/06/2022"), TotalPrice = 100, OrderStatus = OrderStatus.Ordered}
+        };
+
+        return orderDetails;
+    }
 
     public List<CartItem> cartItemsList()
     {

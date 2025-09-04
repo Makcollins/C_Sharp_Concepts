@@ -45,7 +45,7 @@ public class PurchaseManager
         if (count <= selectedMedicine.AvailableCount && selectedMedicine.DateOfExpiry > DateTime.Now)
         {
             decimal totalPrice = count * selectedMedicine.Price;
-            if (user.WalletBalance > totalPrice)
+            if (user.WalletBalance >= totalPrice)
             {
                 selectedMedicine.AvailableCount -= count;
                 user.DeductBalance(totalPrice);
@@ -53,6 +53,10 @@ public class PurchaseManager
 
                 Console.WriteLine("Medicine was purchased successfully\n");
                 listManager.OrdersList();
+            }
+            else
+            {
+                Console.WriteLine("Insuffient balance!\n");
             }
         }
         else if (count > 0 || selectedMedicine.DateOfExpiry < DateTime.Now)
@@ -66,84 +70,106 @@ public class PurchaseManager
     {
         var purchasedOrders = ordersList.FindAll(x => x.UserID == user.UserID && x.OrderStatus == OrderStatus.Purchased);
 
-        listManager.DisplayList(purchasedOrders);
-
-        Console.Write("\nEnter OrderID : ");
-        string userInput = Console.ReadLine()!.ToUpper().Trim();
-
-        var selectedOrder = purchasedOrders.Find(order => order.OrderID == userInput);
-
-        if (selectedOrder != null)
+        if (purchasedOrders.Any())
         {
-            var selectedMedicine = medicines.Find(m => m.MedicineID == selectedOrder.MedicineID)!;
+            listManager.DisplayList(purchasedOrders);
 
-            int newQuantity;
+            Console.Write("\nEnter OrderID : ");
+            string userInput = Console.ReadLine()!.ToUpper().Trim();
 
-            bool correct;
+            var selectedOrder = purchasedOrders.Find(order => order.OrderID == userInput);
 
-            int totalCount = selectedMedicine.AvailableCount + selectedOrder.MedicineCount;
-
-            do
+            if (selectedOrder != null)
             {
-                Console.Write("Enter new quantity: ");
+                var selectedMedicine = medicines.Find(m => m.MedicineID == selectedOrder.MedicineID)!;
 
-                correct = int.TryParse(Console.ReadLine(), out newQuantity);
+                int newQuantity;
 
-                if (!correct) { Console.WriteLine("Incorrect format, please input a number\n"); }
-                else if (newQuantity > totalCount)
-            {
-                Console.WriteLine($"Sorry, We only have {totalCount} in store!\n");
-            }
+                bool correct;
 
-            } while (!correct || newQuantity > totalCount);
-            if (newQuantity == 0)
-            {
-                user.WalletRecharge(selectedOrder.TotalPrice);
-                selectedOrder.OrderStatus = OrderStatus.Cancelled;
-                Console.WriteLine($"Order {selectedOrder.OrderID} was cancelled!\n");
-            }
-            else if (newQuantity < 0)
-            {
-                Console.WriteLine("Invalid Entry!\n");
+                int totalCount = selectedMedicine.AvailableCount + selectedOrder.MedicineCount;
+
+                do
+                {
+                    Console.Write("Enter new quantity: ");
+
+                    correct = int.TryParse(Console.ReadLine(), out newQuantity);
+
+                    if (!correct) { Console.WriteLine("Incorrect format, please input a number\n"); }
+                    else if (newQuantity > totalCount)
+                    {
+                        Console.WriteLine($"Sorry, We only have {totalCount} in store!\n");
+                    }
+
+                } while (!correct || newQuantity > totalCount);
+
+                if (newQuantity == 0)
+                {
+                    user.WalletRecharge(selectedOrder.TotalPrice);
+                    selectedOrder.OrderStatus = OrderStatus.Cancelled;
+                    Console.WriteLine($"Order {selectedOrder.OrderID} was cancelled!\n");
+                }
+                else if (newQuantity < 0)
+                {
+                    Console.WriteLine("Invalid Entry!\n");
+                }
+                else
+                {
+                    decimal oldPrice = selectedOrder.TotalPrice;
+                    int difference = totalCount - newQuantity;
+                    selectedMedicine.AvailableCount += difference;
+                    selectedOrder.MedicineCount = newQuantity;
+                    selectedOrder.TotalPrice = selectedMedicine.Price * newQuantity;
+
+                    if (selectedOrder.TotalPrice > oldPrice) user.DeductBalance(selectedOrder.TotalPrice - oldPrice);
+                    else user.WalletRecharge(oldPrice - selectedOrder.TotalPrice);
+
+                    Console.WriteLine("Order Modified Successfully!\n");
+                }
+
             }
             else
             {
-                user.WalletRecharge(selectedOrder.TotalPrice);
-                selectedOrder.MedicineCount = newQuantity;
-                selectedMedicine.AvailableCount -= newQuantity;
-                selectedOrder.TotalPrice = selectedMedicine.Price * newQuantity;
-                user.DeductBalance(selectedOrder.TotalPrice);
-
-                Console.WriteLine("Order Modified Successfully!");
+                Console.WriteLine("Invalid OrderID\n");
             }
-
         }
         else
-        {
-            Console.WriteLine("Invalid OrderID\nc");
-        }
+            Console.WriteLine("No orders found\n");
+    }
+
+    public void rechargeAfterModify(UserDetails user, decimal oldPrice, decimal newPrice)
+    {
+        if (newPrice > oldPrice) user.DeductBalance(newPrice - oldPrice);
+        else user.WalletRecharge(oldPrice - newPrice);
     }
 
     public void CancelPurchase(UserDetails user, List<MedicineDetails> medicines)
     {
         var purchasedOrders = ordersList.FindAll(x => x.UserID == user.UserID && x.OrderStatus == OrderStatus.Purchased);
-
-        listManager.DisplayList(purchasedOrders);
-
-        Console.Write("\nEnter OrderID : ");
-        string userInput = Console.ReadLine()!.ToUpper().Trim();
-
-        var selectedOrder = purchasedOrders.Find(order => order.OrderID == userInput);
-
-        if (selectedOrder != null)
+        if (!purchasedOrders.Any())
         {
-            var selectedMedicine = medicines.Find(m => m.MedicineID == selectedOrder.MedicineID)!;
+            Console.WriteLine("No orders found...\n");
+        }
 
-            selectedMedicine.AvailableCount += selectedOrder.MedicineCount;
-            user.WalletRecharge(selectedOrder.TotalPrice);
-            selectedOrder.OrderStatus = OrderStatus.Cancelled;
+        else
+        {
+            listManager.DisplayList(purchasedOrders);
 
-            Console.WriteLine($"Order {selectedOrder.OrderID} was cancelled Successfully!");
+            Console.Write("\nEnter OrderID : ");
+            string userInput = Console.ReadLine()!.ToUpper().Trim();
+
+            var selectedOrder = purchasedOrders.Find(order => order.OrderID == userInput);
+
+            if (selectedOrder != null)
+            {
+                var selectedMedicine = medicines.Find(m => m.MedicineID == selectedOrder.MedicineID)!;
+
+                selectedMedicine.AvailableCount += selectedOrder.MedicineCount;
+                user.WalletRecharge(selectedOrder.TotalPrice);
+                selectedOrder.OrderStatus = OrderStatus.Cancelled;
+
+                Console.WriteLine($"Order {selectedOrder.OrderID} was cancelled Successfully!\n");
+            }
         }
     }
 
@@ -156,7 +182,7 @@ public class PurchaseManager
             Console.Write("Enter Balance:");
             correct = decimal.TryParse(Console.ReadLine(), out rechargeAmount);
             if (!correct)
-                Console.WriteLine("Invalid Entry!");
+                Console.WriteLine("Invalid Entry!\n");
         } while (!correct);
         user.WalletRecharge(rechargeAmount);
     }

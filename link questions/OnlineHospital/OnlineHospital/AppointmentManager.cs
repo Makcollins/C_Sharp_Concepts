@@ -63,7 +63,7 @@ public class AppointmentManager
 
         if (!doctorAvailable && enteredDate >= DateTime.Now)
         {
-            var eligible = selectedDoctor.Fees < patient.WalletBalance ? true : false;
+            var eligible = selectedDoctor.Fees <= patient.WalletBalance ? true : false;
             if (eligible)
             {
                 patient.DeductBalance(selectedDoctor.Fees);
@@ -88,7 +88,10 @@ public class AppointmentManager
 
     public void AppoitmentHistory(PatientDetails patient)
     {
-        listManager.DisplayList(appointments.FindAll(history => history.PatientID == patient.PatientID));
+        if (appointments.Any(history => history.PatientID == patient.PatientID))
+            listManager.DisplayList(appointments.FindAll(history => history.PatientID == patient.PatientID));
+        else
+            Console.WriteLine("There is no appointments");
     }
 
     public void CancelAppointments(PatientDetails patient)
@@ -129,7 +132,7 @@ public class AppointmentManager
         else
         {
             patient.Recharge(amount);
-            System.Console.WriteLine($"Successfully recharged {amount}, Balance is : {patient.WalletBalance}");
+            Console.WriteLine($"Successfully recharged {amount}, Balance is : {patient.WalletBalance}");
         }
     }
 

@@ -34,10 +34,10 @@ public class ListManager
     {
         new OrderDetails("UID1001", "MD101", 3, 15, Convert.ToDateTime("13/11/2022"), OrderStatus.Purchased ),
         new OrderDetails("UID1001", "MD102", 3, 10, Convert.ToDateTime("13/11/2022"), OrderStatus.Cancelled ),
-        new OrderDetails("UID1001", "MD104", 3, 100, Convert.ToDateTime("13/11/2022"), OrderStatus.Purchased ),
+        new OrderDetails("UID1001", "MD104", 2, 100, Convert.ToDateTime("13/11/2022"), OrderStatus.Purchased ),
         new OrderDetails("UID1002", "MD103", 3, 120, Convert.ToDateTime("15/11/2022"), OrderStatus.Cancelled ),
-        new OrderDetails("UID1002", "MD102", 3, 15, Convert.ToDateTime("15/11/2022"), OrderStatus.Purchased),
-        new OrderDetails("UID1002", "MD105", 3, 150, Convert.ToDateTime("15/11/2022"), OrderStatus.Purchased )
+        new OrderDetails("UID1002", "MD102", 5, 250, Convert.ToDateTime("15/11/2022"), OrderStatus.Purchased),
+        new OrderDetails("UID1002", "MD105", 3, 15, Convert.ToDateTime("15/11/2022"), OrderStatus.Purchased )
     };
         return orders;
     }

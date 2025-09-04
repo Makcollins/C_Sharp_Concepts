@@ -40,7 +40,8 @@ public class AuthenticationManager
         } while (!correct);
 
         //validate mail
-        Regex mailFormat = new Regex("^[a-zA-Z0-9._%+-]+@[a\\a-zA-Z._]+\\.[a-z]{2,}\\.?[a-z]*$");
+        Regex mailFormat = new Regex("^[a-zA-Z0-9._%+-]+@[a\\a-zA-Z._]+\\.[a-z]{2,}(\\.?[a-z]*$)");
+        // Regex mailFormat = new Regex(@"^[a-zA-Z]+[a-zA-Z0-9._-]@^[a-zA-Z{3,}]+\.[a-zA-Z]{2,}\.?[a-zA-Z]*$");
         do
         {
             correct = true;
