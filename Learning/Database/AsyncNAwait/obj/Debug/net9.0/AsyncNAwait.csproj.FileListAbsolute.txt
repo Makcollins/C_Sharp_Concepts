@@ -1,0 +1,15 @@
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\Learning\Database\AsyncNAwait\obj\Debug\net9.0\AsyncNAwait.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\Learning\Database\AsyncNAwait\obj\Debug\net9.0\AsyncNAwait.AssemblyInfoInputs.cache
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\Learning\Database\AsyncNAwait\obj\Debug\net9.0\AsyncNAwait.AssemblyInfo.cs
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\Learning\Database\AsyncNAwait\obj\Debug\net9.0\AsyncNAwait.csproj.CoreCompileInputs.cache
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\Learning\Database\AsyncNAwait\obj\Debug\net9.0\AsyncNAwait.sourcelink.json
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\Learning\Database\AsyncNAwait\bin\Debug\net9.0\AsyncNAwait.exe
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\Learning\Database\AsyncNAwait\bin\Debug\net9.0\AsyncNAwait.deps.json
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\Learning\Database\AsyncNAwait\bin\Debug\net9.0\AsyncNAwait.runtimeconfig.json
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\Learning\Database\AsyncNAwait\bin\Debug\net9.0\AsyncNAwait.dll
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\Learning\Database\AsyncNAwait\bin\Debug\net9.0\AsyncNAwait.pdb
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\Learning\Database\AsyncNAwait\obj\Debug\net9.0\AsyncNAwait.dll
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\Learning\Database\AsyncNAwait\obj\Debug\net9.0\refint\AsyncNAwait.dll
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\Learning\Database\AsyncNAwait\obj\Debug\net9.0\AsyncNAwait.pdb
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\Learning\Database\AsyncNAwait\obj\Debug\net9.0\AsyncNAwait.genruntimeconfig.cache
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\Learning\Database\AsyncNAwait\obj\Debug\net9.0\ref\AsyncNAwait.dll
