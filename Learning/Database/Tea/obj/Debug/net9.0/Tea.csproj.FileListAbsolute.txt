@@ -1,0 +1,15 @@
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\Learning\Database\Tea\bin\Debug\net9.0\Tea.exe
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\Learning\Database\Tea\bin\Debug\net9.0\Tea.deps.json
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\Learning\Database\Tea\bin\Debug\net9.0\Tea.runtimeconfig.json
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\Learning\Database\Tea\bin\Debug\net9.0\Tea.dll
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\Learning\Database\Tea\bin\Debug\net9.0\Tea.pdb
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\Learning\Database\Tea\obj\Debug\net9.0\Tea.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\Learning\Database\Tea\obj\Debug\net9.0\Tea.AssemblyInfoInputs.cache
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\Learning\Database\Tea\obj\Debug\net9.0\Tea.AssemblyInfo.cs
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\Learning\Database\Tea\obj\Debug\net9.0\Tea.csproj.CoreCompileInputs.cache
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\Learning\Database\Tea\obj\Debug\net9.0\Tea.sourcelink.json
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\Learning\Database\Tea\obj\Debug\net9.0\Tea.dll
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\Learning\Database\Tea\obj\Debug\net9.0\refint\Tea.dll
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\Learning\Database\Tea\obj\Debug\net9.0\Tea.pdb
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\Learning\Database\Tea\obj\Debug\net9.0\Tea.genruntimeconfig.cache
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\Learning\Database\Tea\obj\Debug\net9.0\ref\Tea.dll

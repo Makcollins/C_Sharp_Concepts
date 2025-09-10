@@ -11,33 +11,33 @@ namespace CrudPostgres
         // private NpgsqlConnection connection;
 
         //CONNECTION_STRING
-        private const string CONNECTION_STRING = @"Server=localhost;Port=5432;User Id=postgres;Password=Mak.2017;DataBase=school;";
+        private const string CONNECTION_STRING = @"Server=localhost;Port=5432;User Id=postgres;Password=Mak.2017;DataBase=game;";
         private const string TABLE_NAME = "games";
         static async Task Main(string[] args)
         {
-            TestConnection();
-            BoardGame boardGame = new() { Id = 101, Name = "'checkers'", MinPlayers = 2, MaxPlayers = 4, AverageDuration = 2 };
-            // CreateTable();
+            await TestConnection();
+            // BoardGame boardGame = new() {Name = "'checkers'", MinPlayers = 2, MaxPlayers = 4, AverageDuration = 2 };
+            CreateTable();
             // await InsertRecord(boardGame);
-            await InsertRecord(new BoardGame() { Id = 103, Name = "'Azul'", MinPlayers = 2, MaxPlayers = 4, AverageDuration = 4 });
-            // await Add(new BoardGame() { Id = 102, Name = "'Chess'", MinPlayers = 2, MaxPlayers = 6, AverageDuration = 1 });
+            // await InsertRecord(new BoardGame() {Name = "'Azul'", MinPlayers = 2, MaxPlayers = 4, AverageDuration = 4 });
+            // await Add(new BoardGame() { Name = "Chess", MinPlayers = 2, MaxPlayers = 6, AverageDuration = 1 });
+            await ReadData();
+            // await UpdateRecords();
+            await DeleteRecord("'BG103'");
+            await ReadData();
         }
 
         //Create a new table
-        public static void CreateTable()
+        public static async Task CreateTable()
         {
             using (NpgsqlConnection con = GetConnection())
             {
-                string query = @"CREATE TABLE games( id INTEGER primary key, Name VARCHAR NOT NULL, MinPlayers SMALLINT NOT NULL, MaxPlayers SMALLINT, AverageDuration SMALLINT );";
+                string query = @"CREATE TABLE IF NOT EXISTS games( id VARCHAR primary key, Name VARCHAR NOT NULL, MinPlayers SMALLINT NOT NULL, MaxPlayers SMALLINT, AverageDuration SMALLINT );";
                 NpgsqlCommand cmd = new NpgsqlCommand(query, con);
                 con.Open();
-                int n = cmd.ExecuteNonQuery();
-                if (n == 1)
-                {
-                    Console.WriteLine("Table created");
-                }
-
+                await cmd.ExecuteNonQueryAsync();
             }
+             Console.WriteLine("Table created");
         }
 
         //Insert new records to a table
@@ -45,7 +45,7 @@ namespace CrudPostgres
         {
             await using (NpgsqlConnection con = GetConnection())
             {
-                string query = $"INSERT INTO games(id, name, minplayers, maxplayers, averageDuration) VALUES ({game.Id}, {game.Name}, {game.MinPlayers}, {game.MaxPlayers}, {game.AverageDuration})";
+                string query = $"INSERT INTO games(id, name, minplayers, maxplayers, averageDuration) VALUES ('{game.Id}', {game.Name}, {game.MinPlayers}, {game.MaxPlayers}, {game.AverageDuration})";
                 NpgsqlCommand cmd = new NpgsqlCommand(query, con);
                 con.Open();
                 await cmd.ExecuteNonQueryAsync();
@@ -71,10 +71,55 @@ namespace CrudPostgres
             }
             Console.WriteLine("Inserted succefully");
         }
-        //Test connection
-        private static void TestConnection()
+
+        //Read data
+        private static async Task ReadData()
         {
-            using (NpgsqlConnection con = GetConnection())
+            string query = "SELECT * FROM games";
+
+            await using (NpgsqlConnection con = GetConnection())
+            {
+                var cmd = new NpgsqlCommand(query, con);
+                con.Open();
+                NpgsqlDataReader reader = cmd.ExecuteReader();
+                Console.WriteLine($"{new String('*', 65)}\n{"id",-5} | {"name",-10} | {"minplayers",-11} | {"maxplayers",-11} | {"averageDuration",-15}\n{new String('*', 65)}");
+                while (reader.Read())
+                {
+                    Console.WriteLine($"{reader["id"],-5} | {reader["name"],-10} | {reader["minplayers"],-11} | {reader["maxplayers"],-11} | {reader["averageDuration"],-15}");
+                }
+                Console.WriteLine(new String('*',65));
+            }
+        }
+        //UPDATING RECORDS
+        private static async Task UpdateRecords()
+        {
+            string query = $"UPDATE games SET averageduration = CASE name WHEN 'checkers' THEN 5 WHEN 'Azul' THEN 3 WHEN 'Chess' THEN 4 END";
+            await using (NpgsqlConnection con = GetConnection())
+            {
+                var cmd = new NpgsqlCommand(query, con);
+                con.Open();
+                await cmd.ExecuteNonQueryAsync();
+            }
+            Console.WriteLine("Updated successfully");
+        }
+
+        //DELETE RECORDS
+        private static async Task DeleteRecord(string gameId)
+        {
+            string query = $"DELETE FROM games WHERE id = {gameId}";
+            await using (NpgsqlConnection con = GetConnection())
+            {
+                var cmd = new NpgsqlCommand(query, con);
+                con.Open();
+                await cmd.ExecuteNonQueryAsync();
+            }
+            Console.WriteLine("Record deleted successfully!");
+        }
+
+        //Test connection
+        private static async Task TestConnection()
+        {
+            await using (NpgsqlConnection con = GetConnection())
             {
                 con.Open();
                 if (con.State == ConnectionState.Open)
