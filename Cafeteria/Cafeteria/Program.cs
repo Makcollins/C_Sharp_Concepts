@@ -12,11 +12,17 @@ namespace Cafeteria
         {
             AuthenticationManager authentication = new();
 
+            string folderPath = "CSVfiles2";
+            if (!Directory.Exists(folderPath))
+            {
+                Directory.CreateDirectory(folderPath);
+            }
+
             // await ListManager.AppendUsersToCSV();
-            await ListManager.AppendOrdersToCSV();
-            await ListManager.AppendCartToCSV();
-            await ListManager.AppendFoodToCSV();
-  
+            // await ListManager.AppendOrdersToCSV();
+            // await ListManager.AppendCartToCSV();
+            // await ListManager.AppendFoodToCSV();
+
             Console.WriteLine("\n{0}\nCAFETERIA CARD MANAGEMENT\n{0}\n", new String('*', 60));
             do
             {
@@ -31,7 +37,7 @@ namespace Cafeteria
                        await authentication.Registration();
                         break;
                     case 2:
-                        authentication.UserLogin();
+                        await authentication.UserLogin();
                         break;
                     case 3:
                         return;

@@ -8,19 +8,29 @@ namespace Cafeteria;
 public class AuthenticationManager
 {
     OrderManager orderManager = new();
-    public static List<UserDetails> users = ListManager.ReadUsersFromCSV();
+    public static List<UserDetails> users = DataManager.ReadUsersFromCSV();
+
+    public static int idCounter()
+    {
+        if (users.LastOrDefault() != null)
+            return int.Parse(users.Last().UserID.Substring(2, 4));
+        else
+            return 1000;
+    }
+    public static int userIDCounter = idCounter();
     
     public async Task Registration()
     {
-        users.ForEach(x=>Console.WriteLine($"{x.UserID} {x.Name}"));
+        UserDetails newUser = new UserDetails();
+
         bool correct = true;
         //input name
         Console.WriteLine("Enter user name: ");
-        string userName = Console.ReadLine()!;
+        newUser.Name = Console.ReadLine()!;
 
         //input father name
         Console.WriteLine("Enter Father name: ");
-        string fatherName = Console.ReadLine()!;
+        newUser.FatherName = Console.ReadLine()!;
 
         string mobile;
         string mail;
@@ -43,7 +53,6 @@ public class AuthenticationManager
 
         //validate mail
         Regex mailFormat = new Regex("^[a-zA-Z0-9._%+-]+@[a\\a-zA-Z._]+\\.[a-z]{2,}(\\.?[a-z]*$)");
-        // Regex mailFormat = new Regex(@"^[a-zA-Z]+[a-zA-Z0-9._-]@^[a-zA-Z{3,}]+\.[a-zA-Z]{2,}\.?[a-zA-Z]*$");
         do
         {
             correct = true;
@@ -99,22 +108,24 @@ public class AuthenticationManager
             }
         } while (!correct || IBalance < 1);
 
-        //add new user object to list
-        var registeredUser = new UserDetails { Name = userName, FatherName = fatherName, Mobile = mobile, MailID = mail, Gender = gender, WorkStationNumber = WorkStationNumber, balance = IBalance };
-        users.Add(registeredUser);
-        await ListManager.AppendNewToCSV(registeredUser);
+        newUser.Mobile = mobile;
+        newUser.MailID = mail;
+        newUser.Gender = gender;
+        newUser.WorkStationNumber = WorkStationNumber;
+        newUser.WalletRecharge(IBalance);
+        users.Add(newUser);
+        await DataManager.AppendNewToCSV(newUser);
         Console.WriteLine("User registered successfullly, UserID is {0}", users.Last().UserID);
-
     }
 
     //Login Method
-    public void UserLogin()
+    public async Task UserLogin()
     {
         Console.WriteLine("Welcome to Login page!\n\nEnter user ID to proceed.");
 
         Console.Write("User ID: ");
 
-        string userInput = Console.ReadLine()!.ToUpper();
+        string userInput = Console.ReadLine()!.Trim().ToUpper();
 
         var loggedUser = users.Find(loggedIn => loggedIn.UserID == userInput);
 
@@ -125,12 +136,12 @@ public class AuthenticationManager
         else
         {
             Console.WriteLine($"Welcome {loggedUser.Name}! Please choose an option to continue.");
-            LoginMenu(loggedUser);
+            await LoginMenu(loggedUser);
         }
     }
 
     //Login Menu
-    public void LoginMenu(UserDetails user)
+    public async Task LoginMenu(UserDetails user)
     {
 
         do
@@ -142,19 +153,19 @@ public class AuthenticationManager
                     ShowProfile(user);
                     break;
                 case "b":
-                    orderManager.FoodOrder(user);
+                    await orderManager.FoodOrder(user);
                     break;
                 case "c":
-                    orderManager.ModifyOrder(user);
+                    await orderManager.ModifyOrder(user);
                     break;
                 case "d":
-                    orderManager.CancelOrder(user);
+                    await orderManager.CancelOrder(user);
                     break;
                 case "e":
                     orderManager.OrderHistory(user);
                     break;
                 case "f":
-                    orderManager.RechargeWallet(user);
+                    await orderManager.RechargeWallet(user);
                     break;
                 case "g":
                     Console.WriteLine($"Wallet Balance: {user.WalletBalance}");
@@ -170,8 +181,8 @@ public class AuthenticationManager
     }
 
     //display user profile
-    public void ShowProfile(UserDetails users)
+    public void ShowProfile(UserDetails user)
     {
-        Console.WriteLine($"Name: {users.Name} {users.FatherName}\nMobile number: {users.Mobile}\nMailID: {users.MailID}\nGender: {users.Gender}\nWorkStationNumber: {users.WorkStationNumber}\nBalance: {users.WalletBalance}");
+        Console.WriteLine($"Name: {user.Name} {user.FatherName}\nMobile number: {user.Mobile}\nMailID: {user.MailID}\nGender: {user.Gender}\nWorkStationNumber: {user.WorkStationNumber}\nBalance: {user.WalletBalance}");
     }
 }

@@ -1,17 +1,19 @@
 using System;
+using System.ComponentModel;
+using System.Threading.Tasks;
 using System.Transactions;
 
 namespace Cafeteria;
 
 public class OrderManager
 {
-    static ListManager listManager = new ListManager();
-    static List<OrderDetails> orders = ListManager.OrdersList();
-    static List<CartItem> cartItems = ListManager.CartItemsList();
-    static List<FoodDetails> foods = ListManager.FoodsList();
+    static DataManager dataManager = new DataManager();
+    static List<UserDetails> users = AuthenticationManager.users;
+    static List<OrderDetails> orders = DataManager.ReadOrdersFromCSV();
+    static List<CartItem> cartItems = DataManager.ReadCartFromCSV();
+    static List<FoodDetails> foods = DataManager.ReadFoodFromCSV();
 
-    public void FoodOrder(UserDetails user)
-
+    public async Task FoodOrder(UserDetails user)
     {
         //create a temporary local carItemtList.
         List<CartItem> wishlist = new();
@@ -26,12 +28,12 @@ public class OrderManager
         do
         {
             //show food items when user wants to order
-            listManager.DisplayList(foods);
+            dataManager.DisplayList(foods);
 
             //Ask the user to pick a product using FoodID, quantity required and calculate price of food.
             Console.WriteLine("Please pick a product by entering FoddID and Quantity: ");
             Console.Write("FoodID: ");
-            string foodID = Console.ReadLine()!.ToUpper();
+            string foodID = Console.ReadLine()!.Trim().ToUpper();
 
             int quantity;
             do
@@ -69,7 +71,7 @@ public class OrderManager
                     Console.Write("\nDo you want to pick another product? \"Yes/No\" : ");
                     do
                     {
-                        userChoice = Console.ReadLine()!.ToUpper();
+                        userChoice = Console.ReadLine()!.Trim().ToUpper();
                         if (userChoice != "YES" && userChoice != "NO")
                             Console.Write("\nInvalid choice! Type 'Yes' or 'No': ");
 
@@ -84,30 +86,30 @@ public class OrderManager
         } while (userChoice == "YES");
 
         //proceed with purchase if food ID is valid and other conditions are met.
-        if (wishlist.Any(list => list.FoodID != null)) ProceedWithPurchase(user, wishlist, foodOrder);
+        if (wishlist.Any(list => list.FoodID != null)) await ProceedWithPurchase(user, wishlist, foodOrder);
 
-        // listManager.DisplayList(cartItems);
+        // DataManager.DisplayList(cartItems);
     }
 
-    public void ModifyOrder(UserDetails user)
+    public async Task ModifyOrder(UserDetails user)
     {
         //get and show rder details of current logged in user to pick an Order detail by using OrderID and whose status is “Ordered”. 
-        var userOrders = orders.Where(x => x.UserID == user.UserID && x.OrderStatus== OrderStatus.Ordered).ToList();
-        listManager.DisplayList(userOrders);
+        var userOrders = orders.Where(x => x.UserID == user.UserID && x.OrderStatus == OrderStatus.Ordered).ToList();
+        dataManager.DisplayList(userOrders);
 
         Console.Write("\nPick an order by ID:");
-        string orderInput = Console.ReadLine()!.ToUpper();
+        string orderInput = Console.ReadLine()!.Trim().ToUpper();
 
         var pickedOrder = userOrders.Find(picked => picked.OrderID == orderInput);
         if (pickedOrder != null)
         {
             //Show list of Cart Item details 
             var userCartItems = cartItems.FindAll(x => x.OrderID == pickedOrder.OrderID).ToList();
-            listManager.DisplayList(userCartItems);
+            dataManager.DisplayList(userCartItems);
 
             //ask user to pick an Item id
             Console.Write("Enter item ID:");
-            string userInput = Console.ReadLine()!.ToUpper();
+            string userInput = Console.ReadLine()!.Trim().ToUpper();
 
             var selectedItem = userCartItems.Find(selected => selected.ItemID == userInput);
 
@@ -149,6 +151,8 @@ public class OrderManager
 
                     if (pickedOrder.TotalPrice > oldPrice) user.DeductAmount(pickedOrder.TotalPrice - oldPrice);
                     else user.WalletRecharge(oldPrice - pickedOrder.TotalPrice);
+
+                    await UpdateCSVs();
                 }
 
                 Console.WriteLine("\nOrder Modified successfully\n");
@@ -171,17 +175,17 @@ public class OrderManager
         }
     }
 
-    public void CancelOrder(UserDetails user)
+    public async Task CancelOrder(UserDetails user)
     {
         var userOrders = orders.Where(x => x.UserID == user.UserID && x.OrderStatus == OrderStatus.Ordered).ToList();
         if (!userOrders.Any())
             Console.WriteLine("\nNo order found!\n");
         else
         {
-            listManager.DisplayList(userOrders);
+            dataManager.DisplayList(userOrders);
 
             Console.Write("\nEnter Order ID:");
-            string userInput = Console.ReadLine()!.ToUpper();
+            string userInput = Console.ReadLine()!.Trim().ToUpper();
 
             var selectedOrder = userOrders.Find(selected => selected.OrderID == userInput);
 
@@ -198,8 +202,9 @@ public class OrderManager
 
                 selectedOrder.OrderStatus = OrderStatus.Cancelled;
 
-                Console.WriteLine("\nOrder cancelled successfully\n");
+                await UpdateCSVs();
 
+                Console.WriteLine("\nOrder cancelled successfully\n");
             }
         }
     }
@@ -207,12 +212,12 @@ public class OrderManager
     public void OrderHistory(UserDetails user)
     {
         if (orders.Any(order => order.UserID == user.UserID))
-            listManager.DisplayList(orders.Where(order => order.UserID == user.UserID).ToList());
+            dataManager.DisplayList(orders.Where(order => order.UserID == user.UserID).ToList());
         else
             Console.WriteLine("\nNo order history found!\n");
     }
 
-    public void RechargeWallet(UserDetails user)
+    public async Task RechargeWallet(UserDetails user)
     {
         decimal amount;
         bool correct;
@@ -227,18 +232,19 @@ public class OrderManager
         } while (!correct || amount < 1);
 
         user.WalletRecharge(amount);
+        await DataManager.WriteToCSV(users);
         Console.WriteLine($"\nSuccessfully recharged {amount}/= New balance is {user.WalletBalance}/= \n");
 
     }
 
-    public void ProceedWithPurchase(UserDetails user, List<CartItem> wishlist, OrderDetails order)
+    public async Task ProceedWithPurchase(UserDetails user, List<CartItem> wishlist, OrderDetails order)
     {
         string userChoice;
         do
         {
-            listManager.DisplayList(wishlist);
+            dataManager.DisplayList(wishlist);
             Console.Write("\nProceed with purchase of the wish list? 'Yes/No' : ");
-            userChoice = Console.ReadLine()!.ToUpper();
+            userChoice = Console.ReadLine()!.Trim().ToUpper();
             if (userChoice == "NO")
             {
                 ReturnItemsToFoodList(wishlist);
@@ -246,7 +252,7 @@ public class OrderManager
             else if (userChoice == "YES")
             {
                 //update the main Cart | update user balance 
-                AddToCart(user, wishlist, order);
+                await AddToCart(user, wishlist, order);
             }
             else
             {
@@ -255,33 +261,33 @@ public class OrderManager
         } while (userChoice != "YES" && userChoice != "NO");
     }
 
-    public void AddToCart(UserDetails user, List<CartItem> wishlist, OrderDetails order)
+    public async Task AddToCart(UserDetails user, List<CartItem> wishlist, OrderDetails order)
     {
         decimal totalPrice = wishlist.Sum(x => x.OrderPrice);
 
         if (user.WalletBalance >= totalPrice)
         {
             user.DeductAmount(totalPrice);
-            cartItems.AddRange(wishlist);
             order.OrderStatus = OrderStatus.Ordered;
             order.TotalPrice = totalPrice;
-            orders.Add(order);
-            Console.WriteLine($"\nOrder placed successfully, and OrderID is {orders.Select(x => x.OrderID).Last()}\n");
+
+            await UpdateCSVs();
+            Console.WriteLine($"\nOrder placed successfully, and OrderID is {order.OrderID}\n");
         }
         else
         {
-            RechargeWalletToPurchase(user, wishlist, order);
+            await RechargeWalletToPurchase(user, wishlist, order);
         }
     }
 
-    public void RechargeWalletToPurchase(UserDetails user, List<CartItem> localCartItems, OrderDetails order)
+    public async Task RechargeWalletToPurchase(UserDetails user, List<CartItem> localCartItems, OrderDetails order)
     {
         string userInput;
         Console.WriteLine("\nInsufficient balance to purchase! Are you willing to recharge? 'Yes/No' : ");
 
         do
         {
-            userInput = Console.ReadLine()!.ToUpper();
+            userInput = Console.ReadLine()!.Trim().ToUpper();
             if (userInput == "NO")
             {
                 Console.WriteLine("\nexiting without order due to insufficient balance!");
@@ -290,12 +296,20 @@ public class OrderManager
             else if (userInput == "YES")
             {
                 Console.WriteLine($"Deficit : {order.TotalPrice - user.WalletBalance}");
-                RechargeWallet(user);
-                AddToCart(user, localCartItems, order);
+                await RechargeWallet(user);
+                await AddToCart(user, localCartItems, order);
             }
             else
                 Console.WriteLine("Invalid choice, Please Input 'Yes/No' : ");
         } while (userInput != "YES" && userInput != "NO");
+    }
+
+    public async Task UpdateCSVs()
+    {
+        await DataManager.WriteToCSV(users);
+        await DataManager.WriteToCSV(cartItems);
+        await DataManager.WriteToCSV(orders);
+        await DataManager.WriteToCSV(foods);
     }
 
 }

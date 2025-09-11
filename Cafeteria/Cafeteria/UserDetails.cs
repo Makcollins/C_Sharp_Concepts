@@ -4,22 +4,28 @@ namespace Cafeteria;
 
 public class UserDetails : PersonalDetails, IBalance
 {
-    private static int counter = 1001;
+    private static int counter = AuthenticationManager.userIDCounter;
     public string UserID { get; set; }
     public string? WorkStationNumber { get; set; }
     public decimal balance;
     public decimal WalletBalance { get { return balance; } }
     public UserDetails()
     {
-        UserID = $"SF{counter++}";
+        counter++;
+        UserID = $"SF{counter}";
     }
 
     public void WalletRecharge(decimal amount)
     {
         balance += amount;
     }
-    public void DeductAmount(decimal amount){
+    public void DeductAmount(decimal amount)
+    {
         balance -= amount;
+    }
+    public static void Counter()
+    {
+        System.Console.WriteLine(counter);
     }
 
 }
