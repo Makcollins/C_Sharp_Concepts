@@ -9,6 +9,26 @@ public class DataManager
     static string cartCSV = "CSVfiles/cart_items.csv";
     static string foodsCSV = "CSVfiles/foods.csv";
 
+    public static void CreateDirectory()
+    {
+        string folderPath = "CSVfiles";
+        if (!Directory.Exists(folderPath))
+            Directory.CreateDirectory(folderPath);
+    }
+    
+    public static void CreateCsvFiles()
+    {
+        if (!File.Exists(usersCSV))
+            File.Create(usersCSV);
+        if (!File.Exists(ordersCSV))
+            File.Create(ordersCSV);
+        if (!File.Exists(cartCSV))
+            File.Create(cartCSV);
+        if (!File.Exists(foodsCSV))
+            File.Create(foodsCSV);
+    }
+
+
     //USERS MODEL OPERATIONS
     public static async Task AppendNewToCSV(UserDetails user)
     {

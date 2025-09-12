@@ -23,9 +23,4 @@ public class UserDetails : PersonalDetails, IBalance
     {
         balance -= amount;
     }
-    public static void Counter()
-    {
-        System.Console.WriteLine(counter);
-    }
-
 }

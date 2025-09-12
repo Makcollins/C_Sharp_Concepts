@@ -12,11 +12,8 @@ namespace Cafeteria
         {
             AuthenticationManager authentication = new();
 
-            string folderPath = "CSVfiles2";
-            if (!Directory.Exists(folderPath))
-            {
-                Directory.CreateDirectory(folderPath);
-            }
+            DataManager.CreateDirectory();
+            DataManager.CreateCsvFiles();
 
             // await ListManager.AppendUsersToCSV();
             // await ListManager.AppendOrdersToCSV();

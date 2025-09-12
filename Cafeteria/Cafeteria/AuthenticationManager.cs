@@ -13,12 +13,15 @@ public class AuthenticationManager
     public static int idCounter()
     {
         if (users.LastOrDefault() != null)
-            return int.Parse(users.Last().UserID.Substring(2, 4));
+        {
+            string id = users.Last().UserID.Substring(2, 4);
+            return int.Parse(id);
+        }
         else
             return 1000;
     }
     public static int userIDCounter = idCounter();
-    
+
     public async Task Registration()
     {
         UserDetails newUser = new UserDetails();
@@ -41,29 +44,21 @@ public class AuthenticationManager
         Regex mobileFormat = new Regex("^\\+?\\d{1,4}?[-.\\s]?\\(?\\d{1,3}?\\)?[-.\\s]?\\d{1,4}[-.\\s]?\\d{1,4}$");
         do
         {
-            correct = true;
             Console.WriteLine("Enter mobile number: ");
             mobile = Console.ReadLine()!;
             if (!mobileFormat.IsMatch(mobile))
-            {
                 Console.WriteLine("Invalid mobile number!");
-                correct = false;
-            }
-        } while (!correct);
+        } while (!mobileFormat.IsMatch(mobile));
 
         //validate mail
         Regex mailFormat = new Regex("^[a-zA-Z0-9._%+-]+@[a\\a-zA-Z._]+\\.[a-z]{2,}(\\.?[a-z]*$)");
         do
         {
-            correct = true;
             Console.WriteLine("Enter Mail ID: ");
             mail = Console.ReadLine()!;
             if (!mailFormat.IsMatch(mail))
-            {
                 Console.WriteLine("Invalid Mail ID!");
-                correct = false;
-            }
-        } while (!correct);
+        } while (!mailFormat.IsMatch(mail));
 
         //input gmail
         do
@@ -85,16 +80,14 @@ public class AuthenticationManager
         Regex workStationNumberFormat = new Regex("^WS\\d{3}$");
         do
         {
-            correct = true;
             Console.WriteLine("Enter WorkStationNumber. (Format: \"WS101\")");
             WorkStationNumber = Console.ReadLine()!.Trim().ToUpper();
             if (!workStationNumberFormat.IsMatch(WorkStationNumber))
             {
                 Console.WriteLine("Invalid format!");
-                correct = false;
+
             }
-            ;
-        } while (!correct);
+        } while (!workStationNumberFormat.IsMatch(WorkStationNumber));
 
         decimal IBalance;
         //input initial balance
@@ -143,7 +136,6 @@ public class AuthenticationManager
     //Login Menu
     public async Task LoginMenu(UserDetails user)
     {
-
         do
         {
             Console.WriteLine("a. Show My Profile\nb. Food Order\nc. Modify Order\nd. Cancel Order\ne. Order History\nf. Wallet Recharge \ng.Show WalletBalance\nh. Exit\n");

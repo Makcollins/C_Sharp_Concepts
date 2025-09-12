@@ -4,7 +4,7 @@ namespace Cafeteria;
 
 public class OrderDetails
 {
-    private static int counter = 1001;
+    private static int counter = 1000;
     public string OrderID { get; set; }
     public string? UserID { get; set; }
     public DateTime OrderDate { get; set; }
@@ -12,7 +12,8 @@ public class OrderDetails
     public OrderStatus OrderStatus { get; set; }
     public OrderDetails()
     {
-        OrderID = $"OID{counter++}";
+        counter++;
+        OrderID = $"OID{counter}";
     }
 }
 public enum OrderStatus {Default, Initiated, Ordered,Cancelled}

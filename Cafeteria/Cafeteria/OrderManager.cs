@@ -13,6 +13,8 @@ public class OrderManager
     static List<CartItem> cartItems = DataManager.ReadCartFromCSV();
     static List<FoodDetails> foods = DataManager.ReadFoodFromCSV();
 
+    // public static int orderIdCounter = OrderIdCounter();
+
     public async Task FoodOrder(UserDetails user)
     {
         //create a temporary local carItemtList.
@@ -268,11 +270,17 @@ public class OrderManager
         if (user.WalletBalance >= totalPrice)
         {
             user.DeductAmount(totalPrice);
+            await DataManager.AppendNewToCSV(wishlist);
             order.OrderStatus = OrderStatus.Ordered;
             order.TotalPrice = totalPrice;
-
-            await UpdateCSVs();
+            await DataManager.AppendNewToCSV(order);
+            await DataManager.WriteToCSV(users);
             Console.WriteLine($"\nOrder placed successfully, and OrderID is {order.OrderID}\n");
+
+            orders.Clear();
+            cartItems.Clear();
+            orders = DataManager.ReadOrdersFromCSV();
+            cartItems = DataManager.ReadCartFromCSV();  
         }
         else
         {
@@ -304,7 +312,7 @@ public class OrderManager
         } while (userInput != "YES" && userInput != "NO");
     }
 
-    public async Task UpdateCSVs()
+    public static async Task UpdateCSVs()
     {
         await DataManager.WriteToCSV(users);
         await DataManager.WriteToCSV(cartItems);
