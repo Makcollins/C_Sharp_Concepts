@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CrudPostegres")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b3f39de84fbbeaa6fc713a33f4fe1b6f89bf95ec")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+78ce8e308416f32dcee24b4cb892503e98db51b3")]
 [assembly: System.Reflection.AssemblyProductAttribute("CrudPostegres")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CrudPostegres")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -20,8 +20,10 @@ public class OrderManager
         //create a temporary local carItemtList.
         List<CartItem> wishlist = new();
 
+        int lastID = orderIDs();
+
         //Create an Order object with current UserID, Order date as current DateTime, total price as 0, Order status as “Initiated”.
-        OrderDetails foodOrder = new() { UserID = user.UserID, OrderDate = DateTime.Now, TotalPrice = 0, OrderStatus = OrderStatus.Initiated };
+        OrderDetails foodOrder = new() { OrderID = $"OID{lastID+1}",UserID = user.UserID, OrderDate = DateTime.Now, TotalPrice = 0, OrderStatus = OrderStatus.Initiated };
 
         string userChoice = "NO";
 
@@ -275,12 +277,10 @@ public class OrderManager
             order.TotalPrice = totalPrice;
             await DataManager.AppendNewToCSV(order);
             await DataManager.WriteToCSV(users);
+            await DataManager.WriteToCSV(foods);
             Console.WriteLine($"\nOrder placed successfully, and OrderID is {order.OrderID}\n");
-
-            orders.Clear();
-            cartItems.Clear();
             orders = DataManager.ReadOrdersFromCSV();
-            cartItems = DataManager.ReadCartFromCSV();  
+            // cartItems = DataManager.ReadCartFromCSV();  
         }
         else
         {
@@ -303,7 +303,7 @@ public class OrderManager
             }
             else if (userInput == "YES")
             {
-                Console.WriteLine($"Deficit : {order.TotalPrice - user.WalletBalance}");
+                Console.WriteLine($"Deficit : {localCartItems.Sum(x => x.OrderPrice) - user.WalletBalance}");
                 await RechargeWallet(user);
                 await AddToCart(user, localCartItems, order);
             }
@@ -318,6 +318,14 @@ public class OrderManager
         await DataManager.WriteToCSV(cartItems);
         await DataManager.WriteToCSV(orders);
         await DataManager.WriteToCSV(foods);
+    }
+
+    static int orderIDs()
+    {
+        if (orders.Any())
+            return int.Parse(orders.Last().OrderID!.Substring(3, 4));
+        else
+            return 1000;
     }
 
 }

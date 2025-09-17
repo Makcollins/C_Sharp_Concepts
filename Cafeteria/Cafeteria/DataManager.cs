@@ -124,7 +124,7 @@ public class DataManager
         foreach (var line in lines)
         {
             var values = line.Split(',');
-            var food = new FoodDetails { FoodID = values[0], FoodName = values[1], Price = decimal.Parse(values[2]), AvailableQuantity = int.Parse(values[2]) };
+            var food = new FoodDetails { FoodID = values[0], FoodName = values[1], Price = decimal.Parse(values[2]), AvailableQuantity = int.Parse(values[3]) };
             foods.Add(food);
         }
         return foods;
