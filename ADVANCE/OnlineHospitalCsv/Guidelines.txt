@@ -1,0 +1,25 @@
+FILE HANDLING C# (CSV files)
+https://learn.microsoft.com/en-us/dotnet/api/system.io?view=net-9.0
+
+System.IO Namespace
+Directory Class - working with directories
+File Class - working with single files
+
+STEPS
+1. Create Directory(s) and csvfiles
+    a. Doctors
+    b. Doctors slots
+    c. Patients
+    d. Appointments
+
+2. Add Initial records.
+    a. AppendAllText - //creates file if missing
+    b. WriteAllText - // creates a new file, existing file is erased and overwritten.
+
+3. Read Records from CSV files
+    a. ReadALLLines
+    b. CSVReader (need CSVHelper package)
+
+4. More
+    a.File.Delete
+    b.Async await.

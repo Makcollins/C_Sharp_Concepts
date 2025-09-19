@@ -5,7 +5,7 @@ using StudentsAPI.Models;
 namespace StudentsAPI.Controllers
 {
     [Route("api/students")]
-    // [ApiController]
+    [ApiController]
     public class StudentController : ControllerBase
     {
         [HttpGet]
@@ -51,6 +51,11 @@ namespace StudentsAPI.Controllers
         {
             if (!ModelState.IsValid)
                 return BadRequest(ModelState);
+            // if (model.AdmissionDate < DateTime.Now)
+            // {
+            //     ModelState.AddModelError("AdmissionDate Error", "Admission date must be greater or equl to current date");
+            //     return BadRequest(ModelState);
+            // }
                 
             if (model == null)
                 return BadRequest();
@@ -61,6 +66,50 @@ namespace StudentsAPI.Controllers
             model.Id = student.Id;
 
             return CreatedAtAction(nameof(GetStudentById), new { id = model.Id }, model);
+        }
+
+        [HttpPut]
+        [Route("Update")]
+        [ProducesResponseType(StatusCodes.Status204NoContent)]
+        [ProducesResponseType(StatusCodes.Status400BadRequest)]
+        [ProducesResponseType(StatusCodes.Status404NotFound)]
+        [ProducesResponseType(StatusCodes.Status500InternalServerError)]
+        public ActionResult UpdateStudent([FromBody] StudentDTO model)
+        {
+            if (model == null || model.Id <= 0)
+                BadRequest();
+
+            var existingStudent = CollegeRepository.Students.Where(s => s.Id == model.Id).FirstOrDefault();
+
+            if (existingStudent == null)
+                return NotFound();
+            existingStudent.StudentName = model.StudentName;
+            existingStudent.Email = model.Email;
+            existingStudent.Address = model.Address;
+
+            return NoContent();
+        }
+
+        [HttpPatch]
+        [Route("UpdatePartial")]
+        [ProducesResponseType(StatusCodes.Status204NoContent)]
+        [ProducesResponseType(StatusCodes.Status400BadRequest)]
+        [ProducesResponseType(StatusCodes.Status404NotFound)]
+        [ProducesResponseType(StatusCodes.Status500InternalServerError)]
+        public ActionResult UpdateStudentPartial([FromBody] StudentDTO model)
+        {
+            if (model == null || model.Id <= 0)
+                BadRequest();
+
+            var existingStudent = CollegeRepository.Students.Where(s => s.Id == model.Id).FirstOrDefault();
+
+            if (existingStudent == null)
+                return NotFound();
+            existingStudent.StudentName = model.StudentName;
+            existingStudent.Email = model.Email;
+            existingStudent.Address = model.Address;
+
+            return NoContent();
         }
 
         [HttpGet("{name:alpha}")]

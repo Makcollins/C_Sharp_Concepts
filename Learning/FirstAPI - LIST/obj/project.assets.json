@@ -2887,11 +2887,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\CollinsMakui\\OneDrive - Syncfusion\\Desktop\\COLLINS\\Learning\\FirstAPI\\FirstAPI.csproj",
+      "projectUniqueName": "C:\\Users\\CollinsMakui\\OneDrive - Syncfusion\\Desktop\\COLLINS\\Learning\\FirstAPI - LIST\\FirstAPI.csproj",
       "projectName": "FirstAPI",
-      "projectPath": "C:\\Users\\CollinsMakui\\OneDrive - Syncfusion\\Desktop\\COLLINS\\Learning\\FirstAPI\\FirstAPI.csproj",
+      "projectPath": "C:\\Users\\CollinsMakui\\OneDrive - Syncfusion\\Desktop\\COLLINS\\Learning\\FirstAPI - LIST\\FirstAPI.csproj",
       "packagesPath": "C:\\Users\\CollinsMakui\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\CollinsMakui\\OneDrive - Syncfusion\\Desktop\\COLLINS\\Learning\\FirstAPI\\obj\\",
+      "outputPath": "C:\\Users\\CollinsMakui\\OneDrive - Syncfusion\\Desktop\\COLLINS\\Learning\\FirstAPI - LIST\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\CollinsMakui\\AppData\\Roaming\\NuGet\\NuGet.Config"
