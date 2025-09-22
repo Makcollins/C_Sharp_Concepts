@@ -8,11 +8,19 @@ namespace StudentsAPI.Controllers
     [ApiController]
     public class StudentController : ControllerBase
     {
+        private readonly ILogger<StudentController> _logger;
+
+        public StudentController(ILogger<StudentController> logger)
+        {
+            _logger = logger;
+        }
+
         [HttpGet]
         [ProducesResponseType(200)]
         [ProducesResponseType(500)]
         public ActionResult<IEnumerable<StudentDTO>> GetStudents()
         {
+            _logger.LogInformation("GetStudents method started");
             var students = CollegeRepository.Students.Select(s => new StudentDTO()
             {
                 Id = s.Id,
@@ -33,9 +41,15 @@ namespace StudentsAPI.Controllers
         {
             var student = CollegeRepository.Students.Find(x => x.Id == id);
             if (id <= 0)
+            {
+                _logger.LogWarning("Bad Request");
                 return BadRequest("Invalid entry");
+            }
             if (student == null)
+            {
+                _logger.LogError($"Student with id {id} not found!");
                 return NotFound($"Student with id {id} not found!");
+            }
 
             var studentDTO = new StudentDTO { Id = student.Id, StudentName = student.StudentName, Address = student.Address, Email = student.Email };
             return Ok(studentDTO);
@@ -56,7 +70,7 @@ namespace StudentsAPI.Controllers
             //     ModelState.AddModelError("AdmissionDate Error", "Admission date must be greater or equl to current date");
             //     return BadRequest(ModelState);
             // }
-                
+
             if (model == null)
                 return BadRequest();
             int newID = CollegeRepository.Students.LastOrDefault()!.Id + 1;
@@ -126,12 +140,12 @@ namespace StudentsAPI.Controllers
             return Ok(studentDTO);
         }
 
-        [HttpDelete("{id}")]
+        [HttpDelete("Delete/{id}")]
         [ProducesResponseType(StatusCodes.Status204NoContent)]
         [ProducesResponseType(400)]
         [ProducesResponseType(404)]
         [ProducesResponseType(StatusCodes.Status500InternalServerError)]
-        public ActionResult<Student> DeleteStudentById(int id)
+        public ActionResult DeleteStudentById(int id)
         {
             var student = CollegeRepository.Students.Find(x => x.Id == id);
             if (id <= 0)
