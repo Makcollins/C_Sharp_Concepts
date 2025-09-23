@@ -1,10 +1,12 @@
 using System;
+using System.ComponentModel.DataAnnotations;
 
 namespace ECommerce.Models;
 
 public class Category
 {
+    [Key]
     public int CategoryID { get; set; }
-    public int CategoryName { get; set; }
+    public string CategoryName { get; set; }
     public string Description{ get; set; }
 }
