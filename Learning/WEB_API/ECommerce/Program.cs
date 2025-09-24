@@ -8,6 +8,7 @@ var connectionString = builder.Configuration.GetConnectionString("EcommerceDBCon
 // Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
 builder.Services.AddOpenApi();
 builder.Services.AddControllers();
+builder.Services.AddSwaggerGen();
 builder.Services.AddDbContext<EcommerceDBContext>(options => options.UseNpgsql(connectionString));
 
 
@@ -20,6 +21,7 @@ if (app.Environment.IsDevelopment())
     app.MapOpenApi();
     app.MapControllers();
     // app.UseOpenApi();
+    app.UseSwagger();
     app.UseSwaggerUI();
 }
 

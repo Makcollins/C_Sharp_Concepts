@@ -1,4 +1,5 @@
-﻿using Microsoft.EntityFrameworkCore.Migrations;
+﻿using System;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 
 #nullable disable
@@ -67,7 +68,7 @@ namespace ECommerce.Migrations
                     UserID = table.Column<int>(type: "integer", nullable: false),
                     Quantity = table.Column<int>(type: "integer", nullable: false),
                     Amount = table.Column<int>(type: "integer", nullable: false),
-                    PaymentDate = table.Column<string>(type: "text", nullable: false)
+                    PaymentDate = table.Column<DateTime>(type: "timestamp with time zone", nullable: false)
                 },
                 constraints: table =>
                 {
@@ -142,8 +143,8 @@ namespace ECommerce.Migrations
                 columns: new[] { "PaymentID", "Amount", "PaymentDate", "ProductID", "Quantity", "UserID" },
                 values: new object[,]
                 {
-                    { 1, 25000, "22/08/2025", 1, 2, 1000 },
-                    { 2, 14000, "23/08/2025", 2, 1, 1001 }
+                    { 1, 25000, new DateTime(2024, 11, 10, 21, 0, 0, 0, DateTimeKind.Utc), 1, 2, 1000 },
+                    { 2, 14000, new DateTime(2024, 11, 10, 21, 0, 0, 0, DateTimeKind.Utc), 2, 1, 1001 }
                 });
 
             migrationBuilder.InsertData(

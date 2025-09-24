@@ -1,4 +1,5 @@
 using System;
+using ECommerce.Data.Config;
 using ECommerce.Models;
 using Microsoft.EntityFrameworkCore;
 
@@ -10,17 +11,24 @@ public class EcommerceDBContext : DbContext
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
-        base.OnModelCreating(modelBuilder);
+        modelBuilder.ApplyConfiguration(new ProductsConfig());
 
         modelBuilder.Entity<User>().HasData(
             new User { UserID = 1000, FirstName = "Collins", LastName = "Makui", age = 25, Gender = Gender.Male, Phone = "0745083702", Address = "Kisumu", Password = "1234mak" },
             new User { UserID = 1001, FirstName = "Asenath", LastName = "Kwamboka", age = 21, Gender = Gender.Female, Phone = "0716587454", Address = "Nakuru", Password = "ase12345" }
         );
 
-        modelBuilder.Entity<Products>().HasData(
-            new Products { ProductID = 1, CategoryID = 1, Count = 7, Price = 12500, ProductName = "Redmi 14c", Description = "5000w battery, camera 50MP" },
-            new Products { ProductID = 2, CategoryID = 1, Count = 10, Price = 14000, ProductName = "Tecno spark 40", Description = "5000w battery, camera 50MP" }
-        );
+        modelBuilder.Entity<User>(userEntity =>
+        {
+            userEntity.Property(user => user.FirstName).IsRequired().HasMaxLength(250);
+            userEntity.Property(user => user.LastName).IsRequired().HasMaxLength(250);
+            userEntity.Property(user => user.LastName).IsRequired().HasMaxLength(250);
+            userEntity.Property(user => user.age).IsRequired();
+            userEntity.Property(user => user.Phone).IsRequired().HasMaxLength(15);
+            userEntity.Property(user => user.Address).IsRequired(false).HasMaxLength(250);
+            userEntity.Property(user => user.Password).IsRequired().HasMaxLength(250);
+
+        });
 
         modelBuilder.Entity<Category>().HasData(
             new Category { CategoryID = 1, CategoryName = "Phones", Description = "Smart phones, tablets, iphone" },
@@ -37,8 +45,8 @@ public class EcommerceDBContext : DbContext
             new Order { OrderID = 2, CartID = 2, Count = 1, UserID = 1001 }
         );
         modelBuilder.Entity<Payment>().HasData(
-            new Payment {PaymentID = 1, PaymentDate = "22/08/2025", Amount = 25000, ProductID = 1, Quantity = 2, UserID = 1000},
-            new Payment {PaymentID = 2, PaymentDate = "23/08/2025", Amount = 14000, ProductID = 2, Quantity = 1, UserID = 1001}
+            new Payment {PaymentID = 1, PaymentDate = new DateTime(2024,11,11).ToUniversalTime(), Amount = 25000, ProductID = 1, Quantity = 2, UserID = 1000},
+            new Payment {PaymentID = 2, PaymentDate = new DateTime(2024,11,11).ToUniversalTime(), Amount = 14000, ProductID = 2, Quantity = 1, UserID = 1001}
         );
     }
 
