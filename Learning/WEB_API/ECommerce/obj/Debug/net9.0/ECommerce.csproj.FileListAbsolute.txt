@@ -132,3 +132,9 @@ C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\Learning\WEB_API\ECo
 C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\Learning\WEB_API\ECommerce\obj\Debug\net9.0\ECommerce.pdb
 C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\Learning\WEB_API\ECommerce\obj\Debug\net9.0\ECommerce.genruntimeconfig.cache
 C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\Learning\WEB_API\ECommerce\obj\Debug\net9.0\ref\ECommerce.dll
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\Learning\WEB_API\ECommerce\bin\Debug\net9.0\AutoMapper.dll
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\Learning\WEB_API\ECommerce\bin\Debug\net9.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\Learning\WEB_API\ECommerce\bin\Debug\net9.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\Learning\WEB_API\ECommerce\bin\Debug\net9.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\Learning\WEB_API\ECommerce\bin\Debug\net9.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\Learning\WEB_API\ECommerce\bin\Debug\net9.0\Microsoft.IdentityModel.Tokens.dll
