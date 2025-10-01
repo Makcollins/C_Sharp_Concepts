@@ -17,7 +17,6 @@ namespace ECommerce.Controllers
         }
 
         [HttpGet]
-
         public async Task<ActionResult<ProductResponseDTO>> GetProductsAsync()
         {
             var products = await _productRepository.GetAllAsync();
