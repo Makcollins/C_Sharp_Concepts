@@ -1,6 +1,9 @@
 using System;
+using System.Linq.Expressions;
+using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
 using TicketManagementService.Data;
+using TicketManagementService.DTOs;
 using TicketManagementService.Models;
 
 namespace TicketManagementService.Repository;
@@ -8,10 +11,8 @@ namespace TicketManagementService.Repository;
 public class TicketRepository : ITicketRepository
 {
     private readonly TicketContext _context;
-    public TicketRepository(TicketContext context)
-    {
-        _context = context;
-    }
+    public TicketRepository(TicketContext context) => _context = context;
+
     public async Task<int> CreateAsync(Ticket ticket)
     {
         _context.Tickets.Add(ticket);
@@ -34,15 +35,43 @@ public class TicketRepository : ITicketRepository
         }
     }
 
-    public async Task<List<Ticket>> GetAllAsync()
+    public async Task<List<TicketsResponseDTO>> GetAllAsync()
     {
-        return await _context.Tickets.ToListAsync();
+        var tickets = await _context.Tickets.ToListAsync();
+
+        var ticketsDTO = tickets.Select(ticket => new TicketsResponseDTO()
+        {
+            ticket_id = ticket.ticket_id,
+            title = ticket.title,
+            description = ticket.description,
+            assignee = ticket.assignee,
+            status = ticket.status,
+            promise_date = ticket.promise_date,
+            attachments = ticket.attachments
+        });
+        return ticketsDTO.ToList();
     }
 
-    public async Task<Ticket> GetByIDAsync(int id)
+    public async Task<List<TicketsResponseDTO>> GetFiltered(Expression<Func<Ticket, bool>> filter)
     {
-        return await _context.Tickets.FindAsync(id);
+        var tickets = await _context.Tickets.Where(filter).ToListAsync();
+
+        var ticketsDTO = tickets.Select(ticket => new TicketsResponseDTO()
+        {
+            ticket_id = ticket.ticket_id,
+            title = ticket.title,
+            description = ticket.description,
+            assignee = ticket.assignee,
+            status = ticket.status,
+            promise_date = ticket.promise_date,
+            attachments = ticket.attachments
+        });
+
+        return ticketsDTO.ToList();
     }
+
+    public async Task<Ticket> GetByIDAsync(int id) => await _context.Tickets.FindAsync(id);
+    
 
     public async Task<List<string>> GetFilesNames(int id)
     {
@@ -56,4 +85,5 @@ public class TicketRepository : ITicketRepository
 
         await _context.SaveChangesAsync();
     }
+
 }
