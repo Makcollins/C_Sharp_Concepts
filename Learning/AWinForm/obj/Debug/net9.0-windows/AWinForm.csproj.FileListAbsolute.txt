@@ -1,0 +1,15 @@
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\Learning\AWinForm\bin\Debug\net9.0-windows\AWinForm.exe
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\Learning\AWinForm\bin\Debug\net9.0-windows\AWinForm.deps.json
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\Learning\AWinForm\bin\Debug\net9.0-windows\AWinForm.runtimeconfig.json
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\Learning\AWinForm\bin\Debug\net9.0-windows\AWinForm.dll
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\Learning\AWinForm\bin\Debug\net9.0-windows\AWinForm.pdb
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\Learning\AWinForm\obj\Debug\net9.0-windows\AWinForm.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\Learning\AWinForm\obj\Debug\net9.0-windows\AWinForm.AssemblyInfoInputs.cache
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\Learning\AWinForm\obj\Debug\net9.0-windows\AWinForm.AssemblyInfo.cs
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\Learning\AWinForm\obj\Debug\net9.0-windows\AWinForm.csproj.CoreCompileInputs.cache
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\Learning\AWinForm\obj\Debug\net9.0-windows\AWinForm.sourcelink.json
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\Learning\AWinForm\obj\Debug\net9.0-windows\AWinForm.dll
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\Learning\AWinForm\obj\Debug\net9.0-windows\refint\AWinForm.dll
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\Learning\AWinForm\obj\Debug\net9.0-windows\AWinForm.pdb
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\Learning\AWinForm\obj\Debug\net9.0-windows\AWinForm.genruntimeconfig.cache
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\Learning\AWinForm\obj\Debug\net9.0-windows\ref\AWinForm.dll

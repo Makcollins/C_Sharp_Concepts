@@ -1,0 +1,12 @@
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\Learning\WEB_API\LearnLibrary\LearnLibrary\bin\Debug\net9.0\LearnLibrary.deps.json
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\Learning\WEB_API\LearnLibrary\LearnLibrary\bin\Debug\net9.0\LearnLibrary.dll
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\Learning\WEB_API\LearnLibrary\LearnLibrary\bin\Debug\net9.0\LearnLibrary.pdb
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\Learning\WEB_API\LearnLibrary\LearnLibrary\obj\Debug\net9.0\LearnLibrary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\Learning\WEB_API\LearnLibrary\LearnLibrary\obj\Debug\net9.0\LearnLibrary.AssemblyInfoInputs.cache
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\Learning\WEB_API\LearnLibrary\LearnLibrary\obj\Debug\net9.0\LearnLibrary.AssemblyInfo.cs
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\Learning\WEB_API\LearnLibrary\LearnLibrary\obj\Debug\net9.0\LearnLibrary.csproj.CoreCompileInputs.cache
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\Learning\WEB_API\LearnLibrary\LearnLibrary\obj\Debug\net9.0\LearnLibrary.sourcelink.json
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\Learning\WEB_API\LearnLibrary\LearnLibrary\obj\Debug\net9.0\LearnLibrary.dll
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\Learning\WEB_API\LearnLibrary\LearnLibrary\obj\Debug\net9.0\refint\LearnLibrary.dll
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\Learning\WEB_API\LearnLibrary\LearnLibrary\obj\Debug\net9.0\LearnLibrary.pdb
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\COLLINS\Learning\WEB_API\LearnLibrary\LearnLibrary\obj\Debug\net9.0\ref\LearnLibrary.dll

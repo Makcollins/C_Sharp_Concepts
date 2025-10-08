@@ -26,6 +26,9 @@ function printNamesReverse() {
     list += "</ul>"
     document.getElementById("sorted_reverse").innerHTML = list;
 }
+// function printToString() {
+    
+// }
 
 // let namesSorted = printList(names.sort());
 // let namesReverse = printList(names.reverse());
@@ -34,6 +37,8 @@ function printList() {
     printNames();
     printNamesSorted();
     printNamesReverse();
+    document.getElementById("to_string").innerHTML = names.toString();
+    document.getElementById("join").innerHTML = names.join(" * ");
 }
 // function printNames(){
 //     // let text = "<ul>";

@@ -1,3 +1,6 @@
+using Microsoft.EntityFrameworkCore;
+using StudentsAPI.Data;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -6,6 +9,11 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddOpenApi();
 builder.Services.AddControllers();
 builder.Services.AddOpenApiDocument();
+
+// builder.Services.AddDbContext<CollegeContext>(options =>
+// options.UseNpgsql("Host=localhost;Port=5432;Username=postgres;Password=Mak.2017;Database=college_db"));
+builder.Services.AddDbContext<CollegeContext>(options =>
+options.UseNpgsql(builder.Configuration.GetConnectionString("CollegeDBConnection")));
 
 var app = builder.Build();
 
