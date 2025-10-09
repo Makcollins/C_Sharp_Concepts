@@ -1,0 +1,14 @@
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\TASKS\OCTOBER\TicketManager\TicketManager\bin\Debug\net9.0\TicketManager.deps.json
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\TASKS\OCTOBER\TicketManager\TicketManager\bin\Debug\net9.0\TicketManager.runtimeconfig.json
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\TASKS\OCTOBER\TicketManager\TicketManager\bin\Debug\net9.0\TicketManager.dll
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\TASKS\OCTOBER\TicketManager\TicketManager\bin\Debug\net9.0\TicketManager.pdb
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\TASKS\OCTOBER\TicketManager\TicketManager\obj\Debug\net9.0\TicketManager.csproj.AssemblyReference.cache
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\TASKS\OCTOBER\TicketManager\TicketManager\obj\Debug\net9.0\TicketManager.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\TASKS\OCTOBER\TicketManager\TicketManager\obj\Debug\net9.0\TicketManager.AssemblyInfoInputs.cache
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\TASKS\OCTOBER\TicketManager\TicketManager\obj\Debug\net9.0\TicketManager.AssemblyInfo.cs
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\TASKS\OCTOBER\TicketManager\TicketManager\obj\Debug\net9.0\TicketManager.csproj.CoreCompileInputs.cache
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\TASKS\OCTOBER\TicketManager\TicketManager\obj\Debug\net9.0\TicketManager.dll
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\TASKS\OCTOBER\TicketManager\TicketManager\obj\Debug\net9.0\refint\TicketManager.dll
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\TASKS\OCTOBER\TicketManager\TicketManager\obj\Debug\net9.0\TicketManager.pdb
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\TASKS\OCTOBER\TicketManager\TicketManager\obj\Debug\net9.0\TicketManager.genruntimeconfig.cache
+C:\Users\CollinsMakui\OneDrive - Syncfusion\Desktop\TASKS\OCTOBER\TicketManager\TicketManager\obj\Debug\net9.0\ref\TicketManager.dll
